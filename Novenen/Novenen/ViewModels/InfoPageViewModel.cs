@@ -241,7 +241,8 @@ namespace Novenen.ViewModels
             if (notificationSpeichern)
             {
                 //CrossLocalNotifications.Current.Show("{paramter}", $"Die Novene '{parameter}' beginnt heute am {dateNovene.ToLongDateString()}", 0, DateTime.Now.AddSeconds(3));
-                CrossLocalNotifications.Current.Show(parameter, $"Novene beginnt heute!", 0, DateTime.Now.AddSeconds(3));
+                //CrossLocalNotifications.Current.Show(parameter, $"Novene beginnt heute!", 0, DateTime.Now.AddSeconds(3));
+                CrossLocalNotifications.Current.Show(parameter, $"Novene beginnt heute!", 0, dateNovene);
 
                 //Toast
                 await App.Current.MainPage.DisplayToastAsync(new ToastOptions

@@ -22,7 +22,7 @@
             </magic:GradientView>
             <StackLayout>
                 <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8" />-->
-               <cards:SfCardView Margin="10" VerticalOptions="Center" Padding="10" >
+               <cards:SfCardView Margin="15" VerticalOptions="Center" Padding="10" >
                     <StackLayout>
                         <Label Text="N O V E N E N" HorizontalTextAlignment="Center" FontFamily="OS-B" FontSize="32" Margin="0,10,0,0" TextColor="{OnPlatform Android=Black, iOS=Gray}" />
                         <Label Text="Design und Programmierung:" FontSize="Medium" HorizontalTextAlignment="Center" TextColor="{OnPlatform Android=Black, iOS=Gray}" />
