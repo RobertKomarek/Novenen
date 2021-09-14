@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="Novenen.Views.RosenkranzErhalteEntzuende" 
+            BarBackgroundColor="{OnPlatform iOS=White, Android=DarkGoldenRod}"
+            xmlns:pcv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+            xmlns:magic="http://magic.com/schemas/gradients"
+            Title="Zurück zur Novene">
+    
+    <ContentPage Title="Geheimnisse">
+        <ScrollView>
+            <Grid>
+                <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"  />-->
+                <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.9" >
+                    <magic:GradientView.GradientSource>
+                        <magic:CssGradientSource>
+                            <x:String>
+                                <![CDATA[
+                                radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129)) ]]>
+                            </x:String>
+                        </magic:CssGradientSource>
+                    </magic:GradientView.GradientSource>
+                </magic:GradientView>
+                <ListView  x:Name="ListviewGeheimnisse"
+                           HasUnevenRows="True"
+                           CachingStrategy="RecycleElement"
+                           SelectionMode="None"
+                           BackgroundColor="Transparent">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Margin="5" Spacing="5">
+                                    <Label Text="{Binding Name}" FontSize="28" FontAttributes="Bold" FontFamily="OS-B" TextColor="Black" 
+                                           HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                                    <Label Text="{Binding Text}" FontSize="Large" HorizontalTextAlignment="Center" />
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </Grid>
+        </ScrollView>
+    </ContentPage>
+
+    <ContentPage Title="Anleitung">
+        <ScrollView>
+            <Grid>
+                <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"  />-->
+                 <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.9" >
+                    <magic:GradientView.GradientSource>
+                        <magic:CssGradientSource>
+                            <x:String>
+                                <![CDATA[
+                                radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129)) ]]>
+                            </x:String>
+                        </magic:CssGradientSource>
+                    </magic:GradientView.GradientSource>
+                </magic:GradientView>
+                <StackLayout>
+                    <pcv:PancakeView CornerRadius="0,0,20,20" Shadow="{pcv:ShadowMarkup BlurRadius=10, Offset='10,10'}">
+                        <Image Source="Rosenkranz_Anleitung.jpg">
+                            <Image.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                            </Image.GestureRecognizers>
+                        </Image>
+                    </pcv:PancakeView>
+                    <ListView x:Name="ListViewAnleitung"
+                                HasUnevenRows="true"
+                                CachingStrategy="RecycleElement"
+                                SelectionMode="None"
+                                BackgroundColor="Transparent">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <Label HorizontalTextAlignment="Center" Text="{Binding Text}" FontSize="Large" TextColor="Black"/>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+        </Grid>
+        </ScrollView>
+    </ContentPage>
+
+</TabbedPage>

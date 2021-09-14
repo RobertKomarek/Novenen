@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="Novenen.Views.LesezeichenPage"
+            xmlns:vm="clr-namespace:Novenen.ViewModels"
+            xmlns:model="clr-namespace:Novenen.Models"
+            xmlns:fontawesome="clr-namespace:FontAwesome"
+            xmlns:sf="clr-namespace:Syncfusion.SfDataGrid.XForms;assembly=Syncfusion.SfDataGrid.XForms"
+            xmlns:behaviorsPack="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
+            xmlns:magic="http://magic.com/schemas/gradients"
+            xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+            x:DataType="vm:LesezeichenViewModel"
+            Title="Lesezeichen"
+            BarBackgroundColor="{OnPlatform iOS=WhiteSmoke, Android=DarkGoldenRod}"    
+            Visual="Material"
+            x:Name="TabbedPageLesezeichen">
+
+    <TabbedPage.BindingContext>
+        <vm:LesezeichenViewModel/>
+    </TabbedPage.BindingContext>
+
+    <TabbedPage.Behaviors>
+        <behaviorsPack:EventToCommandBehavior EventName="Appearing" Command="{Binding PageAppearingCommand}" />
+    </TabbedPage.Behaviors>
+
+    <!--#region SPEICHERN -->
+    <ContentPage x:Name="ContentPageSpeichern" Title="Hinzufügen" BackgroundColor="#eeeeeee"  >
+          <Grid>
+            <magic:GradientView VerticalOptions="FillAndExpand">
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                             <![CDATA[
+                                linear-gradient(270deg, rgba(165, 165, 165, 0.03) 0%, rgba(165, 165, 165, 0.03) 8%,rgba(235, 235, 235, 0.03) 8%, rgba(235, 235, 235, 0.03) 9%,rgba(7, 7, 7, 0.03) 9%, rgba(7, 7, 7, 0.03) 14%,rgba(212, 212, 212, 0.03) 14%, rgba(212, 212, 212, 0.03) 17%,rgba(219, 219, 219, 0.03) 17%, rgba(219, 219, 219, 0.03) 95%,rgba(86, 86, 86, 0.03) 95%, rgba(86, 86, 86, 0.03) 100%),linear-gradient(67.5deg, rgba(80, 80, 80, 0.03) 0%, rgba(80, 80, 80, 0.03) 11%,rgba(138, 138, 138, 0.03) 11%, rgba(138, 138, 138, 0.03) 17%,rgba(122, 122, 122, 0.03) 17%, rgba(122, 122, 122, 0.03) 24%,rgba(166, 166, 166, 0.03) 24%, rgba(166, 166, 166, 0.03) 27%,rgba(245, 245, 245, 0.03) 27%, rgba(245, 245, 245, 0.03) 89%,rgba(88, 88, 88, 0.03) 89%, rgba(88, 88, 88, 0.03) 100%),linear-gradient(67.5deg, rgba(244, 244, 244, 0.03) 0%, rgba(244, 244, 244, 0.03) 4%,rgba(16, 16, 16, 0.03) 4%, rgba(16, 16, 16, 0.03) 10%,rgba(157, 157, 157, 0.03) 10%, rgba(157, 157, 157, 0.03) 20%,rgba(212, 212, 212, 0.03) 20%, rgba(212, 212, 212, 0.03) 83%,rgba(5, 5, 5, 0.03) 83%, rgba(5, 5, 5, 0.03) 84%,rgba(237, 237, 237, 0.03) 84%, rgba(237, 237, 237, 0.03) 100%),linear-gradient(270deg, #ffffff,#ffffff))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+
+            <ScrollView VerticalOptions="Center">
+                <StackLayout Padding="25" Spacing="20">
+                    <Label Text="{x:Static fontawesome:FontAwesomeIcons.Bookmark}" FontFamily="FA-R" TextColor="Darkred"
+                            FontSize="50" HorizontalTextAlignment="Center" Margin="0,0,0,15" />
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="20"  >
+                        <Label Text="{Binding PickedNovene, TargetNullValue=Novene}" FontSize="Medium" FontAttributes="Bold" TextColor="Blue" />
+                        <Label Text="{Binding PickedTag, TargetNullValue=Tag}" FontSize="Medium" FontAttributes="Italic" TextColor="Blue" />
+                    </StackLayout>
+
+                    <StackLayout>
+                        <Picker x:Name="pickerNovene" Title="Novene auswählen" 
+                                    ItemsSource="{Binding Novene}" ItemDisplayBinding="{Binding}" SelectedItem="{Binding PickedNovene}"  />
+                        <Picker x:Name="pickerTag" Title="Nächster zu lesender Tag" 
+                                    ItemsSource="{Binding Tage}" ItemDisplayBinding="{Binding}" SelectedItem="{Binding PickedTag}"   />
+                    </StackLayout>
+
+                    <Button HorizontalOptions="Center" Text="Lesezeichen speichern" Command="{Binding LesezeichenSpeichernCommand}" Margin="0,20,0,0"  
+                        CommandParameter="{x:Reference ContentPageSpeichern}" IsEnabled="{Binding IsEnabled}" />
+
+                    <!--<StackLayout Orientation="Horizontal" Spacing="15" HorizontalOptions="Center" Padding="35">
+                        <Image Source="finger_pointing_rh.png" />
+                            <Label Text="&#xf0a4;" FontFamily="FA-R" FontSize="36" VerticalOptions="Center" TextColor="Black" />
+                        <Label Text="{x:Static fontawesome:FontAwesomeIcons.Fingerprint}" FontFamily="FA-S" FontSize="36" VerticalOptions="Center" TextColor="Black" />
+                    </StackLayout>-->
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+
+    <!--#region ANZEIGEN UND BEARBEITEN -->
+    <ContentPage x:Name="ContentPageAnzeigenBearbeiten" 
+            Title="Anzeigen &amp; Löschen">
+         <Grid>
+            <magic:GradientView VerticalOptions="FillAndExpand">
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            linear-gradient(135deg, rgba(165, 165, 165, 0.03) 0%, rgba(165, 165, 165, 0.03) 8%,rgba(235, 235, 235, 0.03) 8%, rgba(235, 235, 235, 0.03) 9%,rgba(7, 7, 7, 0.03) 9%, rgba(7, 7, 7, 0.03) 14%,rgba(212, 212, 212, 0.03) 14%, rgba(212, 212, 212, 0.03) 17%,rgba(219, 219, 219, 0.03) 17%, rgba(219, 219, 219, 0.03) 95%,rgba(86, 86, 86, 0.03) 95%, rgba(86, 86, 86, 0.03) 100%),linear-gradient(67.5deg, rgba(80, 80, 80, 0.03) 0%, rgba(80, 80, 80, 0.03) 11%,rgba(138, 138, 138, 0.03) 11%, rgba(138, 138, 138, 0.03) 17%,rgba(122, 122, 122, 0.03) 17%, rgba(122, 122, 122, 0.03) 24%,rgba(166, 166, 166, 0.03) 24%, rgba(166, 166, 166, 0.03) 27%,rgba(245, 245, 245, 0.03) 27%, rgba(245, 245, 245, 0.03) 89%,rgba(88, 88, 88, 0.03) 89%, rgba(88, 88, 88, 0.03) 100%),linear-gradient(67.5deg, rgba(244, 244, 244, 0.03) 0%, rgba(244, 244, 244, 0.03) 4%,rgba(16, 16, 16, 0.03) 4%, rgba(16, 16, 16, 0.03) 10%,rgba(157, 157, 157, 0.03) 10%, rgba(157, 157, 157, 0.03) 20%,rgba(212, 212, 212, 0.03) 20%, rgba(212, 212, 212, 0.03) 83%,rgba(5, 5, 5, 0.03) 83%, rgba(5, 5, 5, 0.03) 84%,rgba(237, 237, 237, 0.03) 84%, rgba(237, 237, 237, 0.03) 100%),linear-gradient(135deg, #ffffff,#ffffff))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+
+            <ScrollView>
+                <ListView ItemsSource="{Binding Bookmarks}"
+                          HasUnevenRows="True"
+                          CachingStrategy="RecycleElement"
+                          SelectedItem="{Binding Source={x:RelativeSource AncestorType={x:Type vm:LesezeichenViewModel}}, Path= SelectedIndex}"
+                          BackgroundColor="Transparent">
+                    <!--<ListView.Behaviors>
+                        <behaviorsPack:EventToCommandBehavior EventName="PropertyChanged" Command="{Binding LesezeichenAendernCommand}" />
+                    </ListView.Behaviors>-->
+                    <ListView.Header>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="End" Padding="25">
+                                <Label FontAttributes="Italic" VerticalOptions="Center" >
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="ALLE" TextDecorations="Underline" FontSize="Medium"/>
+                                            <Span Text=" Lesezeichen löschen: " FontSize="Medium"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                                <Label Text="{x:Static fontawesome:FontAwesomeIcons.Eraser}" FontFamily="FA-S" FontSize="36" Margin="10,0,0,0">
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding AlleLesezeichenLoeschenCommand}"/>
+                                    </Label.GestureRecognizers>
+                                </Label> 
+                            </StackLayout>
+                        <!--<Grid ColumnDefinitions="*,175,*,*,*,*" Padding="10" >
+                            <Label Grid.Column="1" Text="Novene" HorizontalTextAlignment="Center" FontFamily="OldStandardBold" FontSize="Large" />
+                            <Label Grid.Column="3" Text="Tag" HorizontalOptions="Center" FontFamily="OldStandardBold" FontSize="Large" />
+                        </Grid>-->
+                    </ListView.Header>
+                    <ListView.ItemTemplate> 
+                        <DataTemplate x:DataType="model:Bookmark">
+                            <ViewCell>
+                                <Grid ColumnDefinitions="*,175,*,*,*,*">
+                                    <Label Grid.Column="0" Text="{x:Static fontawesome:FontAwesomeIcons.Bookmark}" FontFamily="FA-S" FontSize="65"
+                                        Rotation="-90" TextColor="DarkRed" HorizontalOptions="Start" VerticalOptions="Center"/>
+                                    <Label Grid.Column="1" Text="{Binding Novene}" FontSize="Medium" TextColor="Black" VerticalTextAlignment="Center" HorizontalOptions="Center"
+                                           HorizontalTextAlignment="Center"/>
+                                    <Label Grid.Column="2" Text="{Static fontawesome:FontAwesomeIcons.MinusCircle}" TextColor="Red" FontFamily="FA-S"
+                                           FontSize="28" VerticalTextAlignment="Center" HorizontalTextAlignment="Center">
+                                        <Label.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={Type vm:LesezeichenViewModel}}, Path=LesezeichenTagZuruecksetzenCommand}"
+                                                                  CommandParameter="{Binding Novene}"/>
+                                        </Label.GestureRecognizers>
+                                    </Label>
+
+                                    <Label Grid.Column="3" Text="{Binding Tag}" FontSize="Large" TextColor="Black" VerticalTextAlignment="Center"
+                                           HorizontalTextAlignment="Center"/>
+
+                                    <Label Grid.Column="4" Text="{Static fontawesome:FontAwesomeIcons.PlusCircle}" TextColor="Green" FontFamily="FA-S"
+                                           FontSize="28" VerticalTextAlignment="Center" HorizontalTextAlignment="Center">
+                                        <Label.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding Source={RelativeSource AncestorType={Type vm:LesezeichenViewModel}}, Path=LesezeichenTagErhoehenCommand}"
+                                                                  CommandParameter="{Binding Novene}"/>
+                                        </Label.GestureRecognizers>
+                                    </Label>
+                                    <Label Grid.Column="5" Text="{x:Static fontawesome:FontAwesomeIcons.Eraser}" FontFamily="FA-S" FontSize="28"
+                                        VerticalTextAlignment="Center" HorizontalTextAlignment="Center" >
+                                        <Label.GestureRecognizers>
+                                            <TapGestureRecognizer CommandParameter="{Binding Novene}"
+                                                Command="{Binding Source={x:RelativeSource AncestorType={x:Type vm:LesezeichenViewModel}}, Path=LesezeichenLoeschenCommand}"/>
+                                        </Label.GestureRecognizers>
+                                    </Label> 
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+                <!--<sf:SfDataGrid x:Name="dataGrid"
+                                ItemsSource="{Binding Bookmarks, Mode=TwoWay}"
+                                AllowEditing="True" NavigationMode="Cell" EditTapAction="OnDoubleTap" 
+                                AllowSorting="False"
+                                AutoGenerateColumns="False"
+                                ColumnSizer="Star"
+                                RowSpacing="10"
+                                SelectionMode="Multiple"
+                                GridLongPressedCommand="{Binding LesezeichenLoeschenCommand}"
+                                SelectedIndex="{Binding SelectedIndex}">
+                            <sf:SfDataGrid.Columns>
+                                <sf:GridTextColumn HeaderText="Novene" MappingName="Novene" HeaderFontAttribute="Bold" HeaderCellTextSize="Medium" CellTextSize="Small" />
+                                <sf:GridTextColumn HeaderText="Nächster Tag" MappingName="Tag" HeaderFontAttribute="Bold" HeaderCellTextSize="Medium" CellTextSize="Small">
+                                 </sf:GridTextColumn>
+                                <sf:GridImageColumn HeaderText="Löschen" MappingName="LoeschenIcon" HeaderFontAttribute="Bold" HeaderCellTextSize="Medium" Aspect="AspectFit"/>
+                                <sf:GridTemplateColumn HeaderText="Löschen" MappingName=""  >
+                                    <sf:GridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Grid>
+                                            <Label Text="{x:Static fontawesome:FontAwesomeIcons.Eraser}" FontFamily="FA-S" FontSize="28"
+                                                   VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+                                                </Grid>
+                                        </DataTemplate>
+                                    </sf:GridTemplateColumn.CellTemplate>
+                                </sf:GridTemplateColumn>
+                                <sf:GridTextColumn HeaderText="Datum" MappingName="Date" />
+                            </sf:SfDataGrid.Columns>
+                        </sf:SfDataGrid>-->
+
+                <!--<StackLayout Padding="15" Spacing="10">
+                    <Label Text="{x:Static fontawesome:FontAwesomeIcons.Bookmark}" FontFamily="FA-R" TextColor="Darkred"
+                            FontSize="50" HorizontalTextAlignment="Center" Margin="0,10,0,25"/>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="End" Padding="10" >
+                        <Label Text="Alle löschen:" VerticalTextAlignment="Center" FontAttributes="Italic"/>
+                        <ImageButton Source="deleteall_bookmark_50" HeightRequest="45" BackgroundColor="Transparent"
+                                         Command="{Binding AlleLesezeichenLoeschenCommand}"/>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="End" VerticalOptions="Center">
+                            <Label Text="{x:Static fontawesome:FontAwesomeIcons.HandPointRight}" FontFamily="FA-R" FontSize="32"
+                                   VerticalTextAlignment="Center" Margin="0,0,10,0"/>
+                        </StackLayout>
+                        <Label Text="{x:Static fontawesome:FontAwesomeIcons.Eraser}" FontFamily="FA-S" FontSize="36">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding AlleLesezeichenLoeschenCommand}"/>
+                            </Label.GestureRecognizers>
+                        </Label> 
+                    </StackLayout>
+                </StackLayout>-->
+            </ScrollView>
+        </Grid>
+    </ContentPage >
+    <!--#endregion-->
+
+</TabbedPage>

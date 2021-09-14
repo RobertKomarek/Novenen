@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:magic="http://magic.com/schemas/gradients"
+             xmlns:fontawesome="clr-namespace:FontAwesome"
+             xmlns:cards="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms"
+             x:Class="Novenen.Views.ImpressumPage"
+             Title="IMPRESSUM"
+             BackgroundColor="DarkGoldenrod">
+    <ScrollView>
+        <Grid>
+             <magic:GradientView VerticalOptions="FillAndExpand">
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            linear-gradient(0deg, transparent 0%, transparent 58%,rgba(104, 104, 104,0.05) 58%, rgba(104, 104, 104,0.05) 92%,transparent 92%, transparent 100%),linear-gradient(45deg, transparent 0%, transparent 34%,rgba(104, 104, 104,0.05) 34%, rgba(104, 104, 104,0.05) 77%,transparent 77%, transparent 100%),linear-gradient(0deg, transparent 0%, transparent 33%,rgba(104, 104, 104,0.05) 33%, rgba(104, 104, 104,0.05) 53%,transparent 53%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255))
+                                ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <StackLayout>
+                <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8" />-->
+               <cards:SfCardView Margin="10" VerticalOptions="Center" Padding="10" >
+                    <StackLayout>
+                        <Label Text="N O V E N E N" HorizontalTextAlignment="Center" FontFamily="OS-B" FontSize="32" Margin="0,10,0,0" TextColor="{OnPlatform Android=Black, iOS=Gray}" />
+                        <Label Text="Design und Programmierung:" FontSize="Medium" HorizontalTextAlignment="Center" TextColor="{OnPlatform Android=Black, iOS=Gray}" />
+                        <Label Text="robert.komarek98@gmail.com" TextColor="Blue" FontSize="Medium" HorizontalOptions="Center" TextDecorations="Underline">
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+                        <Label Text="Version 1.0" FontAttributes="Italic"  FontSize="Medium" HorizontalTextAlignment="Center" TextColor="{OnPlatform Android=Black, iOS=Gray}"/>
+                    </StackLayout>
+                </cards:SfCardView>
+                <!--<BoxView Color="White" />-->
+                <!--<Label Text="Wünsche zur Aufnahme neuer Novenen werden gerne angenommen. Anfragen bitte an die oben genannte Mail-Adresse richten (Mail-Adresse antippen)!"
+                        FontSize="Medium" HorizontalTextAlignment="Center" />-->
+                <!--<BoxView Style="{StaticResource BoxViewPlatformspecific}" />-->
+                <!--<BoxView Color="White" />-->
+                <StackLayout Margin="50,40,50,10" Spacing="10">
+                    <Label Text="Alle in dieser App verwendeten Bilder sind lizenzfrei!" FontAttributes="Bold" FontSize="Medium" HorizontalTextAlignment="Center" />
+                    <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Center">
+                        <Label Text="&#xf4ec;" FontFamily="FA-B" FontSize="36"/>
+                        <Label Text="&#xf4ed;" FontFamily="FA-B" FontSize="36"  />
+                        <Label Text="&#xf4f3;" FontFamily="FA-B" FontSize="36"  />
+                    </StackLayout>
+                </StackLayout>
+
+                <StackLayout Margin="50,40,50,0">
+                    <Label HorizontalTextAlignment="Center" >
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="{x:Static fontawesome:FontAwesomeIcons.Square}" FontFamily="FA-S" FontSize="Medium"/>
+                                <Span Text=" Urheberrecht für" FontSize="Medium"/>
+                                <Span Text=" Lourdes Novene" FontSize="Medium" FontAttributes="Bold"/>
+                                <Span Text=":" FontSize="Medium"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label HorizontalTextAlignment="Center" Text="© Deutsche Hospitalité" FontAttributes="Bold" FontSize="Medium" />
+                    <Label Margin="0,0,0,25" HorizontalTextAlignment="Center">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="https://www.hospitalite.de" TextDecorations="Underline" TextColor="Blue" FontSize="Medium" />
+                            </FormattedString>
+                        </Label.FormattedText>
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="GoToHospitalite"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+
+                    <Label HorizontalTextAlignment="Center" >
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="{x:Static fontawesome:FontAwesomeIcons.Square}" FontFamily="FA-S" FontSize="Medium"/>
+                                <Span Text=" Urheberrecht für" FontSize="Medium"/>
+                                <Span Text=" Medjugorje Novene" FontSize="Medium" FontAttributes="Bold"/>
+                                <Span Text=":" FontSize="Medium"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label HorizontalTextAlignment="Center" Text="© Medjugorje Deutschland e.V." FontAttributes="Bold" FontSize="Medium" />
+                    <Label Margin="0,0,0,25" HorizontalTextAlignment="Center">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="https://www.medjugorje.de" TextDecorations="Underline" TextColor="Blue" FontSize="Medium" />
+                            </FormattedString>
+                        </Label.FormattedText>
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="GoToMedjugorje"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </StackLayout>
+
+                <StackLayout Margin="50,10,50,10" Spacing="10">
+                    <Label HorizontalTextAlignment="Center" Text="Die Inhalte der nachfolgenden Novenen sind verfügbar unter der Lizenz:"
+                            FontAttributes="Bold" FontSize="Medium" />
+                    <Label HorizontalTextAlignment="Center" >
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="Namensnennung-Keine kommerzielle Nutzung-Weitergabe unter gleichen Bedingungen 3.0 Unported (CC BY-NC-SA 3.0)" TextDecorations="Underline" TextColor="Blue" FontSize="Medium" />
+                            </FormattedString>
+                        </Label.FormattedText>
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OpenCreativeCommons" />
+                        </Label.GestureRecognizers>
+                    </Label>
+
+                    <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Center">
+                        <Label Text="{Static fontawesome:FontAwesomeIcons.CreativeCommons}" FontFamily="FA-B" FontSize="36"/>
+                        <Label Text="{Static fontawesome:FontAwesomeIcons.CreativeCommonsBy}" FontFamily="FA-B" FontSize="36"/>
+                        <Label Text="{Static fontawesome:FontAwesomeIcons.CreativeCommonsNc}" FontFamily="FA-B" FontSize="36"/>
+                        <Label Text="{Static fontawesome:FontAwesomeIcons.CreativeCommonsSa}" FontFamily="FA-B" FontSize="36"/>
+                    </StackLayout>
+
+                    <StackLayout Margin="0,15,0,0" Spacing="10" >
+                        <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="Center">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="{x:Static fontawesome:FontAwesomeIcons.Square}" FontFamily="FA-S" FontSize="Medium"/>
+                                    <Span Text=" Quelle Novenen" FontSize="Medium"/>
+                                    <Span Text=" Fatima" FontAttributes="Bold" FontSize="Medium"/>
+                                    <Span Text=" und " FontSize="Medium"/>
+                                    <Span Text="Hl Geist" FontAttributes="Bold" FontSize="Medium"/>
+                                    <Span Text=": Novenensammlung, Klopft an! Es wird euch aufgetan!, Ferdinand Holböck und Marie-Therese Isenegger, " FontSize="Medium"/>
+                                    <Span Text="Parvis-Verlag" TextDecorations="Underline" TextColor="Blue" FontSize="Medium"/>
+                                    <Span Text=" (3. Auflage; Mit kirchlicher Druckerlaubnis, Salzburg den 17. August 1979,
+                                            Jakob Mayr Weihbischof und Generalvikar. ISBN 3-907523-11-3. (enthält ungefähr 60 Novenen)" FontSize="Medium"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                                <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="GoToParvisVerlag"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+
+                        <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="Center">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="{x:Static fontawesome:FontAwesomeIcons.Square}" FontFamily="FA-S" FontSize="Medium"/>
+                                    <Span Text=" Quelle Novene zur " FontSize="Medium"/>
+                                    <Span Text="Göttlichen Barmherzigkeit" FontAttributes="Bold" FontSize="Medium"/>
+                                    <Span Text=": aus dem Tagebuch der Schwester Maria Faustyna Kowalska, Redakteur der deutschen Ausgabe: Stanislaw Swidzinski " FontSize="Medium"/>
+                                    <Span Text="Parvis-Verlag" TextDecorations="Underline" TextColor="Blue" FontSize="Medium"/>
+                                    <Span Text=" 2006, S. 364-371, Nr. 1209-1230 (554 Seiten; Kirchliche Druckerlaubnis Kuria Metropolitalna w Krakowic v. 27.2.1987
+                                            Pstulaja S.F. Kowalskiej; 7. Auflage; ISBN 9783907523179; Der vollständige Text des Tagebuchs der heiligen Schwester Faustina)."
+                                            FontSize="Medium"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                                <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="GoToParvisVerlag"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+
+                        <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="Center">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="{x:Static fontawesome:FontAwesomeIcons.Square}" FontFamily="FA-S" FontSize="Medium"/>
+                                    <Span Text=" Quelle Novene zur " FontSize="Medium"/>
+                                    <Span Text="Unbefleckten Empfängnis" FontAttributes="Bold" FontSize="Medium"/>
+                                    <Span Text=": Die Novene erhielt die kirchliche Druckerlaubnis in Buch: Ferdinand Holböck und Maria Therese Isenegger, Novenensammlung, Klopft an! Es wird euch aufgetan! " FontSize="Medium"/>
+                                    <Span Text="Parvis-Verlag" TextDecorations="Underline" TextColor="Blue" FontSize="Medium"/>
+                                    <Span Text=" 1994 (3. Auflage; Mit kirchlicher Druckerlaubnis, Salzburg den 17. August 1979, Jakob Mayr Weihbischof und Generalvikar.
+                                            ISBN 3-907523-11-3)." FontSize="Medium"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                                <Label.GestureRecognizers>
+                                <TapGestureRecognizer Tapped="GoToParvisVerlag"/>
+                            </Label.GestureRecognizers>
+                        </Label>
+
+                        <Label HorizontalTextAlignment="Center" VerticalTextAlignment="Center" VerticalOptions="Center">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="{x:Static fontawesome:FontAwesomeIcons.Square}" FontFamily="FA-S" FontSize="Medium"/>
+                                    <Span Text=" Quelle Novene zur " FontSize="Medium"/>
+                                    <Span Text="Mutter der immerwährenden Hilfe" FontAttributes="Bold" FontSize="Medium"/>
+                                    <Span Text=": Gebetsheftchen Novene und Notgebete zur &apos;Mutter von der immerwährenden Hilfe&apos; von P. Karl M. Jordan aus dem Redemptoristenorden 1955." FontSize="Medium"/>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </StackLayout>
+                </StackLayout>
+             </StackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

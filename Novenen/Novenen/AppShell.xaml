@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" 
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:v="clr-namespace:Novenen.Views"
+       xmlns:pcv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView" 
+       xmlns:vm="clr-namespace:Novenen.ViewModels"
+       xmlns:fontawesome="clr-namespace:FontAwesome"
+       Title="Novenen"
+       x:Class="Novenen.AppShell" >
+
+    <!--
+        The overall app visual hierarchy is defined here, along with navigation.
+    
+        https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/
+    -->
+  
+    <!--<Shell.BackButtonBehavior>
+        <BackButtonBehavior Command="{Binding GoBackCommand}" IsEnabled="True" />
+    </Shell.BackButtonBehavior>-->
+
+    <Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid BackgroundColor="DarkGoldenrod" HeightRequest="150" >
+                <Image Aspect="AspectFill" Source="jesus_barmherzigkeit_klein.jpg" VerticalOptions="StartAndExpand"/>
+                <!--<Label Text="NOVENEN" TextColor="White" FontSize="30" HorizontalTextAlignment="Center" FontFamily="OldStandardBold" />-->
+            <!--<Label Text="Sammlung"
+                    FontSize="Large" Opacity="20"
+                TextColor="White"
+                FontAttributes="Bold"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center" />-->
+            </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>
+    
+    <Shell.Resources>
+        <ResourceDictionary>
+            <Style x:Key="BaseStyle" TargetType="Element">
+                <!--<Setter Property="Shell.BackgroundColor" Value="{StaticResource Primary_Dark}"/>-->
+                <Setter Property="Shell.BackgroundColor" Value="DarkGoldenrod"/>
+                <Setter Property="Shell.ForegroundColor" Value="White" />
+                <Setter Property="Shell.TitleColor" Value="{StaticResource Text_Icons}" />
+                <Setter Property="Shell.DisabledColor" Value="#B4FFFFFF" />
+                <Setter Property="Shell.UnselectedColor" Value="#95FFFFFF" />
+                <!--<Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource Primary_Dark}" />-->
+                <Setter Property="Shell.TabBarBackgroundColor" Value="DarkGoldenrod" />
+                <Setter Property="Shell.TabBarForegroundColor" Value="White"/>
+                <Setter Property="Shell.TabBarUnselectedColor" Value="#95FFFFFF"/>
+                <Setter Property="Shell.TabBarTitleColor" Value="White"/>
+            </Style>
+            <Style TargetType="TabBar" BasedOn="{StaticResource BaseStyle}" />
+            <Style TargetType="FlyoutItem" BasedOn="{StaticResource BaseStyle}" />
+            
+
+            <!--
+            Default Styles for all Flyout Items
+            https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/flyout#flyoutitem-and-menuitem-style-classes
+            -->
+            <Style Class="FlyoutItemLabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="White"></Setter>
+            </Style>
+            <Style Class="FlyoutItemLayoutStyle" TargetType="Layout" ApplyToDerivedTypes="True">
+                <Setter Property="BackgroundColor" Value="LightBlue"></Setter>
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="White" />
+                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="{StaticResource Primary_Dark}" />
+                                </VisualState.Setters>
+                            </VisualState>
+                            <VisualState x:Name="Selected">
+                                <VisualState.Setters>
+                                    <Setter Property="BackgroundColor" Value="Goldenrod" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+
+            <!--
+            Custom Style you can apply to any Flyout Item
+            -->
+            <Style Class="MenuItemLayoutStyle" TargetType="Layout" ApplyToDerivedTypes="True">
+                <Setter Property="VisualStateManager.VisualStateGroups">
+                    <VisualStateGroupList>
+                        <VisualStateGroup x:Name="CommonStates">
+                            <VisualState x:Name="Normal">
+                                <VisualState.Setters>
+                                    <Setter TargetName="FlyoutItemLabel" Property="Label.TextColor" Value="{StaticResource Primary_Dark}" />
+                                </VisualState.Setters>
+                            </VisualState>
+                        </VisualStateGroup>
+                    </VisualStateGroupList>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
+    </Shell.Resources>
+
+    <!-- 
+        When the Flyout is visible this defines the content to display in the flyout.
+        FlyoutDisplayOptions="AsMultipleItems" will create a separate flyout item for each child element    
+        https://docs.microsoft.com/dotnet/api/xamarin.forms.shellgroupitem.flyoutdisplayoptions?view=xamarin-forms
+    -->
+    <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Startseite" Route="AboutPage" ContentTemplate="{DataTemplate v:AboutPage}">
+            <ShellContent.Icon>
+                <FontImageSource FontFamily="FA-S" Glyph="{x:Static fontawesome:FontAwesomeIcons.Home}" Color="{OnPlatform Android=Black}" />
+            </ShellContent.Icon>
+        </ShellContent>
+        
+        <ShellContent Title="Bibelstelle" ContentTemplate="{DataTemplate v:BibelstelleDesTagesPage}">
+            <ShellContent.Icon>
+                <FontImageSource FontFamily="FA-S" Glyph="{x:Static fontawesome:FontAwesomeIcons.Bible}"
+                                 Color="{OnPlatform Android=Black}" />
+            </ShellContent.Icon>
+        </ShellContent>
+
+        <ShellContent Title="Erinnerung" ContentTemplate="{DataTemplate v:InfoPage}">
+            <ShellContent.Icon>
+                <FontImageSource FontFamily="FA-S" Glyph="{x:Static fontawesome:FontAwesomeIcons.CalendarAlt}" Color="{OnPlatform Android=Black}" />
+            </ShellContent.Icon>
+        </ShellContent>
+
+        <ShellContent Title="Lesezeichen" ContentTemplate="{DataTemplate v:LesezeichenPage}">
+            <ShellContent.Icon>
+                <FontImageSource FontFamily="FA-S" Glyph="{x:Static fontawesome:FontAwesomeIcons.Bookmark}" Color="{OnPlatform Android=Black}" />
+            </ShellContent.Icon>
+        </ShellContent>
+
+        <ShellContent Title="Impressum" ContentTemplate="{DataTemplate v:ImpressumPage}">
+            <ShellContent.Icon>
+                <FontImageSource FontFamily="FA-S" Glyph="{x:Static fontawesome:FontAwesomeIcons.Info}" Color="{OnPlatform Android=Black}" />
+            </ShellContent.Icon>
+        </ShellContent>
+        <!--<ShellContent Title="Rosenkranz" Icon="praying_hands.ico" ContentTemplate="{DataTemplate v:VirtualRosaryPage}" />-->
+        <!--<ShellContent Title="Planer" ContentTemplate="{DataTemplate v:PlanerPage}" />-->
+    </FlyoutItem>
+
+    <!-- When the Flyout is visible this will be a menu item you can tie a click behavior to  -->
+    <!--<FlyoutItem Title="Novene zur Hl. Corona" >
+        <Tab>
+            <ShellContent>
+                <v:BarmherzigkeitsnovenePage/>
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>-->
+
+    <FlyoutItem Title="Fatima" Icon="dove_50" >
+        <Tab>
+            <ShellContent>
+                <v:FatimaNovenePage/>
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Göttliche Barmherzigkeit" Icon="dove_50" >
+        <Tab>
+            <ShellContent>
+                <v:BarmherzigkeitsnovenePage/>
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+
+    <FlyoutItem Title="Heiliger Geist" Icon="dove_50" >
+        <Tab>
+            <ShellContent>
+                <v:HeiligerGeistNovenePage/>
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+     <FlyoutItem Title="Heiliger Josef" Icon="dove_50" >
+        <Tab>
+            <ShellContent>
+                <v:HeiligerJosefNovenePage/>
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Lourdes" Icon="dove_50" >
+        <Tab>
+            <ShellContent>
+                <v:LourdesNovenePage/>
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Medjugorje" Icon="dove_50" >
+        <Tab>
+            <ShellContent>
+                <v:JahrestagMedjugorjePage/>
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Mutter der immerwährenden Hilfe" Icon="dove_50" >
+        <Tab>
+            <ShellContent>
+                <v:MutterDerImmerwaehrendenHilfePage/>
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    
+    <!--<FlyoutItem Title="Novene zur göttlichen Barmherzigkeit mit weiteren Texten" >
+        <Tab>
+            <ShellContent>
+                <v:BarmherzigkeitsnovenePage/>
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>-->
+
+    <FlyoutItem Title="Unbefleckte Empfängnis" Icon="dove_50"  >
+        <Tab>
+            <ShellContent>
+                <v:UnbefleckteEmpfaengnisNovenePage/>
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+
+    <!--<MenuItem Text="Novene zum Jahrestag der Erscheinungen" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
+    </MenuItem>
+
+    <MenuItem Text="Lourdes-Novene" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
+    </MenuItem>
+
+    <MenuItem Text="Novene zur Mutter der immerwährenden Hilfe" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
+    </MenuItem>
+
+    <MenuItem Text="Fatima-Novene" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
+    </MenuItem>
+
+    <MenuItem Text="Novene zum Heiligen Geist" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
+    </MenuItem>
+
+    <MenuItem Text="Novene zur göttlichen Barmherzigkeit" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
+    </MenuItem>
+
+    <MenuItem Text="Novene zur göttlichen Barmherzigkeit mit weiteren Texten" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
+    </MenuItem>
+
+    <MenuItem Text="Novene zum Heiligen Josef" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
+    </MenuItem>
+
+    <MenuItem Text="Novene zur Unbefleckten Empfängnis" StyleClass="MenuItemLayoutStyle" Clicked="OnMenuItemClicked">
+    </MenuItem>-->
+
+    <!--
+        This defines content that won't show up in a flyout menu. When this content is active the flyout menu won't be available.
+        This is useful for creating areas of the application where you don't want users to be able to navigate away from.
+        If you would like to navigate to this content you can do so by calling
+        await Shell.Current.GoToAsync("//LoginPage");
+    -->
+    <!--<ShellContent Route="LoginPage" Shell.FlyoutBehavior="Disabled" ContentTemplate="{DataTemplate v:LoginPage}" />-->
+
+     <!--Optional Templates 
+    // These may be provided inline as below or as separate classes.
+
+    // This header appears at the top of the Flyout.
+    // https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/flyout#flyout-header-->
+    
+    <!--<Shell.FlyoutHeaderTemplate>
+        <DataTemplate>
+            <Grid>
+                
+                </Grid>
+        </DataTemplate>
+    </Shell.FlyoutHeaderTemplate>-->
+
+    <!--// ItemTemplate is for ShellItems as displayed in a Flyout
+    // https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/flyout#define-flyoutitem-appearance-->
+    
+    <!--<Shell.ItemTemplate>
+        <DataTemplate>
+            <ContentView>
+                <Label Text="ShellItems as displayed in a Flyout"  />
+                --><!--ShellItems as displayed in a Flyout
+                Bindable Properties: Title, Icon--><!--
+            </ContentView>
+        </DataTemplate>
+    </Shell.ItemTemplate>-->
+
+    <!--// MenuItemTemplate is for MenuItems as displayed in a Flyout
+    // https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/shell/flyout#define-menuitem-appearance-->
+    
+    <!--<Shell.MenuItemTemplate>
+        <DataTemplate>
+            <ContentView>
+                
+    <Label Text="MenulItems as displayed in a Flyout"  />
+                --><!--MenuItems as displayed in a Flyout
+                Bindable Properties: Text, Icon--><!--
+            </ContentView>
+        </DataTemplate>
+    </Shell.MenuItemTemplate>-->
+
+    
+
+</Shell>

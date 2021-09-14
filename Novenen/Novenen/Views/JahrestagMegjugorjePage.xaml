@@ -1,0 +1,537 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:Novenen.Views"
+            xmlns:pancakeView="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+            xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+            xmlns:vm="clr-namespace:Novenen.ViewModels"
+            xmlns:magic="http://magic.com/schemas/gradients"
+            x:Class="Novenen.Views.JahrestagMedjugorjePage"
+            x:Name="TabbedPageJahrestagMedjugorje"
+            Visual="Material"
+            BarBackgroundColor="{OnPlatform iOS=White, Android=DarkGoldenRod}"
+            Title="Jahrestag der Erscheinungen in Medjugorje">
+
+    <TabbedPage.BindingContext>
+        <vm:JahrestagMedjugorjeViewModel/>
+    </TabbedPage.BindingContext>
+
+
+     <ContentPage Title="info" Background="#eeeeee" >
+         <Grid>
+            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.9" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            linear-gradient(55deg, rgba(44, 44, 44,0.01) 0%, rgba(44, 44, 44,0.01) 15%,rgba(191, 191, 191,0.01) 15%, rgba(191, 191, 191,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(8deg, rgba(175, 175, 175,0.03) 0%, rgba(175, 175, 175,0.03) 15%,rgba(203, 203, 203,0.03) 15%, rgba(203, 203, 203,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(49deg, rgba(88, 88, 88,0.02) 0%, rgba(88, 88, 88,0.02) 15%,rgba(243, 243, 243,0.02) 15%, rgba(243, 243, 243,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(110deg, rgba(63, 63, 63,0.02) 0%, rgba(63, 63, 63,0.02) 15%,rgba(29, 29, 29,0.02) 15%, rgba(29, 29, 29,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(292deg, rgba(232, 232, 232,0.02) 0%, rgba(232, 232, 232,0.02) 15%,rgba(45, 45, 45,0.02) 15%, rgba(45, 45, 45,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(217deg, rgba(30, 30, 30,0.03) 0%, rgba(30, 30, 30,0.03) 15%,rgba(218, 218, 218,0.03) 15%, rgba(218, 218, 218,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(113deg, rgba(236, 236, 236,0.02) 0%, rgba(236, 236, 236,0.02) 15%,rgba(206, 206, 206,0.02) 15%, rgba(206, 206, 206,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(187deg, rgba(0, 0, 0,0.01) 0%, rgba(0, 0, 0,0.01) 15%,rgba(209, 209, 209,0.01) 15%, rgba(209, 209, 209,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(337deg, rgba(76, 76, 76,0.03) 0%, rgba(76, 76, 76,0.03) 15%,rgba(130, 130, 130,0.03) 15%, rgba(130, 130, 130,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(344deg, rgba(95, 95, 95,0.02) 0%, rgba(95, 95, 95,0.02) 15%,rgba(57, 57, 57,0.02) 15%, rgba(57, 57, 57,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(50deg, rgba(234, 234, 234,0.01) 0%, rgba(234, 234, 234,0.01) 15%,rgba(231, 231, 231,0.01) 15%, rgba(231, 231, 231,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(336deg, rgba(149, 149, 149,0.01) 0%, rgba(149, 149, 149,0.01) 15%,rgba(114, 114, 114,0.01) 15%, rgba(114, 114, 114,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(176deg, rgba(104, 104, 104,0.01) 0%, rgba(104, 104, 104,0.01) 15%,rgba(102, 102, 102,0.01) 15%, rgba(102, 102, 102,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(178deg, rgba(247, 247, 247,0.03) 0%, rgba(247, 247, 247,0.03) 15%,rgba(62, 62, 62,0.03) 15%, rgba(62, 62, 62,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(304deg, rgba(27, 27, 27,0.03) 0%, rgba(27, 27, 27,0.03) 15%,rgba(164, 164, 164,0.03) 15%, rgba(164, 164, 164,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(254deg, rgba(221, 221, 221,0.03) 0%, rgba(221, 221, 221,0.03) 15%,rgba(3, 3, 3,0.03) 15%, rgba(3, 3, 3,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(312deg, rgba(1, 1, 1,0.01) 0%, rgba(1, 1, 1,0.01) 15%,rgba(80, 80, 80,0.01) 15%, rgba(80, 80, 80,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(353deg, rgba(145, 145, 145,0.03) 0%, rgba(145, 145, 145,0.03) 15%,rgba(169, 169, 169,0.03) 15%, rgba(169, 169, 169,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(264deg, rgba(53, 53, 53,0.03) 0%, rgba(53, 53, 53,0.03) 15%,rgba(153, 153, 153,0.03) 15%, rgba(153, 153, 153,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(319deg, rgba(130, 130, 130,0.03) 0%, rgba(130, 130, 130,0.03) 15%,rgba(5, 5, 5,0.03) 15%, rgba(5, 5, 5,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(255deg, rgba(160, 160, 160,0.01) 0%, rgba(160, 160, 160,0.01) 15%,rgba(155, 155, 155,0.01) 15%, rgba(155, 155, 155,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(175deg, rgba(153, 153, 153,0.01) 0%, rgba(153, 153, 153,0.01) 15%,rgba(31, 31, 31,0.01) 15%, rgba(31, 31, 31,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(169deg, rgba(248, 248, 248,0.02) 0%, rgba(248, 248, 248,0.02) 15%,rgba(102, 102, 102,0.02) 15%, rgba(102, 102, 102,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(314deg, rgba(236, 236, 236,0.03) 0%, rgba(236, 236, 236,0.03) 15%,rgba(161, 161, 161,0.03) 15%, rgba(161, 161, 161,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(159deg, rgba(73, 73, 73,0.03) 0%, rgba(73, 73, 73,0.03) 15%,rgba(252, 252, 252,0.03) 15%, rgba(252, 252, 252,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(26deg, rgba(44, 44, 44,0.01) 0%, rgba(44, 44, 44,0.01) 15%,rgba(50, 50, 50,0.01) 15%, rgba(50, 50, 50,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(119deg, rgba(144, 144, 144,0.01) 0%, rgba(144, 144, 144,0.01) 15%,rgba(172, 172, 172,0.01) 15%, rgba(172, 172, 172,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(353deg, rgba(110, 110, 110,0.02) 0%, rgba(110, 110, 110,0.02) 15%,rgba(153, 153, 153,0.02) 15%, rgba(153, 153, 153,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(137deg, rgba(239, 239, 239,0.01) 0%, rgba(239, 239, 239,0.01) 15%,rgba(66, 66, 66,0.01) 15%, rgba(66, 66, 66,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(57deg, rgba(215, 215, 215,0.02) 0%, rgba(215, 215, 215,0.02) 15%,rgba(184, 184, 184,0.02) 15%, rgba(184, 184, 184,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(15deg, rgba(223, 223, 223,0.03) 0%, rgba(223, 223, 223,0.03) 15%,rgba(42, 42, 42,0.03) 15%, rgba(42, 42, 42,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(286deg, rgba(37, 37, 37,0.02) 0%, rgba(37, 37, 37,0.02) 15%,rgba(29, 29, 29,0.02) 15%, rgba(29, 29, 29,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(2deg, rgba(246, 246, 246,0.03) 0%, rgba(246, 246, 246,0.03) 15%,rgba(87, 87, 87,0.03) 15%, rgba(87, 87, 87,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(62deg, rgba(120, 120, 120,0.03) 0%, rgba(120, 120, 120,0.03) 15%,rgba(105, 105, 105,0.03) 15%, rgba(105, 105, 105,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(302deg, rgba(26, 26, 26,0.03) 0%, rgba(26, 26, 26,0.03) 15%,rgba(170, 170, 170,0.03) 15%, rgba(170, 170, 170,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(299deg, rgba(16, 16, 16,0.03) 0%, rgba(16, 16, 16,0.03) 15%,rgba(82, 82, 82,0.03) 15%, rgba(82, 82, 82,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(228deg, rgba(101, 101, 101,0.02) 0%, rgba(101, 101, 101,0.02) 15%,rgba(253, 253, 253,0.02) 15%, rgba(253, 253, 253,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(127deg, rgba(182, 182, 182,0.02) 0%, rgba(182, 182, 182,0.02) 15%,rgba(11, 11, 11,0.02) 15%, rgba(11, 11, 11,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(216deg, rgba(108, 108, 108,0.02) 0%, rgba(108, 108, 108,0.02) 15%,rgba(19, 19, 19,0.02) 15%, rgba(19, 19, 19,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(9deg, rgba(1, 1, 1,0.03) 0%, rgba(1, 1, 1,0.03) 15%,rgba(214, 214, 214,0.03) 15%, rgba(214, 214, 214,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(72deg, rgba(48, 48, 48,0.02) 0%, rgba(48, 48, 48,0.02) 15%,rgba(211, 211, 211,0.02) 15%, rgba(211, 211, 211,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(148deg, rgba(70, 70, 70,0.03) 0%, rgba(70, 70, 70,0.03) 15%,rgba(145, 145, 145,0.03) 15%, rgba(145, 145, 145,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(8deg, rgba(132, 132, 132,0.01) 0%, rgba(132, 132, 132,0.01) 15%,rgba(179, 179, 179,0.01) 15%, rgba(179, 179, 179,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(210deg, rgba(247, 247, 247,0.01) 0%, rgba(247, 247, 247,0.01) 15%,rgba(132, 132, 132,0.01) 15%, rgba(132, 132, 132,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(289deg, rgba(255, 255, 255,0.01) 0%, rgba(255, 255, 255,0.01) 15%,rgba(53, 53, 53,0.01) 15%, rgba(53, 53, 53,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(1deg, rgba(60, 60, 60,0.01) 0%, rgba(60, 60, 60,0.01) 15%,rgba(64, 64, 64,0.01) 15%, rgba(64, 64, 64,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(197deg, rgba(219, 219, 219,0.02) 0%, rgba(219, 219, 219,0.02) 15%,rgba(117, 117, 117,0.02) 15%, rgba(117, 117, 117,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(223deg, rgba(27, 27, 27,0.02) 0%, rgba(27, 27, 27,0.02) 15%,rgba(64, 64, 64,0.02) 15%, rgba(64, 64, 64,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(306deg, rgba(70, 70, 70,0.02) 0%, rgba(70, 70, 70,0.02) 15%,rgba(94, 94, 94,0.02) 15%, rgba(94, 94, 94,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255))
+                                ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <ScrollView VerticalOptions="Center">
+                <StackLayout>
+                    <Label Text="Novene zum Jahrestag der Erscheinungen in Medjugorje:" FontSize="Large" FontFamily="OldStandardBold"
+                           HorizontalTextAlignment="Center" Margin="15"/>
+                    <Label Text="15. bis 24. Juni" FontSize="Large" FontFamily="OldStandardBold" HorizontalTextAlignment="Center" />
+                    <pancakeView:PancakeView Sides="128" Margin="20"
+                        Border="{pancakeView:BorderMarkup Color=White, Thickness=10}"
+                        Shadow="{pancakeView:ShadowMarkup BlurRadius=10, Offset='10,10'}">
+                        <Image Aspect="AspectFit" WidthRequest="600" Source="medjugorie.jpg" VerticalOptions="StartAndExpand" />
+                    </pancakeView:PancakeView>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+     </ContentPage>
+    
+    <!--#region TAG 1 -->
+    <ContentPage Title="1">
+        <Grid>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
+            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <StackLayout VerticalOptions="StartAndExpand">
+                <ScrollView>
+                    <StackLayout>
+                        <pancakeView:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                                <Label Text="Tag 1 - WIR BETEN FÜR DIE SEHER" FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                                       HeightRequest="55" Margin="5"/>
+                        </pancakeView:PancakeView>
+                        <!--<pancakeView:PancakeView Sides="64" HorizontalOptions="End" Margin="0,-30,20,0"
+                                    Border="{pancakeView:BorderMarkup Color=#555555, Thickness=1}">
+                            <ImageButton Source="bookmark_pic.png" BackgroundColor="Transparent" HeightRequest="55"
+                                    Aspect="AspectFit" VerticalOptions="Center"
+                            xct:TouchEffect.PressedRotation="15"
+                            xct:TouchEffect.NativeAnimation="True"
+                            xct:TouchEffect.PressedBackgroundColor="Black"
+                            xct:TouchEffect.Command="{Binding GoToLesezeichenPageCommand}"/>
+                        </pancakeView:PancakeView>-->
+                        <Button Style="{x:StaticResource ButtonRound}"
+                            Command="{Binding GoToLesezeichenPageCommand}"
+                            Margin="0,-30,20,20"/>
+                        <ListView ItemsSource="{Binding Tag1}"
+                                HasUnevenRows="True"
+                                BackgroundColor="Transparent"
+                                CachingStrategy="RecycleElement"
+                                SelectionMode="None">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+                                        <Label FontSize="Large" Text="{Binding Strophe}" TextColor="Black"/>
+                                    </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackLayout>
+                </ScrollView>
+
+                <StackLayout Margin="0,10,0,20" HorizontalOptions="Center">
+                    <Button Text="Hier Anschlussgebete" Command="{Binding GoToGebetePageCommand}"
+                        VerticalOptions="Center" HorizontalOptions="Center"/>
+                </StackLayout>
+                <!--<Label HorizontalTextAlignment="Center"
+                    Text="Im Anschluss folgende Gebete verrichten: 1.Zur Königin des Friedens | 2.Zum Hl. Geist | 3.Glorreicher Rosenkranz | 4. Lauretanische Litanei"
+                        TextColor="Black"/>-->
+                <!--<pancakeView:PancakeView CornerRadius="20,20,0,0" BackgroundColor="White" Padding="5">
+                </pancakeView:PancakeView>-->
+            </StackLayout>
+        </Grid>
+    </ContentPage>
+
+    <!--#region TAG 2 -->
+    <ContentPage Title="2">
+        <Grid>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
+            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand">
+                <ScrollView>
+                    <StackLayout>                           
+                        <pancakeView:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                                <Label Text="Tag 2 - WIR BETEN FÜR DIE PRIESTER, DIE IM HEILIGTUM IM DIENST SIND" FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                                       HeightRequest="80" Margin="5"/>
+                        </pancakeView:PancakeView>
+                        <Button Style="{x:StaticResource ButtonRound}"
+                            Command="{Binding GoToLesezeichenPageCommand}"
+                            Margin="0,-35,20,20"/>
+                        <ListView ItemsSource="{Binding Tag2}"
+                                HasUnevenRows="True"
+                                CachingStrategy="RecycleElement"
+                                BackgroundColor="Transparent"
+                                SelectionMode="None">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+                                        <Label FontSize="Large" Text="{Binding Strophe}" TextColor="Black"/>
+                                    </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackLayout>
+                </ScrollView>
+
+                 <StackLayout Margin="0,10,0,20" HorizontalOptions="Center">
+                        <Button Text="Hier Anschlussgebete" Command="{Binding GoToGebetePageCommand}"
+                            VerticalOptions="Center" HorizontalOptions="Center"/>
+                 </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+
+    <!--#region TAG 3 -->
+    <ContentPage Title="3">
+        <Grid>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
+            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand">
+                <ScrollView>
+                    <StackLayout>                           
+                        <pancakeView:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                                <Label Text="Tag 3 - WIR BETEN FÜR ALLE PFARREIMITGLIEDER" FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                                       HeightRequest="55" Margin="5"/>
+                        </pancakeView:PancakeView>
+                        <Button Style="{x:StaticResource ButtonRound}"
+                            Command="{Binding GoToLesezeichenPageCommand}"
+                            Margin="0,-35,20,20"/>
+                        <ListView ItemsSource="{Binding Tag3}"
+                                HasUnevenRows="True"
+                                CachingStrategy="RecycleElement"
+                                BackgroundColor="Transparent"
+                                SelectionMode="None">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+                                        <Label FontSize="Large" Text="{Binding Strophe}" TextColor="Black"/>
+                                    </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackLayout>
+                </ScrollView>
+                <StackLayout Margin="0,10,0,20" HorizontalOptions="Center">
+                        <Button Text="Hier Anschlussgebete" Command="{Binding GoToGebetePageCommand}"
+                            VerticalOptions="Center" HorizontalOptions="Center"/>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+
+    <!--#region TAG 4 -->
+    <ContentPage Title="4">
+        <Grid>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
+            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand">
+                <ScrollView>
+                    <StackLayout>                           
+                        <pancakeView:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                                <Label Text="Tag 4 - WIR BETEN FÜR ALLE VERANTWORTLICHEN IN DER KIRCHE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                                       HeightRequest="75" Margin="5"/>
+                        </pancakeView:PancakeView>
+                        <Button Style="{x:StaticResource ButtonRound}"
+                            Command="{Binding GoToLesezeichenPageCommand}"
+                            Margin="0,-25,20,20"/>
+                        <ListView ItemsSource="{Binding Tag4}"
+                                HasUnevenRows="True"
+                                CachingStrategy="RecycleElement"
+                                BackgroundColor="Transparent"
+                                SelectionMode="None">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+                                        <Label FontSize="Large" Text="{Binding Strophe}" TextColor="Black"/>
+                                    </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackLayout>
+                </ScrollView>
+                 <StackLayout Margin="0,10,0,20" HorizontalOptions="Center">
+                    <Button Text="Hier Anschlussgebete" Command="{Binding GoToGebetePageCommand}"
+                        VerticalOptions="Center" HorizontalOptions="Center"/>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+
+    <!--#region TAG 5 -->
+    <ContentPage Title="5">
+        <Grid>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
+            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand">
+                <ScrollView>
+                    <StackLayout>                           
+                        <pancakeView:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                                <Label Text="Tag 5 - WIR BETEN FÜR ALLE PILGER, DIE MEDJUGORJE BESUCHT HABEN" FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                                       HeightRequest="75" Margin="5"/>
+                        </pancakeView:PancakeView>
+                        <Button Style="{x:StaticResource ButtonRound}"
+                            Command="{Binding GoToLesezeichenPageCommand}"
+                            Margin="0,-30,20,20"/>
+                        <ListView ItemsSource="{Binding Tag5}"
+                                HasUnevenRows="True"
+                                CachingStrategy="RecycleElement"
+                                BackgroundColor="Transparent"
+                                SelectionMode="None">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+                                        <Label FontSize="Large" Text="{Binding Strophe}" TextColor="Black"/>
+                                    </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackLayout>
+                </ScrollView>
+                 <StackLayout Margin="0,10,0,20" HorizontalOptions="Center">
+                    <Button Text="Hier Anschlussgebete" Command="{Binding GoToGebetePageCommand}"
+                        VerticalOptions="Center" HorizontalOptions="Center"/>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+
+    <!--#region TAG 6 -->
+    <ContentPage Title="6">
+        <Grid>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
+            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand">
+                <ScrollView>
+                    <StackLayout>                           
+                        <pancakeView:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                                <Label Text="Tag 6 - WIR BETEN FÜR ALLE PILGER, DIE NACH MEDJUGORJE KOMMEN WERDEN" FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                                       HeightRequest="85" Margin="5"/>
+                        </pancakeView:PancakeView>
+                        <Button Style="{x:StaticResource ButtonRound}"
+                            Command="{Binding GoToLesezeichenPageCommand}"
+                            Margin="0,-30,20,20"/>
+                        <ListView ItemsSource="{Binding Tag6}"
+                                HasUnevenRows="True"
+                                CachingStrategy="RecycleElement"
+                                BackgroundColor="Transparent"
+                                SelectionMode="None">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+                                        <Label FontSize="Large" Text="{Binding Strophe}" TextColor="Black"/>
+                                    </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackLayout>
+                </ScrollView>
+                 <StackLayout Margin="0,10,0,20" HorizontalOptions="Center">
+                    <Button Text="Hier Anschlussgebete" Command="{Binding GoToGebetePageCommand}"
+                        VerticalOptions="Center" HorizontalOptions="Center"/>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+
+    <!--#region TAG 7 -->
+    <ContentPage Title="7">
+        <Grid>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
+            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand">
+                <ScrollView>
+                    <StackLayout>                           
+                        <pancakeView:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                                <Label Text="Tag 7 - WIR BETEN FÜR ALLE MEDJUGORJE GEBETSGRUPPEN UND ZENTREN AUF DER GANZEN WELT" FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                                       HeightRequest="100" Margin="5"/>
+                        </pancakeView:PancakeView>
+                        <Button Style="{x:StaticResource ButtonRound}"
+                            Command="{Binding GoToLesezeichenPageCommand}"
+                            Margin="0,-30,20,20"/>
+                        <ListView ItemsSource="{Binding Tag7}"
+                                HasUnevenRows="True"
+                                CachingStrategy="RecycleElement"
+                                BackgroundColor="Transparent"
+                                SelectionMode="None">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+                                        <Label FontSize="Large" Text="{Binding Strophe}" TextColor="Black"/>
+                                    </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackLayout>
+                </ScrollView>
+                 <StackLayout Margin="0,10,0,20" HorizontalOptions="Center">
+                    <Button Text="Hier Anschlussgebete" Command="{Binding GoToGebetePageCommand}"
+                        VerticalOptions="Center" HorizontalOptions="Center"/>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+
+    <!--#region TAG 8 -->
+    <ContentPage Title="8">
+        <Grid>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
+            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand">
+                <ScrollView>
+                    <StackLayout>                           
+                        <pancakeView:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                                <Label Text="Tag 8 - WIR BETEN FÜR DIE VERWIRKLICHUNG ALLER FRÜCHTE UND BOTSCHAFTEN VON MEDJUGORJE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                                       HeightRequest="105" Margin="5"/>
+                        </pancakeView:PancakeView>
+                        <Button Style="{x:StaticResource ButtonRound}"
+                            Command="{Binding GoToLesezeichenPageCommand}"
+                            Margin="0,-30,20,20"/>
+                        <ListView ItemsSource="{Binding Tag8}"
+                                HasUnevenRows="True"
+                                CachingStrategy="RecycleElement"
+                                BackgroundColor="Transparent"
+                                SelectionMode="None">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+                                        <Label FontSize="Large" Text="{Binding Strophe}" TextColor="Black"/>
+                                    </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackLayout>
+                </ScrollView>
+                 <StackLayout Margin="0,10,0,20" HorizontalOptions="Center">
+                    <Button Text="Hier Anschlussgebete" Command="{Binding GoToGebetePageCommand}"
+                        VerticalOptions="Center" HorizontalOptions="Center"/>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+
+    <!--#region TAG 9 -->
+    <ContentPage Title="9">
+        <Grid>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
+            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand">
+                <ScrollView>
+                    <StackLayout>                           
+                        <pancakeView:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                                <Label Text="Tag 9 - WIR BETEN FÜR DIE ANLIEGEN DER KÖNIGIN DES FRIEDENS" FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                                       HeightRequest="85" Margin="5"/>
+                        </pancakeView:PancakeView>
+                        <Button Style="{x:StaticResource ButtonRound}"
+                            Command="{Binding GoToLesezeichenPageCommand}"
+                            Margin="0,-30,20,20"/>
+                        <ListView ItemsSource="{Binding Tag9}"
+                                HasUnevenRows="True"
+                                CachingStrategy="RecycleElement"
+                                BackgroundColor="Transparent"
+                                SelectionMode="None">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Orientation="Vertical" Padding="10" Spacing="10">
+                                        <Label FontSize="Large" Text="{Binding Strophe}" TextColor="Black"/>
+                                    </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                        <!--<Label HorizontalTextAlignment="Center" Text="© Medjugorje Deutschland e.V." FontAttributes="Bold" FontSize="Large" />
+                        <Label HorizontalTextAlignment="Center" Text="(auf nachfolgende Adresse tippen):" FontSize="Medium"/>
+                        <Label Margin="0,0,0,15" HorizontalTextAlignment="Center">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="https://www.medjugorje.de" TextDecorations="Underline" TextColor="Blue" FontSize="Medium" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                            <Label.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding GoToMedjugorjeCommand}"/>
+                            </Label.GestureRecognizers>
+                        </Label>-->
+                    <!--<Button BackgroundColor="Transparent" BorderColor="Transparent" Text="https://www.medjugorje.de" TextColor="Blue" FontSize="Medium"
+                            Command="{Binding GoToMedjugorjeCommand}" Margin="0,0,0,15"/>-->
+                    </StackLayout>
+                </ScrollView>
+                 <StackLayout Margin="0,10,0,20" HorizontalOptions="Center">
+                    <Button Text="Hier Anschlussgebete" Command="{Binding GoToGebetePageCommand}"
+                        VerticalOptions="Center" HorizontalOptions="Center"/>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+
+
+</TabbedPage>

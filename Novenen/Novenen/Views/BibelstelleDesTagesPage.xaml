@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Novenen.Views.BibelstelleDesTagesPage"
+             xmlns:vm="clr-namespace:Novenen.ViewModels"
+             xmlns:fontawesome="clr-namespace:FontAwesome"
+             xmlns:pcv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             xmlns:magic="http://magic.com/schemas/gradients"
+             xmlns:converters="clr-namespace:Novenen.Converters"
+             BackgroundColor="Black"
+             Title="Bibelstelle ziehen"
+             Visual="Material">
+    <!--<NavigationPage.TitleView>
+        <Button Text="TEST" TextColor="White" />
+        <Label Text="{x:Static fontawesome:FontAwesomeIcons.InfoCircle}" FontFamily="FA-S" FontSize="38" VerticalOptions="Center" 
+                       TextColor="White" VerticalTextAlignment="Center"  Opacity="0.8">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding GetInfoCommand}"/>
+                    </Label.GestureRecognizers>
+                </Label>
+    </NavigationPage.TitleView>-->
+    <!--<NavigationPage.TitleView>
+        <AbsoluteLayout VerticalOptions="CenterAndExpand">
+             <Label Text="{x:Static fontawesome:FontAwesomeIcons.InfoCircle}" FontFamily="FA-S" FontSize="Large"  
+                    TextColor="White" AbsoluteLayout.LayoutFlags="PositionProportional" AbsoluteLayout.LayoutBounds="0,0,40,40">
+                <Label.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding GetInfoCommand}"/>
+                </Label.GestureRecognizers>
+            </Label>
+        </AbsoluteLayout>
+    </NavigationPage.TitleView>-->
+
+    <ContentPage.BindingContext>
+        <vm:BibelstelleViewModel/>
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <converters:ScrollValueConverter x:Key="ScrollValueConverter" />
+    </ContentPage.Resources>
+
+    <Grid>
+        <magic:GradientView VerticalOptions="FillAndExpand">
+                    <magic:GradientView.GradientSource>
+                        <magic:CssGradientSource>
+                            <x:String>
+                                <![CDATA[
+                                radial-gradient(circle at top left, rgb(195, 195, 195) 0%, rgb(195, 195, 195) 2%,rgb(202, 202, 202) 2%, rgb(202, 202, 202) 23%,rgb(209, 209, 209) 23%, rgb(209, 209, 209) 55%,rgb(217, 217, 217) 55%, rgb(217, 217, 217) 80%,rgb(224, 224, 224) 80%, rgb(224, 224, 224) 86%,rgb(231, 231, 231) 86%, rgb(231, 231, 231) 96%,rgb(238, 238, 238) 96%, rgb(238, 238, 238) 100%))
+                                ]]>
+                            </x:String>
+                        </magic:CssGradientSource>
+                    </magic:GradientView.GradientSource>
+                </magic:GradientView>
+
+        <StackLayout Spacing="30">
+            <pcv:PancakeView CornerRadius="0,0,20,20" BackgroundColor="Transparent"
+                    pcv:Shadow="{pcv:ShadowMarkup BlurRadius=10, Offset='10,10'}">
+                <ImageButton Source="imperial_bible.jpg" Aspect="AspectFill"/>
+            </pcv:PancakeView>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" Spacing="20">
+                <Button Text="Hier Bibelstelle ziehen" HorizontalOptions="Center" VerticalOptions="Center" Command="{Binding BibeltextAuswaehlen}" />
+                <Label Text="{x:Static fontawesome:FontAwesomeIcons.InfoCircle}" FontFamily="FA-S" FontSize="38" VerticalOptions="Center" 
+                       TextColor="DarkGoldenrod" VerticalTextAlignment="Center"  Opacity="0.8">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding GetInfoCommand}"/>
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+            <ScrollView>
+                <!--<pcv:PancakeView CornerRadius="0,15,15,0" BackgroundColor="Transparent" Margin="15,0,15,0">
+                </pcv:PancakeView>-->
+                <!--<pcv:PancakeView CornerRadius="0,15,15,0" BackgroundColor="White" Margin="15,0,15,0"
+                        pcv:Shadow="{pcv:ShadowMarkup BlurRadius=15, Offset='10,10', Color=Black}">
+                </pcv:PancakeView>-->
+                <Label BackgroundColor="Transparent" HorizontalTextAlignment="Center" Margin="10,-5,10,0">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <!--<Span Text="&quot; " FontSize="41" FontFamily="Retroking" TextColor="Black"  />-->
+                            <Span Text="{Static fontawesome:FontAwesomeIcons.QuoteLeft}" FontFamily="FA-S" FontSize="28" TextColor="Black" />
+                            <Span Text="  " FontSize="Large"  />
+                            <Span Text="{Binding EinleitungGebet}" FontSize="Large" TextColor="Black" />
+                            <Span Text="  " FontSize="Large"/>
+                            <Span Text="{Static fontawesome:FontAwesomeIcons.QuoteRight}" FontFamily="FA-S" FontSize="28" TextColor="Black" />
+                            <!--<Span Text=" &quot;" FontSize="41" FontFamily="Retroking" TextColor="Black" />-->
+                        </FormattedString>  
+                    </Label.FormattedText>
+                </Label>
+            </ScrollView>
+            <!--<Label Text="{Binding EinleitungMatthaeusLukas}" FontSize="Large" HorizontalTextAlignment="Center" TextColor="Black" />
+            <Label Text="{Binding Einleitung}" HorizontalTextAlignment="Center" FontSize="Small" FontAttributes="Italic" TextColor="Black"/>-->
+            <!--<Label Text="{x:Static fontawesome:FontAwesomeIcons.Bible}" FontFamily="FA-S" FontSize="Large" HorizontalTextAlignment="Center"   />-->
+            <!--<BoxView Style="{StaticResource BoxViewPlatformspecific}" Color="White"/>-->
+            <!--<Label Text="{x:Static fontawesome:FontAwesomeIcons.Bible}" FontFamily="FA-S" FontSize="Large" HorizontalOptions="Center"/>-->
+            <!--<BoxView Style="{StaticResource BoxViewPlatformspecific}" Color="White"/>-->
+            <!--<Label Text="{x:Static fontawesome:FontAwesomeIcons.Bible}" FontFamily="FA-S" FontSize="32" TextColor="Gray" HorizontalTextAlignment="Center" />-->
+        </StackLayout>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:Novenen.Views"
+            xmlns:pcv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+            xmlns:vm="clr-namespace:Novenen.ViewModels"
+            xmlns:xct="http://xamarin.com/schemas/2020/toolkit" xmlns:magic="http://magic.com/schemas/gradients"
+            x:Class="Novenen.Views.MutterDerImmerwaehrendenHilfePage"
+            x:Name="TabbedPageMutterDerImmerwaehrendenHilfe"
+            Title="Novene zur Mutter der immerwährenden Hilfe"
+            BarBackgroundColor="{OnPlatform iOS=White, Android=DarkGoldenRod}">
+
+    <TabbedPage.BindingContext>
+        <vm:MutterDerImmerwaehrendenHilfeViewModel/>
+    </TabbedPage.BindingContext>
+
+    <ContentPage Title="info" Background="#eeeeee" >
+        <Grid>
+            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.9" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            linear-gradient(55deg, rgba(44, 44, 44,0.01) 0%, rgba(44, 44, 44,0.01) 15%,rgba(191, 191, 191,0.01) 15%, rgba(191, 191, 191,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(8deg, rgba(175, 175, 175,0.03) 0%, rgba(175, 175, 175,0.03) 15%,rgba(203, 203, 203,0.03) 15%, rgba(203, 203, 203,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(49deg, rgba(88, 88, 88,0.02) 0%, rgba(88, 88, 88,0.02) 15%,rgba(243, 243, 243,0.02) 15%, rgba(243, 243, 243,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(110deg, rgba(63, 63, 63,0.02) 0%, rgba(63, 63, 63,0.02) 15%,rgba(29, 29, 29,0.02) 15%, rgba(29, 29, 29,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(292deg, rgba(232, 232, 232,0.02) 0%, rgba(232, 232, 232,0.02) 15%,rgba(45, 45, 45,0.02) 15%, rgba(45, 45, 45,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(217deg, rgba(30, 30, 30,0.03) 0%, rgba(30, 30, 30,0.03) 15%,rgba(218, 218, 218,0.03) 15%, rgba(218, 218, 218,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(113deg, rgba(236, 236, 236,0.02) 0%, rgba(236, 236, 236,0.02) 15%,rgba(206, 206, 206,0.02) 15%, rgba(206, 206, 206,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(187deg, rgba(0, 0, 0,0.01) 0%, rgba(0, 0, 0,0.01) 15%,rgba(209, 209, 209,0.01) 15%, rgba(209, 209, 209,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(337deg, rgba(76, 76, 76,0.03) 0%, rgba(76, 76, 76,0.03) 15%,rgba(130, 130, 130,0.03) 15%, rgba(130, 130, 130,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(344deg, rgba(95, 95, 95,0.02) 0%, rgba(95, 95, 95,0.02) 15%,rgba(57, 57, 57,0.02) 15%, rgba(57, 57, 57,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(50deg, rgba(234, 234, 234,0.01) 0%, rgba(234, 234, 234,0.01) 15%,rgba(231, 231, 231,0.01) 15%, rgba(231, 231, 231,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(336deg, rgba(149, 149, 149,0.01) 0%, rgba(149, 149, 149,0.01) 15%,rgba(114, 114, 114,0.01) 15%, rgba(114, 114, 114,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(176deg, rgba(104, 104, 104,0.01) 0%, rgba(104, 104, 104,0.01) 15%,rgba(102, 102, 102,0.01) 15%, rgba(102, 102, 102,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(178deg, rgba(247, 247, 247,0.03) 0%, rgba(247, 247, 247,0.03) 15%,rgba(62, 62, 62,0.03) 15%, rgba(62, 62, 62,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(304deg, rgba(27, 27, 27,0.03) 0%, rgba(27, 27, 27,0.03) 15%,rgba(164, 164, 164,0.03) 15%, rgba(164, 164, 164,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(254deg, rgba(221, 221, 221,0.03) 0%, rgba(221, 221, 221,0.03) 15%,rgba(3, 3, 3,0.03) 15%, rgba(3, 3, 3,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(312deg, rgba(1, 1, 1,0.01) 0%, rgba(1, 1, 1,0.01) 15%,rgba(80, 80, 80,0.01) 15%, rgba(80, 80, 80,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(353deg, rgba(145, 145, 145,0.03) 0%, rgba(145, 145, 145,0.03) 15%,rgba(169, 169, 169,0.03) 15%, rgba(169, 169, 169,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(264deg, rgba(53, 53, 53,0.03) 0%, rgba(53, 53, 53,0.03) 15%,rgba(153, 153, 153,0.03) 15%, rgba(153, 153, 153,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(319deg, rgba(130, 130, 130,0.03) 0%, rgba(130, 130, 130,0.03) 15%,rgba(5, 5, 5,0.03) 15%, rgba(5, 5, 5,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(255deg, rgba(160, 160, 160,0.01) 0%, rgba(160, 160, 160,0.01) 15%,rgba(155, 155, 155,0.01) 15%, rgba(155, 155, 155,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(175deg, rgba(153, 153, 153,0.01) 0%, rgba(153, 153, 153,0.01) 15%,rgba(31, 31, 31,0.01) 15%, rgba(31, 31, 31,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(169deg, rgba(248, 248, 248,0.02) 0%, rgba(248, 248, 248,0.02) 15%,rgba(102, 102, 102,0.02) 15%, rgba(102, 102, 102,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(314deg, rgba(236, 236, 236,0.03) 0%, rgba(236, 236, 236,0.03) 15%,rgba(161, 161, 161,0.03) 15%, rgba(161, 161, 161,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(159deg, rgba(73, 73, 73,0.03) 0%, rgba(73, 73, 73,0.03) 15%,rgba(252, 252, 252,0.03) 15%, rgba(252, 252, 252,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(26deg, rgba(44, 44, 44,0.01) 0%, rgba(44, 44, 44,0.01) 15%,rgba(50, 50, 50,0.01) 15%, rgba(50, 50, 50,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(119deg, rgba(144, 144, 144,0.01) 0%, rgba(144, 144, 144,0.01) 15%,rgba(172, 172, 172,0.01) 15%, rgba(172, 172, 172,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(353deg, rgba(110, 110, 110,0.02) 0%, rgba(110, 110, 110,0.02) 15%,rgba(153, 153, 153,0.02) 15%, rgba(153, 153, 153,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(137deg, rgba(239, 239, 239,0.01) 0%, rgba(239, 239, 239,0.01) 15%,rgba(66, 66, 66,0.01) 15%, rgba(66, 66, 66,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(57deg, rgba(215, 215, 215,0.02) 0%, rgba(215, 215, 215,0.02) 15%,rgba(184, 184, 184,0.02) 15%, rgba(184, 184, 184,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(15deg, rgba(223, 223, 223,0.03) 0%, rgba(223, 223, 223,0.03) 15%,rgba(42, 42, 42,0.03) 15%, rgba(42, 42, 42,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(286deg, rgba(37, 37, 37,0.02) 0%, rgba(37, 37, 37,0.02) 15%,rgba(29, 29, 29,0.02) 15%, rgba(29, 29, 29,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(2deg, rgba(246, 246, 246,0.03) 0%, rgba(246, 246, 246,0.03) 15%,rgba(87, 87, 87,0.03) 15%, rgba(87, 87, 87,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(62deg, rgba(120, 120, 120,0.03) 0%, rgba(120, 120, 120,0.03) 15%,rgba(105, 105, 105,0.03) 15%, rgba(105, 105, 105,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(302deg, rgba(26, 26, 26,0.03) 0%, rgba(26, 26, 26,0.03) 15%,rgba(170, 170, 170,0.03) 15%, rgba(170, 170, 170,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(299deg, rgba(16, 16, 16,0.03) 0%, rgba(16, 16, 16,0.03) 15%,rgba(82, 82, 82,0.03) 15%, rgba(82, 82, 82,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(228deg, rgba(101, 101, 101,0.02) 0%, rgba(101, 101, 101,0.02) 15%,rgba(253, 253, 253,0.02) 15%, rgba(253, 253, 253,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(127deg, rgba(182, 182, 182,0.02) 0%, rgba(182, 182, 182,0.02) 15%,rgba(11, 11, 11,0.02) 15%, rgba(11, 11, 11,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(216deg, rgba(108, 108, 108,0.02) 0%, rgba(108, 108, 108,0.02) 15%,rgba(19, 19, 19,0.02) 15%, rgba(19, 19, 19,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(9deg, rgba(1, 1, 1,0.03) 0%, rgba(1, 1, 1,0.03) 15%,rgba(214, 214, 214,0.03) 15%, rgba(214, 214, 214,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(72deg, rgba(48, 48, 48,0.02) 0%, rgba(48, 48, 48,0.02) 15%,rgba(211, 211, 211,0.02) 15%, rgba(211, 211, 211,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(148deg, rgba(70, 70, 70,0.03) 0%, rgba(70, 70, 70,0.03) 15%,rgba(145, 145, 145,0.03) 15%, rgba(145, 145, 145,0.03) 50%,transparent 50%, transparent 100%),linear-gradient(8deg, rgba(132, 132, 132,0.01) 0%, rgba(132, 132, 132,0.01) 15%,rgba(179, 179, 179,0.01) 15%, rgba(179, 179, 179,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(210deg, rgba(247, 247, 247,0.01) 0%, rgba(247, 247, 247,0.01) 15%,rgba(132, 132, 132,0.01) 15%, rgba(132, 132, 132,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(289deg, rgba(255, 255, 255,0.01) 0%, rgba(255, 255, 255,0.01) 15%,rgba(53, 53, 53,0.01) 15%, rgba(53, 53, 53,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(1deg, rgba(60, 60, 60,0.01) 0%, rgba(60, 60, 60,0.01) 15%,rgba(64, 64, 64,0.01) 15%, rgba(64, 64, 64,0.01) 50%,transparent 50%, transparent 100%),linear-gradient(197deg, rgba(219, 219, 219,0.02) 0%, rgba(219, 219, 219,0.02) 15%,rgba(117, 117, 117,0.02) 15%, rgba(117, 117, 117,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(223deg, rgba(27, 27, 27,0.02) 0%, rgba(27, 27, 27,0.02) 15%,rgba(64, 64, 64,0.02) 15%, rgba(64, 64, 64,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(306deg, rgba(70, 70, 70,0.02) 0%, rgba(70, 70, 70,0.02) 15%,rgba(94, 94, 94,0.02) 15%, rgba(94, 94, 94,0.02) 50%,transparent 50%, transparent 100%),linear-gradient(90deg, rgb(255,255,255),rgb(255,255,255))
+                                ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <ScrollView>
+                <StackLayout VerticalOptions="Center" Spacing="50">
+                    <Label Text="Eine Novene von P. Karl M. Jorda" FontSize="Large" FontFamily="OldStandardBold"
+                           HorizontalTextAlignment="Center" Margin="15"/>
+                    <!--<pcv:PancakeView Margin="35"
+                        CornerRadius="25,0,0,25"
+                        Border="{pcv:BorderMarkup Color=White, Thickness=10}"
+                        Shadow="{pcv:ShadowMarkup BlurRadius=20, Offset='10,10'}">
+                    </pcv:PancakeView>-->
+                    <Image VerticalOptions="StartAndExpand"
+                          WidthRequest="600" Source="mutter_immerwaehrende_hilfe.jpg" Margin="20"  />
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage>
+
+    <!--#region TAG 1 -->
+    <ContentPage Title="1">
+        <Grid>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8" />-->
+            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <ScrollView>
+                <StackLayout>
+                        <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                            <Label Text="TAG 1 DER NOVENE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                                    HeightRequest="55" Margin="5"/>
+                        </pcv:PancakeView>
+                        <!--<pcv:PancakeView Sides="64" HorizontalOptions="End" Margin="0,-35,20,20"
+                                Border="{pcv:BorderMarkup Color=#555555, Thickness=1}">
+                            <ImageButton Source="bookmark_pic.png" BackgroundColor="Transparent" HeightRequest="55"
+                                Aspect="AspectFit" VerticalOptions="Center"
+                                xct:TouchEffect.PressedRotation="15"
+                                xct:TouchEffect.NativeAnimation="True"
+                                xct:TouchEffect.PressedBackgroundColor="Black"
+                                xct:TouchEffect.Command="{Binding GoToLesezeichenPageCommand}"/>
+                        </pcv:PancakeView>-->
+                        <Button Style="{x:StaticResource ButtonRound}"
+                            Command="{Binding GoToLesezeichenPageCommand}"
+                            Margin="0,-35,20,20"/>
+                        <ListView ItemsSource="{Binding Tag1}"
+                            HasUnevenRows="True"
+                            CachingStrategy="RecycleElement"
+                            SelectionMode="None"
+                            BackgroundColor="Transparent">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Padding="10" Spacing="10">
+                                            <Label FontSize="Large" Text="{Binding Strophe}" TextColor="Black" />
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+
+    <!--#region TAG 2 -->
+      <ContentPage Title="2" Background="#eeeeee" >
+         <Grid>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8" />-->
+             <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <ScrollView>
+                <StackLayout>
+                        <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                            <Label Text="TAG 2 DER NOVENE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                                    HeightRequest="55" Margin="5"/>
+                        </pcv:PancakeView>
+                        <Button Style="{x:StaticResource ButtonRound}"
+                            Command="{Binding GoToLesezeichenPageCommand}"
+                            Margin="0,-35,20,20"/>
+                        <ListView ItemsSource="{Binding Tag2}"
+                            HasUnevenRows="True"
+                            CachingStrategy="RecycleElement"
+                            SelectionMode="None"
+                            BackgroundColor="Transparent">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Padding="10" Spacing="10">
+                                            <Label FontSize="Large" Text="{Binding Strophe}" TextColor="Black" />
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+
+    <!--#region TAG 3 -->
+      <ContentPage Title="3" Background="#eeeeee" >
+         <Grid>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8" />-->
+             <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <ScrollView>
+                <StackLayout>
+                        <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                            <Label Text="TAG 3 DER NOVENE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                                    HeightRequest="55" Margin="5"/>
+                        </pcv:PancakeView>
+                        <Button Style="{x:StaticResource ButtonRound}"
+                            Command="{Binding GoToLesezeichenPageCommand}"
+                            Margin="0,-35,20,20"/>
+                        <ListView ItemsSource="{Binding Tag3}"
+                            HasUnevenRows="True"
+                            CachingStrategy="RecycleElement"
+                            SelectionMode="None"
+                            BackgroundColor="Transparent">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Padding="10" Spacing="10">
+                                            <Label FontSize="Large" Text="{Binding Strophe}" TextColor="Black" />
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+
+    <!--#region TAG 4 -->
+      <ContentPage Title="4" Background="#eeeeee" >
+         <Grid>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8" />-->
+             <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <ScrollView>
+                <StackLayout>
+                        <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                            <Label Text="TAG 4 DER NOVENE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                                    HeightRequest="55" Margin="5"/>
+                        </pcv:PancakeView>
+                        <Button Style="{x:StaticResource ButtonRound}"
+                            Command="{Binding GoToLesezeichenPageCommand}"
+                            Margin="0,-35,20,20"/>
+                        <ListView ItemsSource="{Binding Tag4}"
+                            HasUnevenRows="True"
+                            CachingStrategy="RecycleElement"
+                            SelectionMode="None"
+                            BackgroundColor="Transparent">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Padding="10" Spacing="10">
+                                            <Label FontSize="Large" Text="{Binding Strophe}" TextColor="Black" />
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+
+    <!--#region TAG 5 -->
+      <ContentPage Title="5" Background="#eeeeee" >
+         <Grid>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8" />-->
+             <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <ScrollView>
+                <StackLayout>
+                        <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                            <Label Text="TAG 5 DER NOVENE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                                    HeightRequest="55" Margin="5"/>
+                        </pcv:PancakeView>
+                        <Button Style="{x:StaticResource ButtonRound}"
+                            Command="{Binding GoToLesezeichenPageCommand}"
+                            Margin="0,-35,20,20"/>
+                        <ListView ItemsSource="{Binding Tag5}"
+                            HasUnevenRows="True"
+                            CachingStrategy="RecycleElement"
+                            SelectionMode="None"
+                            BackgroundColor="Transparent">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Padding="10" Spacing="10">
+                                            <Label FontSize="Large" Text="{Binding Strophe}" TextColor="Black" />
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+
+    <!--#region TAG 6 -->
+      <ContentPage Title="6" Background="#eeeeee" >
+         <Grid>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8" />-->
+             <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <ScrollView>
+                <StackLayout>
+                        <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                            <Label Text="TAG 6 DER NOVENE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                                    HeightRequest="55" Margin="5"/>
+                        </pcv:PancakeView>
+                        <Button Style="{x:StaticResource ButtonRound}"
+                            Command="{Binding GoToLesezeichenPageCommand}"
+                            Margin="0,-35,20,20"/>
+                        <ListView ItemsSource="{Binding Tag6}"
+                            HasUnevenRows="True"
+                            CachingStrategy="RecycleElement"
+                            SelectionMode="None"
+                            BackgroundColor="Transparent">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Padding="10" Spacing="10">
+                                            <Label FontSize="Large" Text="{Binding Strophe}" TextColor="Black" />
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+
+    <!--#region TAG 7 -->
+      <ContentPage Title="7" Background="#eeeeee" >
+        <Grid>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8" />-->
+            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <ScrollView>
+                <StackLayout>
+                        <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                            <Label Text="TAG 7 DER NOVENE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                                    HeightRequest="55" Margin="5"/>
+                        </pcv:PancakeView>
+                        <Button Style="{x:StaticResource ButtonRound}"
+                            Command="{Binding GoToLesezeichenPageCommand}"
+                            Margin="0,-35,20,20"/>
+                        <ListView ItemsSource="{Binding Tag7}"
+                            HasUnevenRows="True"
+                            CachingStrategy="RecycleElement"
+                            SelectionMode="None"
+                            BackgroundColor="Transparent">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Padding="10" Spacing="10">
+                                            <Label FontSize="Large" Text="{Binding Strophe}" TextColor="Black" />
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+
+    <!--#region TAG 8 -->
+      <ContentPage Title="8" Background="#eeeeee" >
+         <Grid>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8" />-->
+             <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <ScrollView>
+                <StackLayout>
+                    <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                        <Label Text="TAG 8 DER NOVENE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                                HeightRequest="55" Margin="5"/>
+                    </pcv:PancakeView>
+                    <Button Style="{x:StaticResource ButtonRound}"
+                        Command="{Binding GoToLesezeichenPageCommand}"
+                        Margin="0,-35,20,20"/>
+                    <ListView ItemsSource="{Binding Tag8}"
+                        HasUnevenRows="True"
+                        CachingStrategy="RecycleElement"
+                        SelectionMode="None"
+                        BackgroundColor="Transparent">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Padding="10" Spacing="10">
+                                        <Label FontSize="Large" Text="{Binding Strophe}" TextColor="Black" />
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+
+    <!--#region TAG 9 -->
+      <ContentPage Title="9" Background="#eeeeee" >
+         <Grid>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8" />-->
+             <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <ScrollView>
+                <StackLayout>
+                    <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                        <Label Text="TAG 9 DER NOVENE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
+                                HeightRequest="55" Margin="5"/>
+                    </pcv:PancakeView>
+                    <Button Style="{x:StaticResource ButtonRound}"
+                        Command="{Binding GoToLesezeichenPageCommand}"
+                        Margin="0,-35,20,20"/>
+                    <ListView ItemsSource="{Binding Tag9}"
+                        HasUnevenRows="True"
+                        CachingStrategy="RecycleElement"
+                        SelectionMode="None"
+                        BackgroundColor="Transparent">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Padding="10" Spacing="10">
+                                        <Label FontSize="Large" Text="{Binding Strophe}" TextColor="Black" />
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+
+</TabbedPage>

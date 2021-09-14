@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:pcv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+            xmlns:magic="http://magic.com/schemas/gradients"
+            x:Class="Novenen.Views.JahrestagMedjugorjeGebete"
+            Visual="Material"
+            BarBackgroundColor="{OnPlatform iOS=White, Android=DarkGoldenRod}"
+            Title="zurück zu Novene der Jahreserscheinung">
+
+    <!--<TabbedPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="ContentPage">
+                <Setter Property="BackgroundColor" Value="{StaticResource Primary_Light}"/>
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="{StaticResource Primary_Text}"/>
+            </Style>
+        </ResourceDictionary>
+    </TabbedPage.Resources>-->
+    
+    <!--#region GEBET ZUR KÖNIGIN DES FRIEDENS -->
+    <ContentPage Title="1. zur Königin" >
+        <Grid>
+            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
+            <ScrollView Padding="10" >
+                <ListView x:Name="MyListGebetZurKoenigingDesFrieden"
+                    HasUnevenRows="True"
+                    CachingStrategy="RecycleElement"
+                    SelectionMode="None"
+                    SeparatorVisibility="None"
+                    BackgroundColor="Transparent">
+                    <ListView.Header>
+                        <Label Text="Königin des Friedens" FontFamily="OS-B" HorizontalTextAlignment="Center" 
+                        TextColor="Black" FontSize="32"/>
+                    </ListView.Header>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Label Padding="5" Text="{Binding Strophe}" FontSize="Large" HorizontalTextAlignment="Center" />
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollView>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+    
+    <!--#region GEBET ZUM HEILIGEN GEIST -->
+    <ContentPage Title="2. Hl. Geist" >
+        <Grid>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
+            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <ScrollView Padding="10" >
+                <ListView x:Name="MyListHeiligerGeist"
+                    HasUnevenRows="True"
+                    CachingStrategy="RecycleElement"
+                    SelectionMode="None"
+                    SeparatorVisibility="None"
+                    BackgroundColor="Transparent">
+                    <ListView.Header>
+                        <Label Text="Komm Schöpfer Geist" FontFamily="OS-B" HorizontalTextAlignment="Center" 
+                        TextColor="Black" FontSize="32"/>
+                    </ListView.Header>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Label Padding="5" Text="{Binding Strophe}" FontSize="Large" HorizontalTextAlignment="Center" />
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollView>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+
+    <!--#region GLORREICHER ROSENKRANZ -->
+    <ContentPage Title="3. Rosenkranz" >
+        <Grid>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
+            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <ScrollView Padding="10" >
+                <ListView x:Name="MyListGlorreichenGehemnisse"
+                    HasUnevenRows="True"
+                    CachingStrategy="RecycleElement"
+                    SelectionMode="None"
+                    SeparatorVisibility="None"
+                    BackgroundColor="Transparent">
+                    <ListView.Header>
+                        <Label Text="Glorreicher Rosenkranz" FontFamily="OS-B" HorizontalTextAlignment="Center" 
+                        TextColor="Black" FontSize="32"/>
+                    </ListView.Header>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Label Padding="5" Text="{Binding Strophe}" FontSize="Large" HorizontalTextAlignment="Center" />
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollView>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+
+    <!--#region LAURETANISCHE LITANEI -->
+     <ContentPage Title="4. Litanei" >
+        <Grid>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
+            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <ScrollView Padding="10" >
+                <ListView x:Name="MyListLauretanischeLitanei"
+                    HasUnevenRows="True"
+                    CachingStrategy="RecycleElement"
+                    SelectionMode="None"
+                    SeparatorVisibility="None"
+                    BackgroundColor="Transparent">
+                    <ListView.Header>
+                        <Label Text="Lauretanische Litanei" FontFamily="OS-B" HorizontalTextAlignment="Center" 
+                        TextColor="Black" FontSize="32"/>
+                    </ListView.Header>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Label Padding="5" Text="{Binding Strophe}" FontSize="Large" HorizontalTextAlignment="Center" />
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollView>
+        </Grid>
+    </ContentPage>
+    <!--#endregion-->
+    
+</TabbedPage>

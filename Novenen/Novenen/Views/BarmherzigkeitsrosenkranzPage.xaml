@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:pcv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Class="Novenen.Views.BarmherzigkeitsrosenkranzPage"
+             xmlns:fontawesome="clr-namespace:FontAwesome"
+             xmlns:magic="http://magic.com/schemas/gradients"
+             Title="Zurück zur Novene">
+
+    <ScrollView>
+        <Grid>
+            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.7" >
+                <magic:GradientView.GradientSource>
+                    <magic:CssGradientSource>
+                        <x:String>
+                            <![CDATA[
+                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
+                             ]]>
+                        </x:String>
+                    </magic:CssGradientSource>
+                </magic:GradientView.GradientSource>
+            </magic:GradientView>
+            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"  />-->
+            <StackLayout>
+                <StackLayout.Background>
+                    <LinearGradientBrush EndPoint="0,1">
+                        <GradientStop Color="DarkGoldenrod"  Offset="0.1"/>
+                        <GradientStop Color="Transparent"  Offset="0.4"/>
+                    </LinearGradientBrush>
+                </StackLayout.Background>
+                <Label Grid.RowSpan="3" Text="Rosenkranz zur Göttlichen Barmherzigkeit" FontFamily="OS-B" HorizontalTextAlignment="Center" 
+                    TextColor="Black" FontSize="28" Margin="15"/>
+                <Image Source="jesus_barmherzigkeit.jpg" Aspect="AspectFill" HeightRequest="177" />
+                <ListView x:Name="MyListViewBarmherzigkeitsrosenkranz"
+                    HasUnevenRows="True"
+                    CachingStrategy="RecycleElement"
+                    SelectionMode="None"
+                    BackgroundColor="Transparent"
+                    Grid.Row="6" Grid.RowSpan="7">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Padding="10" Spacing="10">
+                                    <Label Text="{Binding Strophe}" HorizontalTextAlignment="Center" FontSize="Large" />
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </Grid>
+    </ScrollView>
+</ContentPage>

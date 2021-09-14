@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Novenen.Views.AboutPage"
+             xmlns:vm="clr-namespace:Novenen.ViewModels"
+             xmlns:model="clr-namespace:Novenen.Models"
+             x:DataType="vm:AboutViewModel"
+             xmlns:cards="clr-namespace:Syncfusion.XForms.Cards;assembly=Syncfusion.Cards.XForms"
+             xmlns:xamanimation="clr-namespace:Xamanimation;assembly=Xamanimation"
+             xmlns:converters="clr-namespace:Novenen.Converters"
+             xmlns:pcv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             Visual="Default"
+             Title="Novenen"
+             BackgroundColor="Black">
+    <ContentPage.BindingContext>
+        <vm:AboutViewModel />
+    </ContentPage.BindingContext>
+
+    <ContentPage.Resources>
+        <converters:ScrollValueConverter x:Key="ScrollValueConverter" />
+    </ContentPage.Resources>
+
+    <!--<cards:SfCardLayout SwipeDirection="Left" HeightRequest="500" BackgroundColor="#eeeeee">
+        <cards:SfCardView Margin="10">
+                <StackLayout>
+                    <Image Source="{Binding NovenenAuswahl[0].Image}" Aspect="AspectFill"/>
+                    <Label Text="{Binding NovenenAuswahl[0].Header}" FontSize="26" FontAttributes="Bold" />
+                    <Label Text="{Binding NovenenAuswahl[0].Strophe}" FontSize="22"/>
+                    <Button Text="Zur Novene" CommandParameter="{Binding NovenenAuswahl[0].Header}"
+                            Command="{Binding GotoNoveneCommand}" />
+                </StackLayout>
+        </cards:SfCardView>
+        <cards:SfCardView Margin="10">
+                <StackLayout>
+                    <Image Source="{Binding NovenenAuswahl[1].Image}" Aspect="AspectFill"/>
+                    <Label Text="{Binding NovenenAuswahl[1].Header}" FontSize="26" FontAttributes="Bold" />
+                    <Label Text="{Binding NovenenAuswahl[1].Strophe}" FontSize="22"/>
+                    <Button Text="Zur Novene" CommandParameter="{Binding NovenenAuswahl[1].Header}"
+                            Command="{Binding GotoNoveneCommand}" />
+                </StackLayout>
+        </cards:SfCardView>
+    </cards:SfCardLayout>-->
+    <Grid>
+        <BoxView BackgroundColor="#eeeeee" Background="Transparent" HorizontalOptions="Fill"
+                TranslationY="{Binding RelativeScrollY, Source={x:Reference myScrollView},
+                Converter={StaticResource ScrollValueConverter}, ConverterParameter='-10;0;200;false;0'}"/>
+
+        <Image Source="maria_aboutpage" Aspect="AspectFill" VerticalOptions="StartAndExpand" Margin="0,-42,0,0">
+            <Image.Behaviors>
+                <xamanimation:AnimateProgressDouble
+                    TargetProperty="VisualElement.Opacity"
+                    Progress="{Binding ScrollY, Source={x:Reference myScrollView}}"
+                    Minimum="0" Maximum="180"
+                    From="0" To="1"/>
+            </Image.Behaviors>
+        </Image>    
+        <BoxView Color="Black" HorizontalOptions="Fill" Opacity="0.3" Margin="0" CornerRadius="-20"/>
+        <Image Source="maria_apostel" Aspect="AspectFill" VerticalOptions="StartAndExpand" Margin="0,-42,0,0"
+            TranslationY="{Binding RelativeScrollY, Source={x:Reference myScrollView},
+            Converter={StaticResource ScrollValueConverter}, ConverterParameter='-10;0;200;false;0'}">
+            <Image.Behaviors>
+                <xamanimation:AnimateProgressDouble
+                    TargetProperty="VisualElement.Opacity"
+                    Progress="{Binding ScrollY, Source={x:Reference myScrollView}}"
+                    Minimum="0" Maximum="180"
+                    From="1" To="0"/>
+            </Image.Behaviors>
+        </Image>
+        <BoxView Color="Black" HorizontalOptions="Fill" Opacity="0.2" Margin="0" CornerRadius="-20"/>
+        <Label Text="N O V E N E N" FontFamily="OS-B" FontSize="28" TextColor="WhiteSmoke" Margin="15,310,0,10" HorizontalOptions="Start"
+                TranslationY="{Binding RelativeScrollY, Source={x:Reference myScrollView},
+            Converter={StaticResource ScrollValueConverter}, ConverterParameter='-5;0;200;false;0'}">
+            <Label.Behaviors>
+                <xamanimation:AnimateProgressDouble
+                    TargetProperty="VisualElement.Opacity"
+                    Progress="{Binding ScrollY, Source={x:Reference myScrollView}}"
+                    Minimum="0" Maximum="180"
+                    From="1" To="0"/>
+            </Label.Behaviors>
+        </Label>
+        
+        <!--<BoxView BackgroundColor="Black" Opacity="0.5"/>-->  
+        <!--<StackLayout>
+            <Button Text="{x:Static fontawesome:FontAwesomeIcons.InfoCircle}" FontFamily="FA-S" Margin="0,285,20,0" TextColor="White"
+                BackgroundColor="Transparent" HeightRequest="80" WidthRequest="80" CornerRadius="40" HorizontalOptions="End" FontSize="32"
+                Command="{Binding ShowInfoAboutNovenenCommand}" BorderColor="White" />
+        </StackLayout>-->
+            <!--<Label.Behaviors>
+            <behaviors:EventToCommandBehavior EventName="TapGestureRecognizer" Command="{Binding ShowInfoAboutNovenenCommand}" />
+            </Label.Behaviors>-->
+
+         <!--xct:TouchEffect.AnimationDuration="500"
+        xct:TouchEffect.AnimationEasing="CubicInOut"
+        xct:TouchEffect.PressedScale="1.5"-->
+           
+            <ScrollView>
+                <ScrollView.Behaviors>
+                    <xamanimation:ScrollViewScrollBehavior x:Name="myScrollView"/>
+                </ScrollView.Behaviors>
+                <ListView ItemsSource="{Binding NovenenAuswahl, Mode=OneTime}"
+                        HasUnevenRows="True"
+                        CachingStrategy="RecycleElement"
+                        SeparatorVisibility="None"
+                        BackgroundColor="WhiteSmoke"
+                        Margin="0,350,0,0">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="model:Novene">
+                            <ViewCell>
+                                <cards:SfCardView Margin="10" HasShadow="True"
+                                        xct:TouchEffect.NativeAnimation="True"
+                                        xct:TouchEffect.Command="{Binding Source={RelativeSource AncestorType={x:Type vm:AboutViewModel}}, Path=GotoNoveneCommand,Mode=OneTime}"
+                                        xct:TouchEffect.CommandParameter="{Binding Header, Mode=OneTime}">
+                                        <StackLayout>
+                                            <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+                                                <pcv:PancakeView Sides="128" Margin="7"
+                                                            Border="{pcv:BorderMarkup Thickness=5, Color=#eeeeee}"
+                                                            Shadow="{pcv:ShadowMarkup Color=Black, BlurRadius='10', Offset='10,10', Opacity='0.8'}">
+                                                    <ImageButton Source="{Binding Image,Mode=OneTime}" Aspect="AspectFill" HeightRequest="80" WidthRequest="80" CornerRadius="40" 
+                                                            CommandParameter="{Binding Header, Mode=OneTime}" Command="{Binding Source={RelativeSource AncestorType={x:Type vm:AboutViewModel}}, Path=GotoNoveneCommand, Mode=OneTime}"/>
+                                                </pcv:PancakeView>
+                                                <Label Text="{Binding Header, Mode=OneTime}" VerticalTextAlignment="Center" FontSize="24" FontAttributes="Bold" Margin="10,0,5,0"/>
+                                            </StackLayout>
+                                            <Label Text="{Binding Strophe, Mode=OneTime}" FontSize="22" HorizontalTextAlignment="Center" Margin="5" />
+                                        </StackLayout>
+                                </cards:SfCardView>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </ScrollView>
+
+        <!--<Button Margin="0,120,25,0" Text="{x:Static fontawesome:FontAwesomeIcons.InfoCircle}" FontFamily="FA-S" BackgroundColor="Transparent"
+                HeightRequest="70" WidthRequest="70" CornerRadius="35" BorderColor="Transparent" FontSize="36"
+                HorizontalOptions="End" Command="{Binding Source={x:RelativeSource AncestorType={x:Type vm:AboutViewModel}}, Path=OpenInfoCommand}" TextColor="OrangeRed"
+                TranslationY="{Binding RelativeScrollY, Source={x:Reference myScrollView},
+                Converter={StaticResource ScrollValueConverter}, ConverterParameter='-10;0;200;false;0'}">
+             <Button.Behaviors>
+                <xamanimation:AnimateProgressDouble
+                    TargetProperty="VisualElement.Opacity"
+                    Progress="{Binding ScrollY, Source={x:Reference myScrollView}}"
+                    Minimum="0" Maximum="180"
+                    From="1" To="0"/>
+            </Button.Behaviors>
+        </Button>-->
+     
+    </Grid>
+</ContentPage>

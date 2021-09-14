@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <!--<style name="MainTheme" parent="MainTheme.Base">
+    --><!-- As of Xamarin.Forms 4.6 the theme has moved into the Forms binary --><!--
+    --><!-- If you want to override anything you can do that here. --><!--
+    --><!-- Underneath are a couple of entries to get you started. --><!--
+
+    --><!-- Set theme colors from https://aka.ms/material-colors --><!--
+    --><!-- colorPrimary is used for the default action bar background --><!--
+    --><!--<item name="colorPrimary">#2196F3</item>--><!--
+    --><!-- colorPrimaryDark is used for the status bar --><!--
+    --><!--<item name="colorPrimaryDark">#1976D2</item>--><!--
+    --><!-- colorAccent is used as the default value for colorControlActivated
+         which is used to tint widgets --><!--
+    --><!--<item name="colorAccent">#FF4081</item>--><!--
+  </style>-->
+
+  <style name="MyTheme.Base" parent="Theme.AppCompat.Light">
+  </style>
+
+  <style name="MyTheme" parent="MyTheme.Base">
+  </style>
+  
+  <style name="MyTheme.Splash" parent ="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowBackground">@drawable/splash_screen</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+    <!--<item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowActionBar">false</item>-->
+  </style>
+  <!--MONTEMAGNO--><!--
+    <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+	    <item>
+		    <color android:color="@color/splash_background" />
+	    </item>
+	    <item>
+		    <bitmap android:src="@drawable/image_splash_logo" android:tileMode="disabled" android:gravity="center" android:layout_gravity="center" />
+	    </item>
+    </layer-list>
+  </style>
+  
+  --><!--MONTEMANGO--><!--
+  <style name="SplashTheme" parent="SplashTheme.Base">
+      --><!-- Set theme colors from http://www.google.com/design/spec/style/color.html#color-color-palette--><!--
+      --><!-- colorPrimary is used for the default action bar background --><!--
+      <item name="colorPrimary">@color/primary</item>
+      --><!-- colorPrimaryDark is used for the status bar --><!--
+      <item name="colorPrimaryDark">@color/primary_dark</item>
+      --><!-- colorAccent is used as the default value for colorControlActivated
+           which is used to tint widgets --><!--
+      <item name="colorAccent">@color/accent</item>
+    </style>
+    <style name="SplashTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+      <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>-->
+    
+</resources>
