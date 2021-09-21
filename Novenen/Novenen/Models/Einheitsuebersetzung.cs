@@ -19,6 +19,8 @@ namespace Novenen.Models
         //[Name("Kapiteltext")]
         [JsonProperty("Kapiteltext")]
         public string Kapiteltext { get; set; }
+        
+        public long LfdNr { get; set; }
 
         
     }

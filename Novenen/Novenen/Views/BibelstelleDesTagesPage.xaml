@@ -8,8 +8,9 @@
              xmlns:magic="http://magic.com/schemas/gradients"
              xmlns:converters="clr-namespace:Novenen.Converters"
              BackgroundColor="Black"
-             Title="Bibelstelle ziehen"
+             Title="Bibelstelle ziehen" 
              Visual="Material">
+    
     <!--<NavigationPage.TitleView>
         <Button Text="TEST" TextColor="White" />
         <Label Text="{x:Static fontawesome:FontAwesomeIcons.InfoCircle}" FontFamily="FA-S" FontSize="38" VerticalOptions="Center" 
@@ -58,9 +59,10 @@
             </pcv:PancakeView>
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center" Spacing="20">
                 <Button Text="Hier Bibelstelle ziehen" HorizontalOptions="Center" VerticalOptions="Center" Command="{Binding BibeltextAuswaehlen}" />
-                <Label Text="{x:Static fontawesome:FontAwesomeIcons.InfoCircle}" FontFamily="FA-S" FontSize="38" VerticalOptions="Center" 
-                       TextColor="DarkGoldenrod" VerticalTextAlignment="Center"  Opacity="0.8">
+                <Label x:Name="lblInfoBibelstelle" Text="{x:Static fontawesome:FontAwesomeIcons.InfoCircle}" FontFamily="FA-S" FontSize="38" VerticalOptions="Center" 
+                       TextColor="DarkGoldenrod" VerticalTextAlignment="Center">
                     <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
                         <TapGestureRecognizer Command="{Binding GetInfoCommand}"/>
                     </Label.GestureRecognizers>
                 </Label>

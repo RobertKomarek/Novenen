@@ -14,17 +14,17 @@ namespace Novenen.ViewModels
     {
         public ICommand BibeltextAuswaehlen { get; set; }
         public ICommand GetInfoCommand { get; set; } = new Command(async () => await App.Current.MainPage.DisplayAlert
-            (
-                "Info",
+        (
+            "Info",
 
-                "\"Bittet und es wird euch gegeben; sucht und ihr werdet finden; klopft an und es wird euch geöffnet\""
-                + " (Matthäus  7,7 und Lukas  11,9)" + Environment.NewLine + Environment.NewLine +
-                "Eine Möglichkeit, um ein Zeichen von Gott in einer bestimmten Frage zu bekommen, ist z.B. das Aufschlagen der Bibel. " +
-                "Zuvor solltest Du ein Gebet verrichten:" + Environment.NewLine + Environment.NewLine +
-                "\"HIMMLISCHER VATER, DEIN WORT IST MEINEM FUß EINE LEUCHTE, EIN LICHT FÜR MEINE PFADE\" (Psalm 119)",
+            "\"Bittet und es wird euch gegeben; sucht und ihr werdet finden; klopft an und es wird euch geöffnet\""
+            + " (Matthäus  7,7 und Lukas  11,9)" + Environment.NewLine + Environment.NewLine +
+            "Eine Möglichkeit, um ein Zeichen von Gott in einer bestimmten Frage zu bekommen, ist z.B. das Aufschlagen der Bibel. " +
+            "Zuvor solltest Du ein Gebet verrichten:" + Environment.NewLine + Environment.NewLine +
+            "\"HIMMLISCHER VATER, DEIN WORT IST MEINEM FUß EINE LEUCHTE, EIN LICHT FÜR MEINE PFADE\" (Psalm 119)",
 
-                "OK"
-            ));
+            "OK"
+        ));
 
         public ObservableCollection<Einheitsuebersetzung> EinheitsuebersetzungBibel { get; set; }
 

@@ -28,7 +28,7 @@ namespace Novenen.ViewModels
         private ObservableCollection<Bookmark> _selectedLesezeichenIndex;
 
         private string _pickedNovene;
-        private int _pickedTag;
+        private int? _pickedTag;
         private bool _isEnabled;
         private Bookmark _selectedIndex;
         //private int _fontsizeLabelTag;
@@ -85,7 +85,7 @@ namespace Novenen.ViewModels
                 //}
             }
         }
-        public int PickedTag
+        public int? PickedTag
         {
             get { return _pickedTag; }
             set
@@ -122,6 +122,7 @@ namespace Novenen.ViewModels
         {
             //Button Lesezeichen Speichern
             //FontsizeLabelTag = 23;
+            PickedTag = null;
             IsEnabled = false;
             Bookmarks = new ObservableCollection<Bookmark>();
             SelectedLesezeichenIndex = new ObservableCollection<Bookmark>();
@@ -157,7 +158,7 @@ namespace Novenen.ViewModels
         {
             var index = Bookmarks.FirstOrDefault(x => x.Novene == novene);
             int i = Bookmarks.IndexOf(index);
-            int naechsterTag = Bookmarks[i].Tag;
+            int? naechsterTag = Bookmarks[i].Tag;
             if (naechsterTag >= 2)
             {
                 naechsterTag--;
@@ -187,7 +188,7 @@ namespace Novenen.ViewModels
         {
             var index = Bookmarks.FirstOrDefault(x => x.Novene == novene);
             int i = Bookmarks.IndexOf(index);
-            int naechsterTag = Bookmarks[i].Tag;
+            int? naechsterTag = Bookmarks[i].Tag;
             if (naechsterTag <= 8)
             {
                 naechsterTag++;
@@ -268,7 +269,7 @@ namespace Novenen.ViewModels
                 string LesezeichenJson = JsonConvert.SerializeObject(Bookmarks);
                 SetProperties("JsonLesezeichen", LesezeichenJson);
 
-                await App.Current.MainPage.DisplayToastAsync(nameNovene + ", " + tagNovene + " gelöscht!", 5000);
+                await App.Current.MainPage.DisplayToastAsync(nameNovene + ", Tag " + tagNovene + " gelöscht!", 5000);
             }
         }
 
@@ -290,7 +291,7 @@ namespace Novenen.ViewModels
                 }
 
                 //TOAST-MITTEILUNG WELCHE NOVENE GESPEICHERT WURDE
-                var speicherText = PickedNovene + ", " + PickedTag + " hinzugefügt!";
+                var speicherText = PickedNovene + ", Tag " + PickedTag + " hinzugefügt!";
                 App.Current.MainPage.DisplayToastAsync(new ToastOptions
                 {
                     BackgroundColor = Color.Green,
@@ -328,7 +329,7 @@ namespace Novenen.ViewModels
             else
             {
                 //TOAST-MITTEILUNG WELCHE NOVENE GESPEICHERT WURDE
-                var speicherText = PickedNovene + ", " + PickedTag + " hinzugefügt!";
+                var speicherText = PickedNovene + ", Tag " + PickedTag + " hinzugefügt!";
                 App.Current.MainPage.DisplayToastAsync(new ToastOptions
                 {
                     BackgroundColor = Color.Green,
@@ -385,7 +386,6 @@ namespace Novenen.ViewModels
             await app.SavePropertiesAsync();
         }
 
-       
 
     }
 }

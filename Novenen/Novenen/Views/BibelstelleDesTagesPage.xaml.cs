@@ -19,6 +19,11 @@ namespace Novenen.Views
             //NavigationPage.SetHasNavigationBar(this, false);
         }
 
-        
+        async void TapGestureRecognizer_Tapped(System.Object sender, System.EventArgs e)
+        {
+            await lblInfoBibelstelle.ScaleTo(1.7, 500);
+            await lblInfoBibelstelle.ScaleTo(1, 500, Easing.SpringOut);
+        }
+
     }
 }

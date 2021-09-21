@@ -13,7 +13,7 @@ namespace Novenen.Models
         //public CheckBox IsChecked { get; set; }
         public string Novene { get; set; }
         public int CheckBoxID { get; set; }
-        public int Tag { get; set; }
+        public int? Tag { get; set; }
         public string Date { get; set; }
         public int ID { get; set; }
         public string BookmarkImage { get; set; }

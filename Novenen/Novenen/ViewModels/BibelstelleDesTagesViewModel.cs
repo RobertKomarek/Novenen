@@ -1,8 +1,10 @@
 ﻿using Newtonsoft.Json;
 using Novenen.Models;
 using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.IO;
+using System.Linq;
 using System.Windows.Input;
 using Xamarin.Forms;
 using System.Timers;
@@ -10,20 +12,20 @@ using System.Reflection;
 
 namespace Novenen.ViewModels
 {
-
     public class BibelstelleDesTagesViewModel : BaseViewModel
     {
-
         public ICommand BibeltextAuswaehlen { get; set; }
+        public ICommand BibelstelleVorCommand { get; set; }
+        public ICommand BibelstelleZurueckCommand { get; set; }
         public ObservableCollection<Einheitsuebersetzung> EinheitsuebersetzungBibel { get; set; }
-
+        
         private double _myOpacity;
         public double MyOpacity
         {
             get { return _myOpacity; }
             set { _myOpacity = value; OnPropertyChanged(); }
         }
-
+        
         private string _buch;
         public string Buch
         {
@@ -56,23 +58,23 @@ namespace Novenen.ViewModels
         public string Einleitung { get; set; }
         public string EinleitungGebet { get; set; }
         public string EinleitungMatthaeusLukas { get; set; }
-        public ObservableCollection<string> KapitelATundNT { get; set; }
-
-
+        // public ObservableCollection<string> KapitelATundNT { get; set; }
+    
+        private int RandomNumber { get; set; }
         public BibelstelleDesTagesViewModel()
         {
             MyOpacity = 0;
 
             EinheitsuebersetzungBibel = MeineEinheitsuebersetzung();
             var random = new Random();
-            var randomNumber = random.Next(EinheitsuebersetzungBibel.Count);
-            Buch = EinheitsuebersetzungBibel[randomNumber].Buch;
-            Buchname = EinheitsuebersetzungBibel[randomNumber].Buchname;
-            Kapitel = EinheitsuebersetzungBibel[randomNumber].Kapitel;
-            KapitelText = EinheitsuebersetzungBibel[randomNumber].Kapiteltext;
+            RandomNumber = random.Next(EinheitsuebersetzungBibel.Count);
+            Buch = EinheitsuebersetzungBibel[RandomNumber].Buch;
+            Buchname = EinheitsuebersetzungBibel[RandomNumber].Buchname;
+            Kapitel = EinheitsuebersetzungBibel[RandomNumber].Kapitel;
+            KapitelText = EinheitsuebersetzungBibel[RandomNumber].Kapiteltext;
 
-            EinleitungMatthaeusLukas = "\"Bittet und es wird euch gegeben; sucht und ihr werdet finden; klopft an und es wird euch geöffnet"
-            + Environment.NewLine + "(Matthäus  7,7 und Lukas  11,9)\"";
+            EinleitungMatthaeusLukas = "\"Bittet und es wird euch gegeben; sucht und ihr werdet finden; klopft an und es wird euch geöffnet"
+            + Environment.NewLine + "(Matthäus 7,7 und Lukas 11,9)\"";
 
             Einleitung = "Eine Möglichkeit, um ein Zeichen von Gott in einer bestimmten Frage zu bekommen, " +
                 "ist z.B. das Aufschlagen der Bibel. Tippe auf den obigen Button, um eine persönliche " +
@@ -83,8 +85,9 @@ namespace Novenen.ViewModels
                 "meine Pfade (Psalm 119)\"s";
 
             BibeltextAuswaehlen = new Command(MeinenBibelTextAuswaehlen);
-
-            KapitelATundNT = new ObservableCollection<string>()
+            BibelstelleVorCommand = new Command(BibelstelleVor);
+            BibelstelleZurueckCommand = new Command(BibelstelleZurueck);
+            /*KapitelATundNT = new ObservableCollection<string>()
             {  
                 #region NEUES TESTAMENT
 		        "1.Joh_1.html",
@@ -1422,13 +1425,29 @@ namespace Novenen.ViewModels
 
 	#endregion
 
-            };
+            };*/
         }
 
-        public ObservableCollection<Einheitsuebersetzung> MeineEinheitsuebersetzung()
+        private void BibelstelleZurueck()
         {
-            var einheitsuebersetzung = new ObservableCollection<Einheitsuebersetzung>();
+            Buch = EinheitsuebersetzungBibel[RandomNumber--].Buch;
+            Buchname = EinheitsuebersetzungBibel[RandomNumber--].Buchname;
+            Kapitel = EinheitsuebersetzungBibel[RandomNumber--].Kapitel;
+            KapitelText = EinheitsuebersetzungBibel[RandomNumber--].Kapiteltext;
+        }
 
+        private void BibelstelleVor()
+        {
+            Buch = EinheitsuebersetzungBibel[RandomNumber++].Buch;
+            Buchname = EinheitsuebersetzungBibel[RandomNumber++].Buchname;
+            Kapitel = EinheitsuebersetzungBibel[RandomNumber++].Kapitel;
+            KapitelText = EinheitsuebersetzungBibel[RandomNumber++].Kapiteltext;
+        }
+
+        private ObservableCollection<Einheitsuebersetzung> MeineEinheitsuebersetzung()
+        {
+            // var einheitsuebersetzung = new ObservableCollection<Einheitsuebersetzung>();
+            var einheitsuebersetzung = new List<Einheitsuebersetzung>();
             var assembly = typeof(BibelstelleDesTagesViewModel).GetTypeInfo().Assembly;
             //Stream stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.{"Resources.Einheitsuebersetzung1980.json"}");
             Stream stream = assembly.GetManifestResourceStream("Novenen.Resources.Einheitsuebersetzung1980.json");
@@ -1438,17 +1457,18 @@ namespace Novenen.ViewModels
                 if (reader != null)
                 {
                     var jsonString = reader.ReadToEnd();
-                    einheitsuebersetzung  = JsonConvert.DeserializeObject<ObservableCollection<Einheitsuebersetzung>>(jsonString);
+                    // einheitsuebersetzung  = JsonConvert.DeserializeObject<ObservableCollection<Einheitsuebersetzung>>(jsonString);
+                    einheitsuebersetzung = JsonConvert.DeserializeObject<List<Einheitsuebersetzung>>(jsonString).OrderBy(x => x.LfdNr).ToList();
+                    // einheitsuebersetzung = einheitsuebersetzung.OrderBy(x => x.LfdNr).ToList();
                 }
             }
 
-            return einheitsuebersetzung;
-
+            ObservableCollection<Einheitsuebersetzung> einheitsuebersetzungSorted = new ObservableCollection<Einheitsuebersetzung>(einheitsuebersetzung);
+            return einheitsuebersetzungSorted;
         }
-        
+
         async void MeinenBibelTextAuswaehlen()
         {
-
             await Shell.Current.GoToAsync("BibelstellePage");
 
             //MyTimer = new Timer(100);
@@ -1459,35 +1479,35 @@ namespace Novenen.ViewModels
             //    MyTimer.Elapsed += FadeOut;
         }
 
-        //private void FadeOut(object sender, ElapsedEventArgs e)
-        //{
-        //    if (MyOpacity <= 0)
-        //    {
-        //        MyTimer.Stop();
-        //        MyTimer.Start();
-        //        MyTimer.Elapsed += FadeIn;
-        //    }
-        //    else
-        //    {
-        //        MyOpacity -= 0.05;
-        //    }
-        //}
-
-        private void FadeIn(object sender, ElapsedEventArgs e)
+        /*private void FadeIn(object sender, ElapsedEventArgs e)
+             {
+                 if (MyOpacity >= 1)
+                 {
+                     MyTimer.Stop();
+                     //ButtonEnabled = true;
+                 }
+                 else
+                 {
+                     MyOpacity += 0.05;
+                 }
+      
+             }*/
+        
+        /*private void FadeOut(object sender, ElapsedEventArgs e)
         {
-            if (MyOpacity >= 1)
+            if (MyOpacity <= 0)
             {
                 MyTimer.Stop();
-                //ButtonEnabled = true;
+                MyTimer.Start();
+                MyTimer.Elapsed += FadeIn;
             }
             else
             {
-                MyOpacity += 0.05;
+                MyOpacity -= 0.05;
             }
-
-        }
+        }*/
+       
     }
-
        
 }
 

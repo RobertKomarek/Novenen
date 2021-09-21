@@ -78,14 +78,12 @@
             </Style>
 
             <Style TargetType="Button">
-                <!--<Setter Property="BackgroundColor" Value="#FF5722"/>-->
                 <Setter Property="TextColor" Value="{StaticResource Text_Icons}"/>
                 <Setter Property="FontAttributes" Value="Bold" />
                 <Setter Property="FontSize" Value="Medium" />
                 <Setter Property="BorderColor" Value="{StaticResource Secondary_Text}"/>
                 <Setter Property="BorderWidth" Value="1" />
-                <Setter Property="CornerRadius" Value="20"/>
-                <!--<Setter Property="TextColor" Value="White"></Setter>-->
+                <Setter Property="CornerRadius" Value="10"/>
                 <!--<Setter Property="Background">
                     <LinearGradientBrush StartPoint="0,0" EndPoint="1,1" >
                         <GradientStop Color="SlateGray" Offset="0.15" />

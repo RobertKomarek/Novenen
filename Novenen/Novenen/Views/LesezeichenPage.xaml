@@ -44,7 +44,14 @@
                             FontSize="50" HorizontalTextAlignment="Center" Margin="0,0,0,15" />
                     <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="20"  >
                         <Label Text="{Binding PickedNovene, TargetNullValue=Novene}" FontSize="Medium" FontAttributes="Bold" TextColor="Blue" />
-                        <Label Text="{Binding PickedTag, TargetNullValue=Tag}" FontSize="Medium" FontAttributes="Italic" TextColor="Blue" />
+                        <Label>
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Tag " FontSize="Medium" FontAttributes="Italic" TextColor="Blue"/>
+                                    <Span Text="{Binding PickedTag}" FontSize="Medium" FontAttributes="Italic" TextColor="Blue" />
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
                     </StackLayout>
 
                     <StackLayout>

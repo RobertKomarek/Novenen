@@ -39,10 +39,15 @@
     <None Remove="Resources\Avalaqus.otf" />
     <None Remove="Resources\Retroking.ttf" />
     <None Remove="TouchView" />
+    <None Remove="Microsoft.AppCenter.Analytics" />
+    <None Remove="Microsoft.AppCenter.Crashes" />
   </ItemGroup>
 
   
   <ItemGroup>
+    <EmbeddedResource Include="..\..\..\..\Downloads\Einheitsuebersetzung1980.json">
+      <Link>Resources/Einheitsuebersetzung1980.json</Link>
+    </EmbeddedResource>
     <Content Include="obj\Debug\netstandard2.0\Novenen.csproj.FileListAbsolute.txt" />
   </ItemGroup>
 
@@ -53,7 +58,6 @@
     <EmbeddedResource Include="FontAwesome\FontAwesome5Regular.otf" />
     <EmbeddedResource Include="FontAwesome\FontAwesome5Solid.otf" />
     <EmbeddedResource Include="FontAwesome\FontAwesome5Brands.otf" />
-    <EmbeddedResource Include="Resources\Einheitsuebersetzung1980.json" />
     <EmbeddedResource Include="Resources\Milestone.otf" />
     <EmbeddedResource Include="Resources\Franchise.ttf" />
     <EmbeddedResource Include="Resources\FranchiseFilled.ttf" />
@@ -76,6 +80,8 @@
     <PackageReference Include="Xamanimation" Version="1.3.0" />
     <PackageReference Include="MagicGradients" Version="1.3.0" />
     <PackageReference Include="TouchView" Version="4.1.100" />
+    <PackageReference Include="Microsoft.AppCenter.Analytics" Version="4.3.0" />
+    <PackageReference Include="Microsoft.AppCenter.Crashes" Version="4.3.0" />
   </ItemGroup>
 
   <ItemGroup>
