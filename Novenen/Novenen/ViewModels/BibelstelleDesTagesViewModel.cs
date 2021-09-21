@@ -64,7 +64,6 @@ namespace Novenen.ViewModels
         public BibelstelleDesTagesViewModel()
         {
             MyOpacity = 0;
-
             EinheitsuebersetzungBibel = MeineEinheitsuebersetzung();
             var random = new Random();
             RandomNumber = random.Next(EinheitsuebersetzungBibel.Count);
@@ -1430,18 +1429,38 @@ namespace Novenen.ViewModels
 
         private void BibelstelleZurueck()
         {
-            Buch = EinheitsuebersetzungBibel[RandomNumber--].Buch;
-            Buchname = EinheitsuebersetzungBibel[RandomNumber--].Buchname;
-            Kapitel = EinheitsuebersetzungBibel[RandomNumber--].Kapitel;
-            KapitelText = EinheitsuebersetzungBibel[RandomNumber--].Kapiteltext;
+            if (RandomNumber > 0)
+            {
+                RandomNumber--;    
+                
+                Buch = EinheitsuebersetzungBibel[RandomNumber].Buch;
+                Buchname = EinheitsuebersetzungBibel[RandomNumber].Buchname;
+                Kapitel = EinheitsuebersetzungBibel[RandomNumber].Kapitel;
+                KapitelText = EinheitsuebersetzungBibel[RandomNumber].Kapiteltext;
+            }
+            else
+            {
+                App.Current.MainPage.DisplayAlert("Info", "Erstes Buch wird angezeigt! Zurück blättern nicht mehr möglich!", "OK");
+            }
         }
 
         private void BibelstelleVor()
         {
-            Buch = EinheitsuebersetzungBibel[RandomNumber++].Buch;
-            Buchname = EinheitsuebersetzungBibel[RandomNumber++].Buchname;
-            Kapitel = EinheitsuebersetzungBibel[RandomNumber++].Kapitel;
-            KapitelText = EinheitsuebersetzungBibel[RandomNumber++].Kapiteltext;
+
+            if (RandomNumber < EinheitsuebersetzungBibel.Count-1)
+            {
+                RandomNumber++;
+            
+                Buch = EinheitsuebersetzungBibel[RandomNumber].Buch;
+                Buchname = EinheitsuebersetzungBibel[RandomNumber].Buchname;
+                Kapitel = EinheitsuebersetzungBibel[RandomNumber].Kapitel;
+                KapitelText = EinheitsuebersetzungBibel[RandomNumber].Kapiteltext;
+            }
+            else
+            {
+                App.Current.MainPage.DisplayAlert("Info", "Letztes Buch wird bereits angezeigt! Vor blättern nicht mehr möglich!", "OK");
+            }
+                
         }
 
         private ObservableCollection<Einheitsuebersetzung> MeineEinheitsuebersetzung()
@@ -1470,44 +1489,7 @@ namespace Novenen.ViewModels
         async void MeinenBibelTextAuswaehlen()
         {
             await Shell.Current.GoToAsync("BibelstellePage");
-
-            //MyTimer = new Timer(100);
-            //MyTimer.Start();
-            //MyTimer.Elapsed += FadeIn;
-            
-            //    MyTimer.Start();
-            //    MyTimer.Elapsed += FadeOut;
         }
-
-        /*private void FadeIn(object sender, ElapsedEventArgs e)
-             {
-                 if (MyOpacity >= 1)
-                 {
-                     MyTimer.Stop();
-                     //ButtonEnabled = true;
-                 }
-                 else
-                 {
-                     MyOpacity += 0.05;
-                 }
-      
-             }*/
-        
-        /*private void FadeOut(object sender, ElapsedEventArgs e)
-        {
-            if (MyOpacity <= 0)
-            {
-                MyTimer.Stop();
-                MyTimer.Start();
-                MyTimer.Elapsed += FadeIn;
-            }
-            else
-            {
-                MyOpacity -= 0.05;
-            }
-        }*/
-       
-    }
-       
+    }  
 }
 

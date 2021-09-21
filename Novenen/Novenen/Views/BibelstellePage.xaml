@@ -53,21 +53,29 @@
                             </StackLayout>
                         </ScrollView>
                         
-                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20" Padding="25">
-                            <Label Text="{x:Static fontawesome:FontAwesomeIcons.AngleLeft}" FontSize="59" FontFamily="FA-S" TextColor="Black">
-                                <Label.GestureRecognizers>
-                                    <TapGestureRecognizer Command="{Binding BibelstelleVorCommand}"/>
-                                </Label.GestureRecognizers>
-                            </Label>
-                            <Label Text="Zurück" VerticalTextAlignment="Center" FontAttributes="Bold" Margin="0,0,25,0" />
-                            <Label Text="{x:Static fontawesome:FontAwesomeIcons.AngleRight}" FontSize="59" FontFamily="FA-S" TextColor="Black">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Spacing="20" Padding="25">
+                            <Label Text="{x:Static fontawesome:FontAwesomeIcons.AngleLeft}" FontSize="59" FontFamily="FA-S"
+                                   VerticalTextAlignment="End" TextColor="Black">
                                 <Label.GestureRecognizers>
                                     <TapGestureRecognizer Command="{Binding BibelstelleZurueckCommand}"/>
                                 </Label.GestureRecognizers>
                             </Label>
-                            <Label Text="Vor" VerticalTextAlignment="Center" FontAttributes="Bold" />
+                            <Label Text="Zurück" TextColor="Black" VerticalTextAlignment="Center" FontAttributes="Bold" Margin="0,0,25,0">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding BibelstelleZurueckCommand}"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                            <Label Text="{x:Static fontawesome:FontAwesomeIcons.AngleRight}" FontSize="59" FontFamily="FA-S" TextColor="Black">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding BibelstelleVorCommand}"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                            <Label Text="Vor" TextColor="Black"  VerticalTextAlignment="Center" FontAttributes="Bold">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding BibelstelleVorCommand}"/>
+                                </Label.GestureRecognizers>
+                            </Label>
                         </StackLayout>
-                        
                     </StackLayout>
                 </Grid>
     </ContentPage.Content>
