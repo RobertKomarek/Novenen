@@ -38,7 +38,7 @@
                             <StackLayout Spacing="10">
                                 <Grid>
                                     <pcv:PancakeView CornerRadius="0,0,20,20">
-                                        <Image Source="imperial_bible2.jpg" Aspect="AspectFill"/>
+                                        <Image Source="imperial_bible2.jpg" Aspect="AspectFit"/>
                                     </pcv:PancakeView>
                                     <Frame CornerRadius="0" BackgroundColor="Black" Opacity="0.5"/>
                                     <Label Text="{Binding Buchname}" VerticalOptions="Center" TextColor="White" FontFamily="OldStandardBold" FontSize="28" HorizontalTextAlignment="Center" />
@@ -52,6 +52,8 @@
                                 </ScrollView>
                             </StackLayout>
                         </ScrollView>
+                        
+                        <BoxView VerticalOptions="End" HeightRequest="0.7" Color="Black" />
                         
                         <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="EndAndExpand" Spacing="20" Padding="25">
                             <Label Text="{x:Static fontawesome:FontAwesomeIcons.AngleLeft}" FontSize="59" FontFamily="FA-S"
