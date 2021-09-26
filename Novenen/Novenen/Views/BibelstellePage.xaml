@@ -38,9 +38,11 @@
                             <StackLayout Spacing="10">
                                 <Grid>
                                     <pcv:PancakeView CornerRadius="0,0,20,20">
-                                        <Image Source="imperial_bible2.jpg" Aspect="AspectFit"/>
+                                        <Image Source="imperial_bible2.jpg" Aspect="AspectFill"/>
                                     </pcv:PancakeView>
-                                    <Frame CornerRadius="0" BackgroundColor="Black" Opacity="0.5"/>
+                                    <pcv:PancakeView CornerRadius="0,0,20,20">
+                                        <Frame CornerRadius="0" BackgroundColor="Black" Opacity="0.5"/>
+                                    </pcv:PancakeView>
                                     <Label Text="{Binding Buchname}" VerticalOptions="Center" TextColor="White" FontFamily="OldStandardBold" FontSize="28" HorizontalTextAlignment="Center" />
                                 </Grid>
                                 <Label VerticalOptions="Center" Text="{Binding Buch}" TextColor="Black" FontFamily="OldStandardBold" FontSize="28" HorizontalTextAlignment="Center" />

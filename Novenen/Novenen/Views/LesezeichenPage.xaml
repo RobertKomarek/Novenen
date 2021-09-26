@@ -101,21 +101,28 @@
                         <behaviorsPack:EventToCommandBehavior EventName="PropertyChanged" Command="{Binding LesezeichenAendernCommand}" />
                     </ListView.Behaviors>-->
                     <ListView.Header>
-                            <StackLayout Orientation="Horizontal" HorizontalOptions="End" Padding="25">
-                                <Label FontAttributes="Italic" VerticalOptions="Center" >
-                                    <Label.FormattedText>
-                                        <FormattedString>
-                                            <Span Text="ALLE" TextDecorations="Underline" FontSize="Medium"/>
-                                            <Span Text=" Lesezeichen löschen: " FontSize="Medium"/>
-                                        </FormattedString>
-                                    </Label.FormattedText>
-                                </Label>
-                                <Label Text="{x:Static fontawesome:FontAwesomeIcons.Eraser}" FontFamily="FA-S" FontSize="36" Margin="10,0,0,0">
-                                    <Label.GestureRecognizers>
-                                        <TapGestureRecognizer Command="{Binding AlleLesezeichenLoeschenCommand}"/>
-                                    </Label.GestureRecognizers>
-                                </Label> 
-                            </StackLayout>
+                        <StackLayout>
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="End" Padding="25">
+                                    <Label FontAttributes="Italic" VerticalOptions="Center" >
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="ALLE" TextDecorations="Underline" FontSize="Medium"/>
+                                                <Span Text=" Lesezeichen löschen: " FontSize="Medium"/>
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                    <Label Text="{x:Static fontawesome:FontAwesomeIcons.Eraser}" FontFamily="FA-S" FontSize="36" Margin="10,0,0,0">
+                                        <Label.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding AlleLesezeichenLoeschenCommand}"/>
+                                        </Label.GestureRecognizers>
+                                    </Label> 
+                                </StackLayout>
+                           
+                                <Grid ColumnDefinitions="*,175,*,*,*,*">
+                                    <Label Grid.Column="1" Text="NOVENE" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" TextDecorations="Underline" />
+                                    <Label Grid.Column="3" Grid.ColumnSpan="3" Text="n. TAG" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Start" TextDecorations="Underline" />
+                                </Grid>
+                        </StackLayout>
                         <!--<Grid ColumnDefinitions="*,175,*,*,*,*" Padding="10" >
                             <Label Grid.Column="1" Text="Novene" HorizontalTextAlignment="Center" FontFamily="OldStandardBold" FontSize="Large" />
                             <Label Grid.Column="3" Text="Tag" HorizontalOptions="Center" FontFamily="OldStandardBold" FontSize="Large" />
@@ -136,7 +143,6 @@
                                                                   CommandParameter="{Binding Novene}"/>
                                         </Label.GestureRecognizers>
                                     </Label>
-
                                     <Label Grid.Column="3" Text="{Binding Tag}" FontSize="Large" TextColor="Black" VerticalTextAlignment="Center"
                                            HorizontalTextAlignment="Center"/>
 

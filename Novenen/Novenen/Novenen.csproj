@@ -47,6 +47,7 @@
   <ItemGroup>
     <EmbeddedResource Include="..\..\..\..\Downloads\Einheitsuebersetzung1980.json">
       <Link>Resources/Einheitsuebersetzung1980.json</Link>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <Content Include="obj\Debug\netstandard2.0\Novenen.csproj.FileListAbsolute.txt" />
   </ItemGroup>
