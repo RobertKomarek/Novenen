@@ -1,7 +1,7 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{148CCE8E-4161-4DBA-8B24-06D6256EEF0E}|Default">
   <MonoDevelop.Ide.ItemProperties.Novenen.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
   <MonoDevelop.Ide.ItemProperties.Novenen.Android PreferredExecutionTarget="Android.zlqsaq7hjfqgi7gy" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Novenen/Novenen.iOS/Info.plist">
+  <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="Novenen/Novenen/Views/LesezeichenPage.xaml" Line="140" Column="122" />
       <File FileName="Novenen/Novenen.iOS/Info.plist" />
@@ -25,7 +25,7 @@
               </Node>
             </Node>
             <Node name="Novenen.iOS" expanded="True">
-              <Node name="Info.plist" selected="True" />
+              <Node name="Assets.xcassets" selected="True" />
             </Node>
           </Node>
         </State>

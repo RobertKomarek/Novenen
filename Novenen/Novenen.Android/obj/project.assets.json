@@ -3543,7 +3543,7 @@
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "/Users/marinakomarek/.nuget/NuGet/NuGet.Config"
+        "/Users/marinakomarek/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid10.0"
