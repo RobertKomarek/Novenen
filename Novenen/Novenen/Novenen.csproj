@@ -16,8 +16,6 @@
 
   <ItemGroup>
     <None Remove="Resources\OldStandardBold.ttf" />
-    <None Remove="Resources\OldStandardRegular.ttf" />
-    <None Remove="Resources\SchwabacherFont.ttf" />
     <None Remove="FontAwesome\FontAwesome5Regular.otf" />
     <None Remove="FontAwesome\FontAwesome5Solid.otf" />
     <None Remove="FontAwesome\FontAwesome5Brands.otf" />
@@ -33,11 +31,6 @@
     <None Remove="Xamanimation" />
     <None Remove="Converters\" />
     <None Remove="MagicGradients" />
-    <None Remove="Resources\Milestone.otf" />
-    <None Remove="Resources\Franchise.ttf" />
-    <None Remove="Resources\FranchiseFilled.ttf" />
-    <None Remove="Resources\Avalaqus.otf" />
-    <None Remove="Resources\Retroking.ttf" />
     <None Remove="TouchView" />
     <None Remove="Microsoft.AppCenter.Analytics" />
     <None Remove="Microsoft.AppCenter.Crashes" />
@@ -54,16 +47,9 @@
 
   <ItemGroup>
     <EmbeddedResource Include="Resources\OldStandardBold.ttf" />
-    <EmbeddedResource Include="Resources\OldStandardRegular.ttf" />
-    <EmbeddedResource Include="Resources\SchwabacherFont.ttf" />
     <EmbeddedResource Include="FontAwesome\FontAwesome5Regular.otf" />
     <EmbeddedResource Include="FontAwesome\FontAwesome5Solid.otf" />
     <EmbeddedResource Include="FontAwesome\FontAwesome5Brands.otf" />
-    <EmbeddedResource Include="Resources\Milestone.otf" />
-    <EmbeddedResource Include="Resources\Franchise.ttf" />
-    <EmbeddedResource Include="Resources\FranchiseFilled.ttf" />
-    <EmbeddedResource Include="Resources\Avalaqus.otf" />
-    <EmbeddedResource Include="Resources\Retroking.ttf" />
   </ItemGroup>
 
   <ItemGroup>

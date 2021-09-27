@@ -92,6 +92,28 @@
                             <TapGestureRecognizer Tapped="GoToMedjugorje"/>
                         </Label.GestureRecognizers>
                     </Label>
+
+                    
+                    <Label HorizontalTextAlignment="Center" >
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="{x:Static fontawesome:FontAwesomeIcons.Square}" FontFamily="FA-S" FontSize="Medium"/>
+                                <Span Text=" Urheberrecht für" FontSize="Medium"/>
+                                <Span Text=" Heiliger Josef Novene" FontSize="Medium" FontAttributes="Bold"/>
+                                <Span Text=": Autor unbekannt" FontSize="Medium"/>
+                            </FormattedString>
+                        </Label.FormattedText>
+                    </Label>
+                    <Label Margin="0,0,0,25" HorizontalTextAlignment="Center">
+                        <Label.FormattedText>
+                            <FormattedString>
+                                <Span Text="https://www.gebete.ch" TextDecorations="Underline" TextColor="Blue" FontSize="Medium" />
+                            </FormattedString>
+                        </Label.FormattedText>
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="GoToMedjugorje"/>
+                        </Label.GestureRecognizers>
+                    </Label>
                 </StackLayout>
 
                 <StackLayout Margin="50,10,50,10" Spacing="10">

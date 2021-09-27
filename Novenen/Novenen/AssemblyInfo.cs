@@ -10,10 +10,4 @@ using Xamarin.Forms.Xaml;
 //<Label Text="&#xf654;" FontSize="Large" FontFamily="FA-S" TextColor="White"/>
 
 //Eigenschaft:Embedded resource in Namespace\Resources. In XAML: FontFamily="Schwabacher" 
-[assembly: ExportFont("SchwabacherFont.ttf", Alias = "Schwabacher")]
-[assembly: ExportFont("OldStandardRegular.ttf", Alias = "OS-R")]
 [assembly: ExportFont("OldStandardBold.ttf", Alias = "OS-B")]
-[assembly: ExportFont("Milestone.otf", Alias = "Milestone")]
-[assembly: ExportFont("Franchise.ttf", Alias = "Franchise")]
-[assembly: ExportFont("Retroking.ttf", Alias = "Retroking")]
-[assembly: ExportFont("Avalaqus.otf", Alias = "Avalaqus")]

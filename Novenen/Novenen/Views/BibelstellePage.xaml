@@ -41,7 +41,7 @@
                                         <Image Source="imperial_bible2.jpg" Aspect="AspectFill"/>
                                     </pcv:PancakeView>
                                     <pcv:PancakeView CornerRadius="0,0,20,20">
-                                        <Frame CornerRadius="0" BackgroundColor="Black" Opacity="0.5"/>
+                                        <Label BackgroundColor="Black" Opacity="0.5"/>
                                     </pcv:PancakeView>
                                     <Label Text="{Binding Buchname}" VerticalOptions="Center" TextColor="White" FontFamily="OldStandardBold" FontSize="28" HorizontalTextAlignment="Center" />
                                 </Grid>
