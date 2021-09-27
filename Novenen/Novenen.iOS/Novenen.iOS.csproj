@@ -74,16 +74,10 @@
     <BundleResource Include="Resources\FontAwesome5Regular.otf" />
     <BundleResource Include="Resources\FontAwesome5Solid.otf" />
     <BundleResource Include="Resources\FontAwesome5Brands.otf" />
-    <BundleResource Include="Resources\maria_apostel.jpg" />
-    <BundleResource Include="Resources\jesus_barmherzigkeit_klein.jpg" />
     <BundleResource Include="Resources\_AboutAssets.txt" />
-    <BundleResource Include="Resources\bookmark_pic.png" />
     <Compile Include="JahrestagMedjugorjePage.xaml.cs" Condition=" '$(EnableDefaultCompileItems)' == 'true' ">
       <SubType>Code</SubType>
     </Compile>
-    <BundleResource Include="Resources\schoepfer_geist.jpg" />
-    <BundleResource Include="Resources\resurrection_christ.jpg" />
-    <BundleResource Include="Resources\mutter_immerwaehrende_hilfe.jpg" />
     <Compile Include="UserNotificationCenterDelegate.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -200,42 +194,6 @@
       <Project>{B895029F-8716-45B7-AABE-AF8B593EE19D}</Project>
       <Name>Novenen</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\Pentecost_Antonio_Palomino.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\maria9.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\maria1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\maria2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\maria3.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\maria4.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\maria5.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\maria6.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\maria7.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\maria8.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\hlgeist2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\vorbereitungsgebet.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets.xcassets\jesus_barmherzigkeit_klein.imageset\" />
