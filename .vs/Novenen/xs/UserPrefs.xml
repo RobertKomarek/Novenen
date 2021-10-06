@@ -1,16 +1,11 @@
-﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{2516ADA5-C020-4898-AFDC-3D55B9BD6429}|Default">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{148CCE8E-4161-4DBA-8B24-06D6256EEF0E}|Default">
   <MonoDevelop.Ide.ItemProperties.Novenen.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
-  <MonoDevelop.Ide.ItemProperties.Novenen.Android PreferredExecutionTarget="Android.zlqsaq7hjfqgi7gy" />
+  <MonoDevelop.Ide.ItemProperties.Novenen.Android PreferredExecutionTarget="Android.pixel_2_oreo_8_0_-_api_26" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Novenen/Novenen/Views/LesezeichenPage.xaml" Line="123" Column="128" />
-      <File FileName="Novenen/Novenen.iOS/Info.plist" />
+      <File FileName="Novenen/Novenen/ViewModels/BibelstelleDesTagesViewModel.cs" Line="122" Column="17" />
       <File FileName="Novenen/Novenen/Views/BibelstelleDesTagesPage.xaml" />
-      <File FileName="Novenen/Novenen/Views/BibelstellePage.xaml" Line="38" Column="55" />
-      <File FileName="Novenen/Novenen/AppShell.xaml" Line="1" Column="1" />
-      <File FileName="Novenen/Novenen/AssemblyInfo.cs" Line="13" Column="41" />
-      <File FileName="Novenen/Novenen/Views/ImpressumPage.xaml" Line="94" Column="29" />
-      <File FileName="Novenen/Novenen/Views/UnbefleckteEmpfaengnisNovenePage.xaml" Line="1" Column="1" />
+      <File FileName="Novenen/Novenen/Views/BibelstellePage.xaml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -18,20 +13,18 @@
           <Node name="Novenen" expanded="True">
             <Node name="Novenen" expanded="True">
               <Node name="Resources" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="BibelstelleDesTagesPage.xaml" expanded="True" />
+              <Node name="ViewModels" expanded="True">
+                <Node name="BibelstelleDesTagesViewModel.cs" selected="True" />
               </Node>
+              <Node name="Views" expanded="True" />
               <Node name="App.xaml" expanded="True" />
               <Node name="AppShell.xaml" expanded="True" />
             </Node>
             <Node name="Novenen.Android" expanded="True">
-              <Node name="Resources" expanded="True">
-                <Node name="values" expanded="True" />
-              </Node>
-            </Node>
-            <Node name="Novenen.iOS" expanded="True">
+              <Node name="Properties" expanded="True" />
               <Node name="Resources" expanded="True" />
             </Node>
+            <Node name="Novenen.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>

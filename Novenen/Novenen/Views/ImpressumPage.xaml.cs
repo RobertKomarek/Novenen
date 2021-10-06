@@ -25,7 +25,7 @@ namespace Novenen.Views
             {
                 var message = new EmailMessage
                 {
-                    Subject = "App \"Novene\"",
+                    Subject = "Betreff App \"Novenen\"",
                     Body = "Sehr geehrter Herr Komarek," + Environment.NewLine + Environment.NewLine +
                     "Mit freundlichen Grüßen,",
                     To = MeineAdresse
@@ -60,6 +60,11 @@ namespace Novenen.Views
         async void GoToMedjugorje(System.Object sender, System.EventArgs e)
         {
             await Browser.OpenAsync("https://www.medjugorje.de");
+        }
+
+        async void GoToGebeteCh(System.Object sender, System.EventArgs e)
+        {
+            await Browser.OpenAsync("https://www.gebete.ch");
         }
     }
 }

@@ -119,8 +119,10 @@
                             </StackLayout>
                            
                             <Grid ColumnDefinitions="*,175,*,*,*,*">
-                                <Label Grid.Column="1" Text="NOVENE" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" TextDecorations="Underline" />
-                                <Label Grid.Column="3" Grid.ColumnSpan="3" Text="n. TAG" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Start" TextDecorations="Underline" />
+                                <Label Grid.Column="1" Text="NOVENE" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" 
+                                       TextColor="DimGray" TextDecorations="Underline" />
+                                <Label Grid.Column="3" Grid.ColumnSpan="3" Text="n. TAG" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Start" 
+                                       TextColor="DimGray" TextDecorations="Underline" />
                             </Grid>
                         </StackLayout>
 

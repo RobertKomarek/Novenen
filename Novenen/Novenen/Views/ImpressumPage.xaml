@@ -111,7 +111,7 @@
                             </FormattedString>
                         </Label.FormattedText>
                         <Label.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="GoToMedjugorje"/>
+                            <TapGestureRecognizer Tapped="GoToGebeteCh"/>
                         </Label.GestureRecognizers>
                     </Label>
                 </StackLayout>
@@ -149,7 +149,7 @@
                                     <Span Text=": Novenensammlung, Klopft an! Es wird euch aufgetan!, Ferdinand Holböck und Marie-Therese Isenegger, " FontSize="Medium"/>
                                     <Span Text="Parvis-Verlag" TextDecorations="Underline" TextColor="Blue" FontSize="Medium"/>
                                     <Span Text=" (3. Auflage; Mit kirchlicher Druckerlaubnis, Salzburg den 17. August 1979,
-                                            Jakob Mayr Weihbischof und Generalvikar. ISBN 3-907523-11-3. (enthält ungefähr 60 Novenen)" FontSize="Medium"/>
+                                            Jakob Mayr Weihbischof und Generalvikar. ISBN 3-907523-11-3. Enthält ungefähr 60 Novenen)." FontSize="Medium"/>
                                 </FormattedString>
                             </Label.FormattedText>
                                 <Label.GestureRecognizers>

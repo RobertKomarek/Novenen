@@ -88,7 +88,7 @@ namespace Novenen.ViewModels
 
             var assembly = typeof(BibelstelleViewModel).GetTypeInfo().Assembly;
             //Stream stream = assembly.GetManifestResourceStream($"{assembly.GetName().Name}.{"Resources.Einheitsuebersetzung1980.json"}");
-            Stream stream = assembly.GetManifestResourceStream("Novenen.Resources.Einheitsuebersetzung1980.json");
+            Stream stream = assembly.GetManifestResourceStream("Novenen.Resources.Einheitsuebersetzung1980_2.json");
 
             using (var reader = new StreamReader(stream))
             {

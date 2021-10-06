@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
-      "MagicGradients/1.3.0": {
+      "MagicGradients/1.3.1": {
         "type": "package",
         "dependencies": {
           "SkiaSharp.Views.Forms": "1.68.1.1",
@@ -18,7 +18,7 @@
           "build/MagicGradients.targets": {}
         }
       },
-      "Microsoft.AppCenter/4.3.0": {
+      "Microsoft.AppCenter/4.4.0": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {},
@@ -29,10 +29,10 @@
           "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll": {}
         }
       },
-      "Microsoft.AppCenter.Analytics/4.3.0": {
+      "Microsoft.AppCenter.Analytics/4.4.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AppCenter": "4.3.0"
+          "Microsoft.AppCenter": "4.4.0"
         },
         "compile": {
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {},
@@ -43,10 +43,10 @@
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll": {}
         }
       },
-      "Microsoft.AppCenter.Crashes/4.3.0": {
+      "Microsoft.AppCenter.Crashes/4.4.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AppCenter": "4.3.0"
+          "Microsoft.AppCenter": "4.4.0"
         },
         "compile": {
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {},
@@ -123,7 +123,7 @@
           "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Syncfusion.Licensing/19.2.0.57": {
+      "Syncfusion.Licensing/19.2.0.62": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
@@ -147,10 +147,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Cards.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Core/19.2.0.57": {
+      "Syncfusion.Xamarin.Core/19.2.0.62": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "19.2.0.57",
+          "Syncfusion.Licensing": "19.2.0.62",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -162,10 +162,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Expander/19.2.0.57": {
+      "Syncfusion.Xamarin.Expander/19.2.0.62": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "19.2.0.57",
+          "Syncfusion.Xamarin.Core": "19.2.0.62",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -177,7 +177,7 @@
           "lib/Xamarin.iOS10/Syncfusion.Expander.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.GridCommon/19.2.0.57": {
+      "Syncfusion.Xamarin.GridCommon/19.2.0.62": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll": {}
@@ -186,10 +186,10 @@
           "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfComboBox/19.2.0.57": {
+      "Syncfusion.Xamarin.SfComboBox/19.2.0.62": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "19.2.0.57",
+          "Syncfusion.Xamarin.Core": "19.2.0.62",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -201,13 +201,13 @@
           "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfDataGrid/19.2.0.57": {
+      "Syncfusion.Xamarin.SfDataGrid/19.2.0.62": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "19.2.0.57",
-          "Syncfusion.Xamarin.GridCommon": "19.2.0.57",
-          "Syncfusion.Xamarin.SfComboBox": "19.2.0.57",
-          "Syncfusion.Xamarin.SfNumericTextBox": "19.2.0.57",
+          "Syncfusion.Xamarin.Core": "19.2.0.62",
+          "Syncfusion.Xamarin.GridCommon": "19.2.0.62",
+          "Syncfusion.Xamarin.SfComboBox": "19.2.0.62",
+          "Syncfusion.Xamarin.SfNumericTextBox": "19.2.0.62",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -221,10 +221,10 @@
           "lib/Xamarin.iOS10/Syncfusion.SfDataGrid.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfNumericTextBox/19.2.0.57": {
+      "Syncfusion.Xamarin.SfNumericTextBox/19.2.0.62": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "19.2.0.57",
+          "Syncfusion.Xamarin.Core": "19.2.0.62",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -328,7 +328,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2083": {
+      "Xamarin.Forms/5.0.0.2125": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -476,7 +476,7 @@
           "lib/xamarinios10/Xamarin.Forms.PancakeView.dll": {}
         }
       },
-      "Xamarin.Forms.Visual.Material/5.0.0.2083": {
+      "Xamarin.Forms.Visual.Material/5.0.0.2125": {
         "type": "package",
         "dependencies": {
           "Xamarin.iOS.MaterialComponents": "92.0.0"
@@ -501,22 +501,22 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "MagicGradients": "1.3.0",
-          "Microsoft.AppCenter.Analytics": "4.3.0",
-          "Microsoft.AppCenter.Crashes": "4.3.0",
+          "MagicGradients": "1.3.1",
+          "Microsoft.AppCenter.Analytics": "4.4.0",
+          "Microsoft.AppCenter.Crashes": "4.4.0",
           "Newtonsoft.Json": "13.0.1",
           "Syncfusion.Xamarin.Cards": "19.2.0.57",
-          "Syncfusion.Xamarin.Expander": "19.2.0.57",
-          "Syncfusion.Xamarin.SfDataGrid": "19.2.0.57",
+          "Syncfusion.Xamarin.Expander": "19.2.0.62",
+          "Syncfusion.Xamarin.SfDataGrid": "19.2.0.62",
           "TouchView": "4.1.100",
           "Xam.Plugins.Notifier": "3.0.1",
           "Xamanimation": "1.3.0",
           "Xamarin.CommunityToolkit": "1.2.0",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2083",
+          "Xamarin.Forms": "5.0.0.2125",
           "Xamarin.Forms.BehaviorsPack": "3.0.0",
           "Xamarin.Forms.PancakeView": "2.3.0.759",
-          "Xamarin.Forms.Visual.Material": "5.0.0.2083"
+          "Xamarin.Forms.Visual.Material": "5.0.0.2125"
         },
         "compile": {
           "bin/placeholder/Novenen.dll": {}
@@ -527,7 +527,7 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
-      "MagicGradients/1.3.0": {
+      "MagicGradients/1.3.1": {
         "type": "package",
         "dependencies": {
           "SkiaSharp.Views.Forms": "1.68.1.1",
@@ -543,7 +543,7 @@
           "build/MagicGradients.targets": {}
         }
       },
-      "Microsoft.AppCenter/4.3.0": {
+      "Microsoft.AppCenter/4.4.0": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {},
@@ -554,10 +554,10 @@
           "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll": {}
         }
       },
-      "Microsoft.AppCenter.Analytics/4.3.0": {
+      "Microsoft.AppCenter.Analytics/4.4.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AppCenter": "4.3.0"
+          "Microsoft.AppCenter": "4.4.0"
         },
         "compile": {
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {},
@@ -568,10 +568,10 @@
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll": {}
         }
       },
-      "Microsoft.AppCenter.Crashes/4.3.0": {
+      "Microsoft.AppCenter.Crashes/4.4.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AppCenter": "4.3.0"
+          "Microsoft.AppCenter": "4.4.0"
         },
         "compile": {
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {},
@@ -626,7 +626,7 @@
           "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Syncfusion.Licensing/19.2.0.57": {
+      "Syncfusion.Licensing/19.2.0.62": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
@@ -650,10 +650,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Cards.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Core/19.2.0.57": {
+      "Syncfusion.Xamarin.Core/19.2.0.62": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "19.2.0.57",
+          "Syncfusion.Licensing": "19.2.0.62",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -665,10 +665,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Expander/19.2.0.57": {
+      "Syncfusion.Xamarin.Expander/19.2.0.62": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "19.2.0.57",
+          "Syncfusion.Xamarin.Core": "19.2.0.62",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -680,7 +680,7 @@
           "lib/Xamarin.iOS10/Syncfusion.Expander.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.GridCommon/19.2.0.57": {
+      "Syncfusion.Xamarin.GridCommon/19.2.0.62": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll": {}
@@ -689,10 +689,10 @@
           "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfComboBox/19.2.0.57": {
+      "Syncfusion.Xamarin.SfComboBox/19.2.0.62": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "19.2.0.57",
+          "Syncfusion.Xamarin.Core": "19.2.0.62",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -704,13 +704,13 @@
           "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfDataGrid/19.2.0.57": {
+      "Syncfusion.Xamarin.SfDataGrid/19.2.0.62": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "19.2.0.57",
-          "Syncfusion.Xamarin.GridCommon": "19.2.0.57",
-          "Syncfusion.Xamarin.SfComboBox": "19.2.0.57",
-          "Syncfusion.Xamarin.SfNumericTextBox": "19.2.0.57",
+          "Syncfusion.Xamarin.Core": "19.2.0.62",
+          "Syncfusion.Xamarin.GridCommon": "19.2.0.62",
+          "Syncfusion.Xamarin.SfComboBox": "19.2.0.62",
+          "Syncfusion.Xamarin.SfNumericTextBox": "19.2.0.62",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -724,10 +724,10 @@
           "lib/Xamarin.iOS10/Syncfusion.SfDataGrid.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfNumericTextBox/19.2.0.57": {
+      "Syncfusion.Xamarin.SfNumericTextBox/19.2.0.62": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "19.2.0.57",
+          "Syncfusion.Xamarin.Core": "19.2.0.62",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -831,7 +831,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2083": {
+      "Xamarin.Forms/5.0.0.2125": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -979,7 +979,7 @@
           "lib/xamarinios10/Xamarin.Forms.PancakeView.dll": {}
         }
       },
-      "Xamarin.Forms.Visual.Material/5.0.0.2083": {
+      "Xamarin.Forms.Visual.Material/5.0.0.2125": {
         "type": "package",
         "dependencies": {
           "Xamarin.iOS.MaterialComponents": "92.0.0"
@@ -1004,22 +1004,22 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "MagicGradients": "1.3.0",
-          "Microsoft.AppCenter.Analytics": "4.3.0",
-          "Microsoft.AppCenter.Crashes": "4.3.0",
+          "MagicGradients": "1.3.1",
+          "Microsoft.AppCenter.Analytics": "4.4.0",
+          "Microsoft.AppCenter.Crashes": "4.4.0",
           "Newtonsoft.Json": "13.0.1",
           "Syncfusion.Xamarin.Cards": "19.2.0.57",
-          "Syncfusion.Xamarin.Expander": "19.2.0.57",
-          "Syncfusion.Xamarin.SfDataGrid": "19.2.0.57",
+          "Syncfusion.Xamarin.Expander": "19.2.0.62",
+          "Syncfusion.Xamarin.SfDataGrid": "19.2.0.62",
           "TouchView": "4.1.100",
           "Xam.Plugins.Notifier": "3.0.1",
           "Xamanimation": "1.3.0",
           "Xamarin.CommunityToolkit": "1.2.0",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2083",
+          "Xamarin.Forms": "5.0.0.2125",
           "Xamarin.Forms.BehaviorsPack": "3.0.0",
           "Xamarin.Forms.PancakeView": "2.3.0.759",
-          "Xamarin.Forms.Visual.Material": "5.0.0.2083"
+          "Xamarin.Forms.Visual.Material": "5.0.0.2125"
         },
         "compile": {
           "bin/placeholder/Novenen.dll": {}
@@ -1030,7 +1030,7 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
-      "MagicGradients/1.3.0": {
+      "MagicGradients/1.3.1": {
         "type": "package",
         "dependencies": {
           "SkiaSharp.Views.Forms": "1.68.1.1",
@@ -1046,7 +1046,7 @@
           "build/MagicGradients.targets": {}
         }
       },
-      "Microsoft.AppCenter/4.3.0": {
+      "Microsoft.AppCenter/4.4.0": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {},
@@ -1057,10 +1057,10 @@
           "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll": {}
         }
       },
-      "Microsoft.AppCenter.Analytics/4.3.0": {
+      "Microsoft.AppCenter.Analytics/4.4.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AppCenter": "4.3.0"
+          "Microsoft.AppCenter": "4.4.0"
         },
         "compile": {
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {},
@@ -1071,10 +1071,10 @@
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll": {}
         }
       },
-      "Microsoft.AppCenter.Crashes/4.3.0": {
+      "Microsoft.AppCenter.Crashes/4.4.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AppCenter": "4.3.0"
+          "Microsoft.AppCenter": "4.4.0"
         },
         "compile": {
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {},
@@ -1132,7 +1132,7 @@
           "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Syncfusion.Licensing/19.2.0.57": {
+      "Syncfusion.Licensing/19.2.0.62": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
@@ -1156,10 +1156,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Cards.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Core/19.2.0.57": {
+      "Syncfusion.Xamarin.Core/19.2.0.62": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "19.2.0.57",
+          "Syncfusion.Licensing": "19.2.0.62",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -1171,10 +1171,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Expander/19.2.0.57": {
+      "Syncfusion.Xamarin.Expander/19.2.0.62": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "19.2.0.57",
+          "Syncfusion.Xamarin.Core": "19.2.0.62",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -1186,7 +1186,7 @@
           "lib/Xamarin.iOS10/Syncfusion.Expander.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.GridCommon/19.2.0.57": {
+      "Syncfusion.Xamarin.GridCommon/19.2.0.62": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll": {}
@@ -1195,10 +1195,10 @@
           "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfComboBox/19.2.0.57": {
+      "Syncfusion.Xamarin.SfComboBox/19.2.0.62": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "19.2.0.57",
+          "Syncfusion.Xamarin.Core": "19.2.0.62",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -1210,13 +1210,13 @@
           "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfDataGrid/19.2.0.57": {
+      "Syncfusion.Xamarin.SfDataGrid/19.2.0.62": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "19.2.0.57",
-          "Syncfusion.Xamarin.GridCommon": "19.2.0.57",
-          "Syncfusion.Xamarin.SfComboBox": "19.2.0.57",
-          "Syncfusion.Xamarin.SfNumericTextBox": "19.2.0.57",
+          "Syncfusion.Xamarin.Core": "19.2.0.62",
+          "Syncfusion.Xamarin.GridCommon": "19.2.0.62",
+          "Syncfusion.Xamarin.SfComboBox": "19.2.0.62",
+          "Syncfusion.Xamarin.SfNumericTextBox": "19.2.0.62",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -1230,10 +1230,10 @@
           "lib/Xamarin.iOS10/Syncfusion.SfDataGrid.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfNumericTextBox/19.2.0.57": {
+      "Syncfusion.Xamarin.SfNumericTextBox/19.2.0.62": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "19.2.0.57",
+          "Syncfusion.Xamarin.Core": "19.2.0.62",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -1337,7 +1337,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2083": {
+      "Xamarin.Forms/5.0.0.2125": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -1485,7 +1485,7 @@
           "lib/xamarinios10/Xamarin.Forms.PancakeView.dll": {}
         }
       },
-      "Xamarin.Forms.Visual.Material/5.0.0.2083": {
+      "Xamarin.Forms.Visual.Material/5.0.0.2125": {
         "type": "package",
         "dependencies": {
           "Xamarin.iOS.MaterialComponents": "92.0.0"
@@ -1510,22 +1510,22 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "MagicGradients": "1.3.0",
-          "Microsoft.AppCenter.Analytics": "4.3.0",
-          "Microsoft.AppCenter.Crashes": "4.3.0",
+          "MagicGradients": "1.3.1",
+          "Microsoft.AppCenter.Analytics": "4.4.0",
+          "Microsoft.AppCenter.Crashes": "4.4.0",
           "Newtonsoft.Json": "13.0.1",
           "Syncfusion.Xamarin.Cards": "19.2.0.57",
-          "Syncfusion.Xamarin.Expander": "19.2.0.57",
-          "Syncfusion.Xamarin.SfDataGrid": "19.2.0.57",
+          "Syncfusion.Xamarin.Expander": "19.2.0.62",
+          "Syncfusion.Xamarin.SfDataGrid": "19.2.0.62",
           "TouchView": "4.1.100",
           "Xam.Plugins.Notifier": "3.0.1",
           "Xamanimation": "1.3.0",
           "Xamarin.CommunityToolkit": "1.2.0",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2083",
+          "Xamarin.Forms": "5.0.0.2125",
           "Xamarin.Forms.BehaviorsPack": "3.0.0",
           "Xamarin.Forms.PancakeView": "2.3.0.759",
-          "Xamarin.Forms.Visual.Material": "5.0.0.2083"
+          "Xamarin.Forms.Visual.Material": "5.0.0.2125"
         },
         "compile": {
           "bin/placeholder/Novenen.dll": {}
@@ -1536,7 +1536,7 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
-      "MagicGradients/1.3.0": {
+      "MagicGradients/1.3.1": {
         "type": "package",
         "dependencies": {
           "SkiaSharp.Views.Forms": "1.68.1.1",
@@ -1552,7 +1552,7 @@
           "build/MagicGradients.targets": {}
         }
       },
-      "Microsoft.AppCenter/4.3.0": {
+      "Microsoft.AppCenter/4.4.0": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Microsoft.AppCenter.dll": {},
@@ -1563,10 +1563,10 @@
           "lib/Xamarin.iOS10/Microsoft.AppCenter.iOS.Bindings.dll": {}
         }
       },
-      "Microsoft.AppCenter.Analytics/4.3.0": {
+      "Microsoft.AppCenter.Analytics/4.4.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AppCenter": "4.3.0"
+          "Microsoft.AppCenter": "4.4.0"
         },
         "compile": {
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.dll": {},
@@ -1577,10 +1577,10 @@
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.iOS.Bindings.dll": {}
         }
       },
-      "Microsoft.AppCenter.Crashes/4.3.0": {
+      "Microsoft.AppCenter.Crashes/4.4.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AppCenter": "4.3.0"
+          "Microsoft.AppCenter": "4.4.0"
         },
         "compile": {
           "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.dll": {},
@@ -1638,7 +1638,7 @@
           "lib/Xamarin.iOS/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Syncfusion.Licensing/19.2.0.57": {
+      "Syncfusion.Licensing/19.2.0.62": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
@@ -1662,10 +1662,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Cards.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Core/19.2.0.57": {
+      "Syncfusion.Xamarin.Core/19.2.0.62": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "19.2.0.57",
+          "Syncfusion.Licensing": "19.2.0.62",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -1677,10 +1677,10 @@
           "lib/Xamarin.iOS10/Syncfusion.Core.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Expander/19.2.0.57": {
+      "Syncfusion.Xamarin.Expander/19.2.0.62": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "19.2.0.57",
+          "Syncfusion.Xamarin.Core": "19.2.0.62",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -1692,7 +1692,7 @@
           "lib/Xamarin.iOS10/Syncfusion.Expander.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.GridCommon/19.2.0.57": {
+      "Syncfusion.Xamarin.GridCommon/19.2.0.62": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll": {}
@@ -1701,10 +1701,10 @@
           "lib/Xamarin.iOS10/Syncfusion.GridCommon.Portable.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfComboBox/19.2.0.57": {
+      "Syncfusion.Xamarin.SfComboBox/19.2.0.62": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "19.2.0.57",
+          "Syncfusion.Xamarin.Core": "19.2.0.62",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -1716,13 +1716,13 @@
           "lib/Xamarin.iOS10/Syncfusion.SfComboBox.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfDataGrid/19.2.0.57": {
+      "Syncfusion.Xamarin.SfDataGrid/19.2.0.62": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "19.2.0.57",
-          "Syncfusion.Xamarin.GridCommon": "19.2.0.57",
-          "Syncfusion.Xamarin.SfComboBox": "19.2.0.57",
-          "Syncfusion.Xamarin.SfNumericTextBox": "19.2.0.57",
+          "Syncfusion.Xamarin.Core": "19.2.0.62",
+          "Syncfusion.Xamarin.GridCommon": "19.2.0.62",
+          "Syncfusion.Xamarin.SfComboBox": "19.2.0.62",
+          "Syncfusion.Xamarin.SfNumericTextBox": "19.2.0.62",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -1736,10 +1736,10 @@
           "lib/Xamarin.iOS10/Syncfusion.SfDataGrid.XForms.iOS.dll": {}
         }
       },
-      "Syncfusion.Xamarin.SfNumericTextBox/19.2.0.57": {
+      "Syncfusion.Xamarin.SfNumericTextBox/19.2.0.62": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "19.2.0.57",
+          "Syncfusion.Xamarin.Core": "19.2.0.62",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -1843,7 +1843,7 @@
           "lib/xamarinios10/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2083": {
+      "Xamarin.Forms/5.0.0.2125": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -1991,7 +1991,7 @@
           "lib/xamarinios10/Xamarin.Forms.PancakeView.dll": {}
         }
       },
-      "Xamarin.Forms.Visual.Material/5.0.0.2083": {
+      "Xamarin.Forms.Visual.Material/5.0.0.2125": {
         "type": "package",
         "dependencies": {
           "Xamarin.iOS.MaterialComponents": "92.0.0"
@@ -2016,22 +2016,22 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "MagicGradients": "1.3.0",
-          "Microsoft.AppCenter.Analytics": "4.3.0",
-          "Microsoft.AppCenter.Crashes": "4.3.0",
+          "MagicGradients": "1.3.1",
+          "Microsoft.AppCenter.Analytics": "4.4.0",
+          "Microsoft.AppCenter.Crashes": "4.4.0",
           "Newtonsoft.Json": "13.0.1",
           "Syncfusion.Xamarin.Cards": "19.2.0.57",
-          "Syncfusion.Xamarin.Expander": "19.2.0.57",
-          "Syncfusion.Xamarin.SfDataGrid": "19.2.0.57",
+          "Syncfusion.Xamarin.Expander": "19.2.0.62",
+          "Syncfusion.Xamarin.SfDataGrid": "19.2.0.62",
           "TouchView": "4.1.100",
           "Xam.Plugins.Notifier": "3.0.1",
           "Xamanimation": "1.3.0",
           "Xamarin.CommunityToolkit": "1.2.0",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2083",
+          "Xamarin.Forms": "5.0.0.2125",
           "Xamarin.Forms.BehaviorsPack": "3.0.0",
           "Xamarin.Forms.PancakeView": "2.3.0.759",
-          "Xamarin.Forms.Visual.Material": "5.0.0.2083"
+          "Xamarin.Forms.Visual.Material": "5.0.0.2125"
         },
         "compile": {
           "bin/placeholder/Novenen.dll": {}
@@ -2043,10 +2043,10 @@
     }
   },
   "libraries": {
-    "MagicGradients/1.3.0": {
-      "sha512": "8L+qSU1dCIbKzMkGI1PQ5PXnoi8NACk3lp6qvDv5r5BMfpLTVkP0MU3x2xT0QIaz5sKFRinjkNPA7Ke6+w55PQ==",
+    "MagicGradients/1.3.1": {
+      "sha512": "zdW8QkgsE9Muiri3NSKt/j2AtoTr4UDCZdwhgs1lOi9s87T8PMek6UKT36QHt7l+5cfSl+nz8LujNDxLfoXMgw==",
       "type": "package",
-      "path": "magicgradients/1.3.0",
+      "path": "magicgradients/1.3.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2055,14 +2055,14 @@
         "build/PreserveMagicGradients.cs",
         "icon.png",
         "lib/netstandard2.0/MagicGradients.dll",
-        "magicgradients.1.3.0.nupkg.sha512",
+        "magicgradients.1.3.1.nupkg.sha512",
         "magicgradients.nuspec"
       ]
     },
-    "Microsoft.AppCenter/4.3.0": {
-      "sha512": "J33wRTFM5h0bx+UyVRGiyluPlVzLqAzH/x5wW2TkgWutzJzxEgB2FNqOH4Gs99aTF0PyhUWHSzqWYhCFv+WzHQ==",
+    "Microsoft.AppCenter/4.4.0": {
+      "sha512": "FUyb8E8XvphlDkpZqNpRCZEcC8XSuIC6rzraMNyN2463oiUd36UJBI9JB8jN+ryEEnrUt/ryR2iqPPKTiECvXw==",
       "type": "package",
-      "path": "microsoft.appcenter/4.3.0",
+      "path": "microsoft.appcenter/4.4.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2074,20 +2074,24 @@
         "lib/Xamarin.iOS10/Microsoft.AppCenter.xml",
         "lib/net461/Microsoft.AppCenter.dll",
         "lib/net461/Microsoft.AppCenter.xml",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.AppCenter.dll",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.AppCenter.xml",
+        "lib/net5.0-windows7.0/Microsoft.AppCenter.dll",
+        "lib/net5.0-windows7.0/Microsoft.AppCenter.xml",
         "lib/netcoreapp3.0/Microsoft.AppCenter.dll",
         "lib/netcoreapp3.0/Microsoft.AppCenter.xml",
         "lib/netstandard1.0/Microsoft.AppCenter.dll",
         "lib/netstandard1.0/Microsoft.AppCenter.xml",
         "lib/uap10.0/Microsoft.AppCenter.dll",
         "lib/uap10.0/Microsoft.AppCenter.xml",
-        "microsoft.appcenter.4.3.0.nupkg.sha512",
+        "microsoft.appcenter.4.4.0.nupkg.sha512",
         "microsoft.appcenter.nuspec"
       ]
     },
-    "Microsoft.AppCenter.Analytics/4.3.0": {
-      "sha512": "o7U7mb7jdSkSeDXWT8AKDtJH+5ot8CqNOClQmVDCdTmagVrM/WXZXQXe3Y2tK8HtkWIj7qjfYBLSZKpteJAp4g==",
+    "Microsoft.AppCenter.Analytics/4.4.0": {
+      "sha512": "Z0ejt02TwbtHaRpMzyk8KQLEzQAMB6X3EOWE4gCszDn2xgBUbic7DiT1gV8cLz4jQUZQR5FbKhzGaq7UoCoc1g==",
       "type": "package",
-      "path": "microsoft.appcenter.analytics/4.3.0",
+      "path": "microsoft.appcenter.analytics/4.4.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2099,20 +2103,24 @@
         "lib/Xamarin.iOS10/Microsoft.AppCenter.Analytics.xml",
         "lib/net461/Microsoft.AppCenter.Analytics.dll",
         "lib/net461/Microsoft.AppCenter.Analytics.xml",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.AppCenter.Analytics.xml",
+        "lib/net5.0-windows7.0/Microsoft.AppCenter.Analytics.dll",
+        "lib/net5.0-windows7.0/Microsoft.AppCenter.Analytics.xml",
         "lib/netcoreapp3.0/Microsoft.AppCenter.Analytics.dll",
         "lib/netcoreapp3.0/Microsoft.AppCenter.Analytics.xml",
         "lib/netstandard1.0/Microsoft.AppCenter.Analytics.dll",
         "lib/netstandard1.0/Microsoft.AppCenter.Analytics.xml",
         "lib/uap10.0/Microsoft.AppCenter.Analytics.dll",
         "lib/uap10.0/Microsoft.AppCenter.Analytics.xml",
-        "microsoft.appcenter.analytics.4.3.0.nupkg.sha512",
+        "microsoft.appcenter.analytics.4.4.0.nupkg.sha512",
         "microsoft.appcenter.analytics.nuspec"
       ]
     },
-    "Microsoft.AppCenter.Crashes/4.3.0": {
-      "sha512": "hiRw2wZF+fI9qmtC4LTfU52hjE7q07HgE3owvlmRif9SXsIjX9v8vzY99aCQ+92Ej52XB1eswTOl9SnjAWzzKQ==",
+    "Microsoft.AppCenter.Crashes/4.4.0": {
+      "sha512": "4Gn+Z5jeAJKBpmfWy8Lg1Bh/HdKF0UbGvVJdjKMJOBDhpsroCzjYBxRvQnkcs10Y3rD8iZMGtXnFFLfvhDl7Ag==",
       "type": "package",
-      "path": "microsoft.appcenter.crashes/4.3.0",
+      "path": "microsoft.appcenter.crashes/4.4.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2124,13 +2132,17 @@
         "lib/Xamarin.iOS10/Microsoft.AppCenter.Crashes.xml",
         "lib/net461/Microsoft.AppCenter.Crashes.dll",
         "lib/net461/Microsoft.AppCenter.Crashes.xml",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/net5.0-windows10.0.17763.0/Microsoft.AppCenter.Crashes.xml",
+        "lib/net5.0-windows7.0/Microsoft.AppCenter.Crashes.dll",
+        "lib/net5.0-windows7.0/Microsoft.AppCenter.Crashes.xml",
         "lib/netcoreapp3.0/Microsoft.AppCenter.Crashes.dll",
         "lib/netcoreapp3.0/Microsoft.AppCenter.Crashes.xml",
         "lib/netstandard1.0/Microsoft.AppCenter.Crashes.dll",
         "lib/netstandard1.0/Microsoft.AppCenter.Crashes.xml",
         "lib/uap10.0/Microsoft.AppCenter.Crashes.dll",
         "lib/uap10.0/Microsoft.AppCenter.Crashes.xml",
-        "microsoft.appcenter.crashes.4.3.0.nupkg.sha512",
+        "microsoft.appcenter.crashes.4.4.0.nupkg.sha512",
         "microsoft.appcenter.crashes.nuspec"
       ]
     },
@@ -2271,10 +2283,10 @@
         "skiasharp.views.forms.nuspec"
       ]
     },
-    "Syncfusion.Licensing/19.2.0.57": {
-      "sha512": "of2WgliT7AsdpGV73ERgowljMujZibTBqjuy75tEzQq44Y3qglW3oVqMJY77lm7KVsJufPub0EThMSeyeOHOUA==",
+    "Syncfusion.Licensing/19.2.0.62": {
+      "sha512": "usYaKBxMoBfliqvNM/KbyYDNRDZ8MHShdgDX8p9GzYjmdnR/UPgKc7nIeVXgwcHru9wSXs7q+abE5zqgsoytpA==",
       "type": "package",
-      "path": "syncfusion.licensing/19.2.0.57",
+      "path": "syncfusion.licensing/19.2.0.62",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2296,7 +2308,7 @@
         "lib/netstandard2.0/Syncfusion.Licensing.dll",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
         "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.19.2.0.57.nupkg.sha512",
+        "syncfusion.licensing.19.2.0.62.nupkg.sha512",
         "syncfusion.licensing.nuspec"
       ]
     },
@@ -2328,10 +2340,10 @@
         "syncfusion.xamarin.cards.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.Core/19.2.0.57": {
-      "sha512": "6SBbyRFOd27TELIWZazNBYxcWMHxVA9OD1/CS4o96jgyrMY/zmEdK+4ga9ug+/ensNySJ2c8Z/B9w3a7QPZy6g==",
+    "Syncfusion.Xamarin.Core/19.2.0.62": {
+      "sha512": "3cvdFfhkgqwDg6IgDzGM5Hx8m49wt9luFvHcWSqICIG/s+HXvjkQfoQmRTum6Mi4mxd7nrB+U1yx3dADQm8WsA==",
       "type": "package",
-      "path": "syncfusion.xamarin.core/19.2.0.57",
+      "path": "syncfusion.xamarin.core/19.2.0.62",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2359,14 +2371,14 @@
         "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleVisibleIcon.xaml",
         "lib/uap10.0/Syncfusion.Core.XForms.dll",
         "lib/uap10.0/Syncfusion.Core.XForms.xml",
-        "syncfusion.xamarin.core.19.2.0.57.nupkg.sha512",
+        "syncfusion.xamarin.core.19.2.0.62.nupkg.sha512",
         "syncfusion.xamarin.core.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.Expander/19.2.0.57": {
-      "sha512": "uhGyAcutIp8tK/dqJWSWKepbAES70K4vtOi4Tl+SqqLz6z6NfNMVEatcvzxlkrgqrWCC9NKfvjdopQAXdPeBjQ==",
+    "Syncfusion.Xamarin.Expander/19.2.0.62": {
+      "sha512": "QyEWWZA7eS5vECw+IeJj6S4grq6eswjvBMW3fKfGJZOTTCea4eXHUmjDQa7JzlAjtU5LVhgkkzRxSMIrPuUkqg==",
       "type": "package",
-      "path": "syncfusion.xamarin.expander/19.2.0.57",
+      "path": "syncfusion.xamarin.expander/19.2.0.62",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2393,14 +2405,14 @@
         "lib/uap10.0/Syncfusion.Expander.XForms.UWP/Themes/Generic.xbf",
         "lib/uap10.0/Syncfusion.Expander.XForms.dll",
         "lib/uap10.0/Syncfusion.Expander.XForms.xml",
-        "syncfusion.xamarin.expander.19.2.0.57.nupkg.sha512",
+        "syncfusion.xamarin.expander.19.2.0.62.nupkg.sha512",
         "syncfusion.xamarin.expander.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.GridCommon/19.2.0.57": {
-      "sha512": "an6P5oP0so69OLCRRbyDjuidbt+9Qx7UJPeHC5d+L50HYlWIcIWFtCsrX1QodbgvJTbIhWEZRrtiVt2VbBvmwA==",
+    "Syncfusion.Xamarin.GridCommon/19.2.0.62": {
+      "sha512": "kCDdpfyNTuXA+UYbkHfSinZ7W/NL+tIWQdHAUVmMPM0kDnf28ltwjlaTa1KBvh36s3U4/RhZPUyunx8VzIAfbg==",
       "type": "package",
-      "path": "syncfusion.xamarin.gridcommon/19.2.0.57",
+      "path": "syncfusion.xamarin.gridcommon/19.2.0.62",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2418,14 +2430,14 @@
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.GridCommon.Portable.dll",
         "lib/uap10.0/Syncfusion.GridCommon.Portable.XML",
         "lib/uap10.0/Syncfusion.GridCommon.Portable.dll",
-        "syncfusion.xamarin.gridcommon.19.2.0.57.nupkg.sha512",
+        "syncfusion.xamarin.gridcommon.19.2.0.62.nupkg.sha512",
         "syncfusion.xamarin.gridcommon.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.SfComboBox/19.2.0.57": {
-      "sha512": "wKhOgLC8n/uK1I1/TM1LMGZCIRlrQfdlPuKAle5Lzun0EwwJo5/+R7dhibeBVmChbwY0CKQAXM++f1sFVg+r3g==",
+    "Syncfusion.Xamarin.SfComboBox/19.2.0.62": {
+      "sha512": "Nu+POCMc4zEmX4mAplnTT24pihkX2Xg0BH7PJd+PiOklCHf+v8YMnvGh4rtkm55I10T0idMOyZyZHDQXznTUXA==",
       "type": "package",
-      "path": "syncfusion.xamarin.sfcombobox/19.2.0.57",
+      "path": "syncfusion.xamarin.sfcombobox/19.2.0.62",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2452,14 +2464,14 @@
         "lib/uap10.0/Syncfusion.SfComboBox.XForms.UWP/dropdownbuttonimage.png",
         "lib/uap10.0/Syncfusion.SfComboBox.XForms.XML",
         "lib/uap10.0/Syncfusion.SfComboBox.XForms.dll",
-        "syncfusion.xamarin.sfcombobox.19.2.0.57.nupkg.sha512",
+        "syncfusion.xamarin.sfcombobox.19.2.0.62.nupkg.sha512",
         "syncfusion.xamarin.sfcombobox.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.SfDataGrid/19.2.0.57": {
-      "sha512": "Eg4aqvgJaglLiETFSO0vEWh82Tg6UGWElUDMrs39fP1tbU1OiP2BusW3wv3FKv80PdDaA0XtHmy9N/dRtsWZ5A==",
+    "Syncfusion.Xamarin.SfDataGrid/19.2.0.62": {
+      "sha512": "xZ0ZlYWdoH0xYxRHRSrLdnJoVPh5hyCt7BxLxzFNvIUt0EDKfCyAk+XFDdUvmrzJBARgOrn/Z/b7bJHPrKvbkg==",
       "type": "package",
-      "path": "syncfusion.xamarin.sfdatagrid/19.2.0.57",
+      "path": "syncfusion.xamarin.sfdatagrid/19.2.0.62",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2502,14 +2514,14 @@
         "lib/uap10.0/Syncfusion.SfDataGrid.XForms.UWP/Themes/Generic.xbf",
         "lib/uap10.0/Syncfusion.SfDataGrid.XForms.dll",
         "lib/uap10.0/Syncfusion.SfDataGrid.XForms.xml",
-        "syncfusion.xamarin.sfdatagrid.19.2.0.57.nupkg.sha512",
+        "syncfusion.xamarin.sfdatagrid.19.2.0.62.nupkg.sha512",
         "syncfusion.xamarin.sfdatagrid.nuspec"
       ]
     },
-    "Syncfusion.Xamarin.SfNumericTextBox/19.2.0.57": {
-      "sha512": "qBJBz+WccjzQj11wt7zR3SivdPf3IW3+fUrAD/BMCc8GFPvCNghy+TdPyFjn7PAYf/mHuduTkite9d+JlUjwVg==",
+    "Syncfusion.Xamarin.SfNumericTextBox/19.2.0.62": {
+      "sha512": "8fopnDybEw9BG7LBnyP0J/htNo5pxOJkXFYxX0JdBXQq35Z83V5EyUsk+5+/74bBluS7y9cErxeI6cfKLDYosg==",
       "type": "package",
-      "path": "syncfusion.xamarin.sfnumerictextbox/19.2.0.57",
+      "path": "syncfusion.xamarin.sfnumerictextbox/19.2.0.62",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2536,7 +2548,7 @@
         "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.UWP.dll",
         "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.dll",
         "lib/uap10.0/Syncfusion.SfNumericTextBox.XForms.xml",
-        "syncfusion.xamarin.sfnumerictextbox.19.2.0.57.nupkg.sha512",
+        "syncfusion.xamarin.sfnumerictextbox.19.2.0.62.nupkg.sha512",
         "syncfusion.xamarin.sfnumerictextbox.nuspec"
       ]
     },
@@ -2801,10 +2813,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/5.0.0.2083": {
-      "sha512": "KDKdEIq8SA3zP8/qyJZ9isIsP1KRLvhxUohTM4GS4HOQkkK3FARvi/FJv91O4IJ/30ByJg88mBdKuiLMyL9Q+w==",
+    "Xamarin.Forms/5.0.0.2125": {
+      "sha512": "oP4eEx8SkEId/azXqzBpl9MA5kjn8izMoQImV3c/M4Q8NLSERWWNJkymrSylaIIO4l0zQIofYjwQoHmtaQ0dFQ==",
       "type": "package",
-      "path": "xamarin.forms/5.0.0.2083",
+      "path": "xamarin.forms/5.0.0.2125",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3013,7 +3025,7 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.5.0.0.2083.nupkg.sha512",
+        "xamarin.forms.5.0.0.2125.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -3065,10 +3077,10 @@
         "xamarin.forms.pancakeview.nuspec"
       ]
     },
-    "Xamarin.Forms.Visual.Material/5.0.0.2083": {
-      "sha512": "qmkP3eYKSyB7574AlBPQI4zF3jFr6RRtyAvP4k+hEp2hrp7CK5fRZTXUNMdOQr+k3R7gvuvG2qCEr4sUq3M3KA==",
+    "Xamarin.Forms.Visual.Material/5.0.0.2125": {
+      "sha512": "nzIPmrFVqWF6b1+pddQrb8fgjq4Qd++C3CiEdoYOdz1Km77A/srwNypTx5DzsDYXdyOXVqRWGxdyf6Jg3ytIlg==",
       "type": "package",
-      "path": "xamarin.forms.visual.material/5.0.0.2083",
+      "path": "xamarin.forms.visual.material/5.0.0.2125",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3083,7 +3095,7 @@
         "lib/netstandard1.0/_._",
         "lib/tizen40/Xamarin.Forms.Material.dll",
         "lib/tizen40/Xamarin.Forms.Material.pdb",
-        "xamarin.forms.visual.material.5.0.0.2083.nupkg.sha512",
+        "xamarin.forms.visual.material.5.0.0.2125.nupkg.sha512",
         "xamarin.forms.visual.material.nuspec"
       ]
     },
@@ -3108,21 +3120,21 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
-      "MagicGradients >= 1.3.0",
-      "Microsoft.AppCenter.Analytics >= 4.3.0",
-      "Microsoft.AppCenter.Crashes >= 4.3.0",
+      "MagicGradients >= 1.3.1",
+      "Microsoft.AppCenter.Analytics >= 4.4.0",
+      "Microsoft.AppCenter.Crashes >= 4.4.0",
       "Novenen >= 1.0.0",
       "Syncfusion.Xamarin.Cards >= 19.2.0.57",
-      "Syncfusion.Xamarin.Expander >= 19.2.0.57",
-      "Syncfusion.Xamarin.SfDataGrid >= 19.2.0.57",
+      "Syncfusion.Xamarin.Expander >= 19.2.0.62",
+      "Syncfusion.Xamarin.SfDataGrid >= 19.2.0.62",
       "TouchView >= 4.1.100",
       "Xamanimation >= 1.3.0",
       "Xamarin.CommunityToolkit >= 1.2.0",
       "Xamarin.Essentials >= 1.7.0",
-      "Xamarin.Forms >= 5.0.0.2083",
+      "Xamarin.Forms >= 5.0.0.2125",
       "Xamarin.Forms.BehaviorsPack >= 3.0.0",
       "Xamarin.Forms.PancakeView >= 2.3.0.759",
-      "Xamarin.Forms.Visual.Material >= 5.0.0.2083"
+      "Xamarin.Forms.Visual.Material >= 5.0.0.2125"
     ]
   },
   "packageFolders": {
@@ -3162,15 +3174,15 @@
         "dependencies": {
           "MagicGradients": {
             "target": "Package",
-            "version": "[1.3.0, )"
+            "version": "[1.3.1, )"
           },
           "Microsoft.AppCenter.Analytics": {
             "target": "Package",
-            "version": "[4.3.0, )"
+            "version": "[4.4.0, )"
           },
           "Microsoft.AppCenter.Crashes": {
             "target": "Package",
-            "version": "[4.3.0, )"
+            "version": "[4.4.0, )"
           },
           "Syncfusion.Xamarin.Cards": {
             "target": "Package",
@@ -3178,11 +3190,11 @@
           },
           "Syncfusion.Xamarin.Expander": {
             "target": "Package",
-            "version": "[19.2.0.57, )"
+            "version": "[19.2.0.62, )"
           },
           "Syncfusion.Xamarin.SfDataGrid": {
             "target": "Package",
-            "version": "[19.2.0.57, )"
+            "version": "[19.2.0.62, )"
           },
           "TouchView": {
             "target": "Package",
@@ -3202,7 +3214,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[5.0.0.2083, )"
+            "version": "[5.0.0.2125, )"
           },
           "Xamarin.Forms.BehaviorsPack": {
             "target": "Package",
@@ -3214,7 +3226,7 @@
           },
           "Xamarin.Forms.Visual.Material": {
             "target": "Package",
-            "version": "[5.0.0.2083, )"
+            "version": "[5.0.0.2125, )"
           }
         }
       }
@@ -3236,7 +3248,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: Xamarin.CommunityToolkit 1.2.0 requires Xamarin.Forms (>= 5.0.0.1874 && <= 5.0.0.2012) but version Xamarin.Forms 5.0.0.2083 was resolved.",
+      "message": "Detected package version outside of dependency constraint: Xamarin.CommunityToolkit 1.2.0 requires Xamarin.Forms (>= 5.0.0.1874 && <= 5.0.0.2012) but version Xamarin.Forms 5.0.0.2125 was resolved.",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "Xamarin.iOS,Version=v1.0",
