@@ -1,0 +1,131 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_StrErrorR
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadLink
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Symlink
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CopyFile
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Link
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Rename
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/mscorlib.dll
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=NetSecurityNative_ReleaseGssBuffer
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMinorStatus
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMajorStatus
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportUserName
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportPrincipalName
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseName
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredSpNego
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredWithPassword
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseCred
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContext
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DeleteSecContext
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=xamarin_start_wwan
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/System.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_exception
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_exception
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_managed_ref
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_set_gchandle_with_flags_safe
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Xamarin.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACAppCenter
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACCustomProperties
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACDependencyConfiguration
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACDevice
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACKeychainUtil
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACLogger
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACServiceAbstract
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACWrapperLogger
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACWrapperSdk
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACAnalytics
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.Analytics.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACEventLog
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.Analytics.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACLogWithProperties
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.Analytics.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACPageLog
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.Analytics.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACCrashes
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.Crashes.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACErrorAttachmentLog
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.Crashes.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACErrorReport
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.Crashes.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACExceptionModel
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.Crashes.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACStackFrame
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.Crashes.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACWrapperCrashesHelper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.Crashes.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACWrapperException
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.Crashes.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACWrapperExceptionManager
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.Crashes.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACWrapperExceptionModel
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhone/Release/mtouch-cache/1-Link/Microsoft.AppCenter.Crashes.iOS.Bindings.dll
