@@ -1,9 +1,9 @@
-﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{148CCE8E-4161-4DBA-8B24-06D6256EEF0E}|Default">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{2516ADA5-C020-4898-AFDC-3D55B9BD6429}|Default">
   <MonoDevelop.Ide.ItemProperties.Novenen.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget" />
   <MonoDevelop.Ide.ItemProperties.Novenen.Android PreferredExecutionTarget="Android.pixel_2_oreo_8_0_-_api_26" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Novenen/Novenen/ViewModels/BibelstelleDesTagesViewModel.cs" Line="122" Column="17" />
+      <File FileName="Novenen/Novenen/ViewModels/BibelstelleDesTagesViewModel.cs" Line="114" Column="14" />
       <File FileName="Novenen/Novenen/Views/BibelstelleDesTagesPage.xaml" />
       <File FileName="Novenen/Novenen/Views/BibelstellePage.xaml" />
     </Files>
