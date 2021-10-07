@@ -53,7 +53,7 @@
                 </magic:GradientView>
 
         <StackLayout Spacing="30">
-            <pcv:PancakeView CornerRadius="0,0,20,20" BackgroundColor="Transparent"
+            <pcv:PancakeView CornerRadius="0,0,20,20" BackgroundColor="Transparent" Margin="0,-5,0,0"
                     pcv:Shadow="{pcv:ShadowMarkup BlurRadius=10, Offset='10,10'}">
                 <ImageButton Source="imperial_bible.jpg" Aspect="AspectFill" />
             </pcv:PancakeView>

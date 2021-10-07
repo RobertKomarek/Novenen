@@ -4,7 +4,6 @@
              xmlns:vm="clr-namespace:Novenen.ViewModels"
              xmlns:fontawesome="clr-namespace:FontAwesome" xmlns:magic="http://magic.com/schemas/gradients"
              x:Class="Novenen.Views.InfoPage"
-             Title="Erinnerung"
              Visual="Material"
              x:Name="ContentPageInfo">
 
