@@ -22,9 +22,9 @@
             <Color x:Key="Label_Backgroundcolor">#E7E6E6</Color>
             <!--#endregion-->
 
-            <Style TargetType="TabbedPage">
+            <!--<Style TargetType="TabbedPage">
                 <Setter Property="BarBackgroundColor" Value="{StaticResource Primary_Dark}"/>
-            </Style>
+            </Style>-->
 
             <Style TargetType="BoxView">
                 <Setter Property="Color" Value="{StaticResource Divider}" />

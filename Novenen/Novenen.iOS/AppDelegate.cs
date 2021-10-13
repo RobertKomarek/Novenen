@@ -57,6 +57,10 @@ namespace Novenen.iOS
             Syncfusion.XForms.iOS.Expander.SfExpanderRenderer.Init();
             Syncfusion.SfDataGrid.XForms.iOS.SfDataGridRenderer.Init();
 
+            //Change Textcolor of TabbedPageBar
+            UITabBar.Appearance.TintColor = UIColor.LightGray;
+            UITabBar.Appearance.SelectedImageTintColor = UIColor.White;
+
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);

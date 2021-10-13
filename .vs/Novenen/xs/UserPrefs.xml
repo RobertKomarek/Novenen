@@ -1,30 +1,39 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{2516ADA5-C020-4898-AFDC-3D55B9BD6429}|Default">
   <MonoDevelop.Ide.ItemProperties.Novenen.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2AEE8864-9904-4247-831D-B7243B9AD936" />
+  <MonoDevelop.Ide.ItemProperties.Novenen.Android PreferredExecutionTarget="Android.zlqsaq7hjfqgi7gy" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Novenen/Novenen/ViewModels/BibelstelleDesTagesViewModel.cs" Line="114" Column="14" />
-      <File FileName="Novenen/Novenen/Views/BibelstelleDesTagesPage.xaml" />
-      <File FileName="Novenen/Novenen/Views/BibelstellePage.xaml" />
+      <File FileName="Novenen/Novenen.Android/Properties/AssemblyInfo.cs" />
+      <File FileName="Novenen/Novenen.Android/Properties/AndroidManifest.xml" />
+      <File FileName="Novenen/Novenen.Android/MainActivity.cs" />
+      <File FileName="Novenen/Novenen/AssemblyInfo.cs" />
+      <File FileName="Novenen/Novenen.iOS/AppDelegate.cs" />
+      <File FileName="Novenen/Novenen/App.xaml" />
+      <File FileName="Novenen/Novenen/Views/FatimaNovenePage.xaml" Line="543" Column="14" />
+      <File FileName="Novenen/Novenen/Views/LesezeichenPage.xaml" />
+      <File FileName="Novenen/Novenen/Views/ImpressumPage.xaml" />
+      <File FileName="Novenen/Novenen.iOS/Main.cs" />
       <File FileName="Novenen/Novenen.iOS/Info.plist" />
-      <File FileName="Novenen/Novenen.Android/Properties/AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="Novenen/Novenen.Android/Properties/AndroidManifest.xml" Line="1" Column="1" />
-      <File FileName="Novenen/Novenen.Android/MainActivity.cs" Line="43" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Novenen" expanded="True">
             <Node name="Novenen" expanded="True">
+              <Node name="FontAwesome" expanded="True" />
               <Node name="Resources" expanded="True" />
               <Node name="ViewModels" expanded="True" />
-              <Node name="Views" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="FatimaNovenePage.xaml" selected="True" />
+              </Node>
               <Node name="App.xaml" expanded="True" />
               <Node name="AppShell.xaml" expanded="True" />
             </Node>
             <Node name="Novenen.Android" expanded="True">
               <Node name="Properties" expanded="True" />
-              <Node name="Resources" expanded="True" />
-              <Node name="MainActivity.cs" selected="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+              </Node>
             </Node>
             <Node name="Novenen.iOS" expanded="True" />
           </Node>

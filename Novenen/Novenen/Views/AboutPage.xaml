@@ -12,7 +12,15 @@
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              Visual="Default"
              Title="Novenen"
-             BackgroundColor="Black">
+             BackgroundColor="DarkGoldenrod">
+
+    <!--<ContentPage.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+            <GradientStop Color="Transparent" Offset="0.4"/>
+            <GradientStop Color="DarkGoldenrod" Offset="0.4"/>
+        </LinearGradientBrush>
+    </ContentPage.Background>-->
+
     <ContentPage.BindingContext>
         <vm:AboutViewModel />
     </ContentPage.BindingContext>

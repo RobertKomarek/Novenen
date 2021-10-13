@@ -1,0 +1,1076 @@
+Function=SystemNative_ConvertErrorPlatformToPal
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.dll
+Function=SystemNative_ConvertErrorPalToPlatform
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.dll
+Function=SystemNative_StrErrorR
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.dll
+Function=SystemNative_GetNonCryptographicallySecureRandomBytes
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetReadDirRBufferSize
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadLink
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_FStat2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Stat2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LStat2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Symlink
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ChMod
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CopyFile
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEGid
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetEUid
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LChflags
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_LChflagsCanSetHiddenFlag
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Link
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_MkDir
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Rename
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_RmDir
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_UTime
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_UTimes
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_Unlink
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_OpenDir
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_ReadDirR
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_CloseDir
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_local_name
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_names
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_timezone_get_data
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_GetFolderPath
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=xamarin_log
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_locale_country_code
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/mscorlib.dll
+Function=SystemNative_GetDomainSocketSizes
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.Core.dll
+Function=NetSecurityNative_ReleaseGssBuffer
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMinorStatus
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DisplayMajorStatus
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportUserName
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ImportPrincipalName
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseName
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredSpNego
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitiateCredWithPassword
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_ReleaseCred
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContext
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_InitSecContextEx
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_AcceptSecContext
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_DeleteSecContext
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_GetUser
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_Wrap
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.dll
+Function=NetSecurityNative_Unwrap
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.dll
+Function=xamarin_start_wwan
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.dll
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=BrotliDecoderCreateInstance
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderDecompressStream
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderDecompress
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderDestroyInstance
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliDecoderIsFinished
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderCreateInstance
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderSetParameter
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderCompressStream
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderHasMoreOutput
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderDestroyInstance
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=BrotliEncoderCompress
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/System.IO.Compression.dll
+Function=xamarin_find_protocol_wrapper_type
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_block_on_main_thread
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_get_block_descriptor
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_NMatrix4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_NMatrix4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_NMatrix4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_NMatrix4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix3_objc_msgSend
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix3_objc_msgSendSuper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix3_objc_msgSend_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix3_objc_msgSendSuper_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSend_NVector3_nint_CGSize
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSendSuper_NVector3_nint_CGSize
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSend_stret_NVector3_nint_CGSize
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__CGPoint_objc_msgSendSuper_stret_NVector3_nint_CGSize
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_CGPoint_NMatrix4_nint_CGSize
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_CGPoint_NMatrix4_nint_CGSize
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_stret_CGPoint_NMatrix4_nint_CGSize
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_stret_CGPoint_NMatrix4_nint_CGSize
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_nint_CGSize_nfloat_nfloat
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_nint_CGSize_nfloat_nfloat
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret_nint_CGSize_nfloat_nfloat
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret_nint_CGSize_nfloat_nfloat
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_nint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_nint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret_nint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret_nint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_NMatrix4_NVector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_NMatrix4_NVector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_NMatrix4_NVector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_NMatrix4_NVector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_NVector3_NVector3_nint_nint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_NVector3_NVector3_nint_nint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_CGPoint_NMatrix4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_CGPoint_NMatrix4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_stret_CGPoint_NMatrix4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_stret_CGPoint_NMatrix4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix4_NVector3_NVector3_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix4_NVector3_NVector3_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NVector3_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NVector3_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_stret_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_stret_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4x3_objc_msgSend
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4x3_objc_msgSendSuper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4x3_objc_msgSend_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4x3_objc_msgSendSuper_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_exception
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_exception
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_IntPtr_nuint_exception
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_IntPtr_nuint_exception
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_nint_nint_nint_nuint_exception
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_nint_nint_nint_nuint_exception
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSend_IntPtr_nuint_nint_nuint_exception
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_IntPtr_objc_msgSendSuper_IntPtr_nuint_nint_nuint_exception
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix3_objc_msgSend
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix3_objc_msgSendSuper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix3_objc_msgSend_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix3_objc_msgSendSuper_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Matrix3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Matrix3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2i_objc_msgSend
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2i_objc_msgSendSuper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2i_objc_msgSend_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2i_objc_msgSendSuper_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2i_int_int_bool
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2i_int_int_bool
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2i_int_int_bool_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2i_int_int_bool_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_Vector2_Vector2_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_Vector2_Vector2_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_Vector2_Vector2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_Vector2_Vector2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKTriangle_objc_msgSend_nuint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKTriangle_objc_msgSendSuper_nuint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKTriangle_objc_msgSend_stret_nuint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKTriangle_objc_msgSendSuper_stret_nuint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__float_objc_msgSend_Vector2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__float_objc_msgSendSuper_Vector2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector3d
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector3d
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSend
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSendSuper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSend_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSendSuper_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Vector2d_Vector2d_Vector2i_bool
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Vector2d_Vector2d_Vector2i_bool
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__float_objc_msgSend_Vector2i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__float_objc_msgSendSuper_Vector2i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_float_Vector2i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_float_Vector2i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKBox_objc_msgSend
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKBox_objc_msgSendSuper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKBox_objc_msgSend_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKBox_objc_msgSendSuper_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_GKBox_float
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_GKBox_float
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Vector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Vector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_GKBox
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_GKBox
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_GKBox
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_GKBox
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_nuint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_nuint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_stret_nuint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_stret_nuint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_nuint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_nuint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret_nuint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret_nuint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_GKQuad_float
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_GKQuad_float
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Vector2_exception
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Vector2_exception
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_GKQuad
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_GKQuad
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_GKQuad
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_GKQuad
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2_Vector2_float_exception
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2_Vector2_float_exception
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Vector2_Vector2_exception
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Vector2_Vector2_exception
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2_Vector2_exception
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2_Vector2_exception
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKQuad_objc_msgSend
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKQuad_objc_msgSendSuper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKQuad_objc_msgSend_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__GKQuad_objc_msgSendSuper_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_IntPtr_Vector2_Vector2_nint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_IntPtr_Vector2_Vector2_nint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_IntPtr_Vector2_Vector2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_IntPtr_Vector2_Vector2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSAxisAlignedBoundingBox_objc_msgSend
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSAxisAlignedBoundingBox_objc_msgSendSuper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSAxisAlignedBoundingBox_objc_msgSend_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSAxisAlignedBoundingBox_objc_msgSendSuper_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSImageHistogramInfo_objc_msgSend
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSImageHistogramInfo_objc_msgSendSuper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSImageHistogramInfo_objc_msgSend_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MPSImageHistogramInfo_objc_msgSendSuper_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSend
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSendSuper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSend_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSendSuper_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_ref_MPSImageHistogramInfo
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_ref_MPSImageHistogramInfo
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix4_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix4_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix4d_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix4d_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSend_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4_objc_msgSendSuper_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSend_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSendSuper_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSend_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSendSuper_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Quaternion_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Quaternion_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Quaterniond_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Quaterniond_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSend_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSendSuper_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSend_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSendSuper_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaterniond_objc_msgSend_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaterniond_objc_msgSendSuper_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaterniond_objc_msgSend_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaterniond_objc_msgSendSuper_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector2_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector2_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector2d_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector2d_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSend_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSendSuper_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSend_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2d_objc_msgSendSuper_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NVector3_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NVector3_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NVector3d_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NVector3d_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSend_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3_objc_msgSendSuper_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3d_objc_msgSend_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3d_objc_msgSendSuper_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3d_objc_msgSend_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NVector3d_objc_msgSendSuper_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector4_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector4_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector4d_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector4d_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSend_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSendSuper_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSend_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4_objc_msgSendSuper_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4d_objc_msgSend_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4d_objc_msgSendSuper_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4d_objc_msgSend_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4d_objc_msgSendSuper_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSend
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSendSuper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSend_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix4d_objc_msgSendSuper_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix4d
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix4d
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NVector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NVector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_MDLAxisAlignedBoundingBox_bool
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_MDLAxisAlignedBoundingBox_bool
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector3_Vector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector3_Vector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_Vector2i_Vector2i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_Vector2i_Vector2i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret_Vector2i_Vector2i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret_Vector2i_Vector2i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_bool_IntPtr_Vector2i_nint_nuint_nint_bool
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_bool_IntPtr_Vector2i_nint_nuint_nint_bool
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_IntPtr_Vector2i_int_nint_IntPtr_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_IntPtr_Vector2i_int_nint_IntPtr_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_float_IntPtr_Vector2i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_float_IntPtr_Vector2i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_IntPtr_IntPtr_Vector2i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_IntPtr_IntPtr_Vector2i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Matrix4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Matrix4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_nuint_Vector2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_nuint_Vector2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_nuint_Vector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_nuint_Vector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_nuint_Vector4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_nuint_Vector4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_nuint_Matrix4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_nuint_Matrix4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_nuint_NMatrix4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_nuint_NMatrix4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector3i_bool_nint_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector3i_bool_nint_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_bool_nint_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_bool_nint_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_bool_bool_nint_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_bool_bool_nint_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_bool_bool_bool_nint_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_bool_bool_bool_nint_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_int_bool_nint_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_int_bool_nint_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector2i_nint_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector2i_nint_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_bool_nint_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_bool_nint_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_int_UInt32_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_int_UInt32_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_Vector3i_nint_bool_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_Vector3i_nint_bool_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2_Vector2i_nint_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2_Vector2i_nint_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector3_nuint_nuint_nint_bool_bool_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector3_nuint_nuint_nint_bool_bool_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_Vector2_nuint_nuint_nint_bool_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_Vector2_nuint_nuint_nint_bool_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_Vector2_nuint_nuint_nuint_nint_bool_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_Vector2_nuint_nuint_nuint_nint_bool_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSend_Vector2i_nint_float_IntPtr_IntPtr_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSendSuper_Vector2i_nint_float_IntPtr_IntPtr_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSend_Vector2i_IntPtr_IntPtr_IntPtr_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSendSuper_Vector2i_IntPtr_IntPtr_IntPtr_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_IntPtr_Vector2i_nint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_IntPtr_Vector2i_nint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_float_IntPtr_Vector2i_int_nint_bool
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_float_IntPtr_Vector2i_int_nint_bool
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_nint_Vector2i_float_float_float_float
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_nint_Vector2i_float_float_float_float
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_nint_Vector2i_float_float_float_float_float
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_nint_Vector2i_float_float_float_float_float
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_IntPtr_Vector2i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_IntPtr_Vector2i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_IntPtr_Vector2i_float
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_IntPtr_Vector2i_float
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Matrix4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Matrix4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Matrix4_bool
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Matrix4_bool
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_NMatrix4_bool
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_NMatrix4_bool
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper_stret_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector3_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector3_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Matrix4_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Matrix4_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend_IntPtr_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper_IntPtr_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSend_stret_IntPtr_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Matrix4_objc_msgSendSuper_stret_IntPtr_Double
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLVoxelIndexExtent2_objc_msgSend
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLVoxelIndexExtent2_objc_msgSendSuper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLVoxelIndexExtent2_objc_msgSend_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLVoxelIndexExtent2_objc_msgSendSuper_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_MDLAxisAlignedBoundingBox_float
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_MDLAxisAlignedBoundingBox_float
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSend_Vector4i_bool_bool_bool_bool
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__bool_objc_msgSendSuper_Vector4i_bool_bool_bool_bool
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector4i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector4i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_MDLVoxelIndexExtent2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_MDLVoxelIndexExtent2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4i_objc_msgSend_Vector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4i_objc_msgSendSuper_Vector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4i_objc_msgSend_stret_Vector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector4i_objc_msgSendSuper_stret_Vector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_Vector4i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_Vector4i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret_Vector4i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret_Vector4i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend_Vector4i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper_Vector4i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSend_stret_Vector4i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__MDLAxisAlignedBoundingBox_objc_msgSendSuper_stret_Vector4i
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSend
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSendSuper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSend_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Quaternion_objc_msgSendSuper_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Quaternion_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Quaternion_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Quaternion
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Quaternion
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2d_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2d_IntPtr
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Vector2d
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Vector2d
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector2d_nint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector2d_nint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_Vector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_Vector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSend_stret_Vector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector3_objc_msgSendSuper_stret_Vector3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_Vector4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_Vector4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__Vector4_objc_msgSend
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__Vector4_objc_msgSendSuper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__Vector4_objc_msgSend_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__Vector4_objc_msgSendSuper_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__void_objc_msgSend_Vector4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_vector_float3__void_objc_msgSendSuper_Vector4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_Quaternion
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_Quaternion
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix2_objc_msgSend
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix2_objc_msgSendSuper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix2_objc_msgSend_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__NMatrix2_objc_msgSendSuper_stret
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSend_NMatrix2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__void_objc_msgSendSuper_NMatrix2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Vector4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Vector4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Matrix2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Matrix2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_NMatrix2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_NMatrix2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Matrix3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Matrix3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_NMatrix3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_NMatrix3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSend_IntPtr_Matrix4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__IntPtr_objc_msgSendSuper_IntPtr_Matrix4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_nint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_nint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSend_stret_nint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_simd__Vector2_objc_msgSendSuper_stret_nint
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_CGPoint__VNNormalizedFaceBoundingBoxPointForLandmarkPoint_Vector2_CGRect_nuint_nuint_string
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_CGPoint__VNImagePointForFaceLandmarkPoint_Vector2_CGRect_nuint_nuint_string
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=UIApplicationMain
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_1
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_2
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_3
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_4
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_5
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_6
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_7
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_8
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_localized_string_format_9
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_init_nsthread
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_release_managed_ref
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_set_gchandle_with_flags_safe
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+Function=xamarin_os_log
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Xamarin.iOS.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACAppCenter
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACCustomProperties
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACDependencyConfiguration
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACDevice
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACKeychainUtil
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACLogger
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACServiceAbstract
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACWrapperLogger
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACWrapperSdk
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACAnalytics
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.Analytics.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACEventLog
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.Analytics.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACLogWithProperties
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.Analytics.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACPageLog
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.Analytics.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACCrashes
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.Crashes.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACErrorAttachmentLog
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.Crashes.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACErrorReport
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.Crashes.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACExceptionModel
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.Crashes.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACStackFrame
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.Crashes.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACWrapperCrashesHelper
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.Crashes.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACWrapperException
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.Crashes.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACWrapperExceptionManager
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.Crashes.iOS.Bindings.dll
+ObjectiveCClass=OBJC_CLASS_$_MSACWrapperExceptionModel
+	/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone12.8-14.4/mtouch-cache/1-Link/Microsoft.AppCenter.Crashes.iOS.Bindings.dll
+Function=mono_pmip
+Function=xamarin_dyn_objc_msgSend
+Function=xamarin_dyn_objc_msgSendSuper
+Function=xamarin_dyn_objc_msgSend_stret
+Function=xamarin_dyn_objc_msgSendSuper_stret

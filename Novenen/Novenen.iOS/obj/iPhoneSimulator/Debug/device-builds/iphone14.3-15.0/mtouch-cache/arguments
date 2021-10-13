@@ -7,7 +7,7 @@
 	--cache=/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone14.3-15.0/mtouch-cache \
 	--root-assembly=/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/bin/iPhoneSimulator/Debug/Novenen.iOS.exe \
 	--sdkroot=/Applications/Xcode.app/Contents/Developer \
-	--targetver=14.5 \
+	--targetver=14.4 \
 	--sim=/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/bin/iPhoneSimulator/Debug/device-builds/iphone14.3-15.0/Novenen.iOS.app \
 	--executable=Novenen.iOS \
 	--nolink \
