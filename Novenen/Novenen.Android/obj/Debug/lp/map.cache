@@ -11,11 +11,6 @@ SkiaSharp.Views.Android.dll
 SkiaSharp.Views.Forms.dll
 Syncfusion.Cards.XForms.Android.dll
 Syncfusion.Core.XForms.Android.dll
-Syncfusion.Expander.XForms.Android.dll
-Syncfusion.SfComboBox.XForms.Android.dll
-Syncfusion.SfDataGrid.XForms.Android.dll
-Syncfusion.SfNumericTextBox.Android.dll
-Syncfusion.SfNumericTextBox.XForms.Android.dll
 TouchEffect.Droid.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll

@@ -14,7 +14,7 @@ namespace Novenen
 
         public App()
         {
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NDcxMTY0QDMxMzkyZTMyMmUzMFdZbk40aU9xZTFUQ1d4K1Q0dWdleUxVaWxKNUYzeHJldWVuMXpYbWo1TTg9");
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NTE5MDc2QDMxMzkyZTMzMmUzMENMVVhnbHQyU2crNGJIK3hTY3FUcFhtQW9sQitDaUZUdE56Q0psWEl0MEE9");
             InitializeComponent();
 
             DependencyService.Register<MockDataStore>();

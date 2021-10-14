@@ -50,15 +50,7 @@
             },
             "Syncfusion.Xamarin.Cards": {
               "target": "Package",
-              "version": "[19.2.0.57, )"
-            },
-            "Syncfusion.Xamarin.Expander": {
-              "target": "Package",
-              "version": "[19.2.0.62, )"
-            },
-            "Syncfusion.Xamarin.SfDataGrid": {
-              "target": "Package",
-              "version": "[19.2.0.62, )"
+              "version": "[19.3.0.45, )"
             },
             "TouchView": {
               "target": "Package",
@@ -165,15 +157,7 @@
             },
             "Syncfusion.Xamarin.Cards": {
               "target": "Package",
-              "version": "[19.2.0.57, )"
-            },
-            "Syncfusion.Xamarin.Expander": {
-              "target": "Package",
-              "version": "[19.2.0.62, )"
-            },
-            "Syncfusion.Xamarin.SfDataGrid": {
-              "target": "Package",
-              "version": "[19.2.0.62, )"
+              "version": "[19.3.0.45, )"
             },
             "TouchView": {
               "target": "Package",

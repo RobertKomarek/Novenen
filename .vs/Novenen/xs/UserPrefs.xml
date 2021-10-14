@@ -1,19 +1,20 @@
-﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{2516ADA5-C020-4898-AFDC-3D55B9BD6429}|Default">
-  <MonoDevelop.Ide.ItemProperties.Novenen.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2AEE8864-9904-4247-831D-B7243B9AD936" />
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{148CCE8E-4161-4DBA-8B24-06D6256EEF0E}|Default">
+  <MonoDevelop.Ide.ItemProperties.Novenen.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.C140C5C8-6585-4E4C-BE0B-69D053023384" />
   <MonoDevelop.Ide.ItemProperties.Novenen.Android PreferredExecutionTarget="Android.zlqsaq7hjfqgi7gy" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Novenen/Novenen.Android/Properties/AssemblyInfo.cs" />
+      <File FileName="Novenen/Novenen.Android/Properties/AssemblyInfo.cs" Line="1" Column="1" />
       <File FileName="Novenen/Novenen.Android/Properties/AndroidManifest.xml" />
-      <File FileName="Novenen/Novenen.Android/MainActivity.cs" />
-      <File FileName="Novenen/Novenen/AssemblyInfo.cs" />
-      <File FileName="Novenen/Novenen.iOS/AppDelegate.cs" />
-      <File FileName="Novenen/Novenen/App.xaml" />
-      <File FileName="Novenen/Novenen/Views/FatimaNovenePage.xaml" Line="543" Column="14" />
+      <File FileName="Novenen/Novenen.iOS/AppDelegate.cs" Line="59" Column="1" />
+      <File FileName="Novenen/Novenen/App.xaml" Line="75" Column="54" />
+      <File FileName="Novenen/Novenen/Views/FatimaNovenePage.xaml" Line="108" Column="1" />
       <File FileName="Novenen/Novenen/Views/LesezeichenPage.xaml" />
       <File FileName="Novenen/Novenen/Views/ImpressumPage.xaml" />
       <File FileName="Novenen/Novenen.iOS/Main.cs" />
       <File FileName="Novenen/Novenen.iOS/Info.plist" />
+      <File FileName="Novenen/Novenen/Views/AboutPage.xaml" Line="15" Column="46" />
+      <File FileName="Novenen/Novenen/App.xaml.cs" Line="12" Column="43" />
+      <File FileName="Novenen/Novenen/AppShell.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -45,7 +46,7 @@
   <DisabledProjects>
     <String>Novenen.Android/Novenen.Android.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

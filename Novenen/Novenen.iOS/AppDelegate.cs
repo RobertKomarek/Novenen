@@ -54,8 +54,8 @@ namespace Novenen.iOS
             global::Xamarin.Forms.Forms.Init();
 
             Syncfusion.XForms.iOS.Cards.SfCardViewRenderer.Init();
-            Syncfusion.XForms.iOS.Expander.SfExpanderRenderer.Init();
-            Syncfusion.SfDataGrid.XForms.iOS.SfDataGridRenderer.Init();
+            //Syncfusion.XForms.iOS.Expander.SfExpanderRenderer.Init();
+            //Syncfusion.SfDataGrid.XForms.iOS.SfDataGridRenderer.Init();
 
             //Change Textcolor of TabbedPageBar
             UITabBar.Appearance.TintColor = UIColor.LightGray;

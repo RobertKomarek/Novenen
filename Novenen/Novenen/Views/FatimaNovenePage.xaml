@@ -74,7 +74,7 @@
                     <StackLayout>
                         <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="{OnPlatform iOS='#9C9C9C', Android=DarkGoldenrod}">
                             <Label Text="TAG 1 DER NOVENE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
-                                    HeightRequest="55" Margin="5"  />
+                                   HeightRequest="55" Margin="5"/>
                         </pcv:PancakeView>
                         <Button Style="{x:StaticResource ButtonRound}"
                                 Command="{Binding GoToLesezeichenPageCommand}"
@@ -99,7 +99,8 @@
                     </StackLayout>
                 </ScrollView>
                 <StackLayout Margin="0,10,0,20" HorizontalOptions="Center">
-                    <Button Text="Rosenkranz 1. Tag" Clicked="Button_Clicked_Erhalte_Entzuende" />
+                    <Button Text="Rosenkranz 1. Tag"
+                            Clicked="Button_Clicked_Erhalte_Entzuende"/>
                 </StackLayout>
             </StackLayout>
         </Grid>
@@ -510,7 +511,7 @@
                                 <Label Text="TAG 9 DER NOVENE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                         HeightRequest="55" Margin="5"/>
                             </pcv:PancakeView>
-                           <Button Style="{x:StaticResource ButtonRound}" xct:ShadowEffect.Color="Black" 
+                           <Button Style="{x:StaticResource ButtonRound}" 
                                 Command="{Binding GoToLesezeichenPageCommand}"
                                 Margin="0,-35,20,20"/>
                             <ListView ItemsSource="{Binding Tag9}"
