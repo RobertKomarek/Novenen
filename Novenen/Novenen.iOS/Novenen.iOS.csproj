@@ -143,26 +143,6 @@
     <ImageAsset Include="Assets.xcassets\AppIcon-3.appiconset\Icon-App-76x76%402x.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon-3.appiconset\Icon-App-83.5x83.5%402x.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon-3.appiconset\ItunesArtwork%402x.png" />
-    <ImageAsset Include="Assets.xcassets\one.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\two.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\three.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\four.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\five.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\six.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\seven.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\eight.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\nine.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\info.imageset\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\one.imageset\one.png" />
-    <ImageAsset Include="Assets.xcassets\two.imageset\two-1.png" />
-    <ImageAsset Include="Assets.xcassets\three.imageset\three-1.png" />
-    <ImageAsset Include="Assets.xcassets\four.imageset\four-1.png" />
-    <ImageAsset Include="Assets.xcassets\five.imageset\five-1.png" />
-    <ImageAsset Include="Assets.xcassets\six.imageset\six.png" />
-    <ImageAsset Include="Assets.xcassets\seven.imageset\seven.png" />
-    <ImageAsset Include="Assets.xcassets\eight.imageset\eight.png" />
-    <ImageAsset Include="Assets.xcassets\nine.imageset\nine.png" />
-    <ImageAsset Include="Assets.xcassets\info.imageset\info-1.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

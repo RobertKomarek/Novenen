@@ -22,9 +22,18 @@
             <Color x:Key="Label_Backgroundcolor">#E7E6E6</Color>
             <!--#endregion-->
 
-            <!--<Style TargetType="TabbedPage">
-                <Setter Property="BarBackgroundColor" Value="{StaticResource Primary_Dark}"/>
-            </Style>-->
+            <Style TargetType="ContentPage">
+                 <Setter Property="Background">
+                    <LinearGradientBrush EndPoint="0,1" >
+                        <GradientStop Color="DarkGoldenrod" Offset="0.0" />
+                        <GradientStop Color="Black" Offset="0.5" />
+                        <GradientStop Color="DarkGoldenrod" Offset="0.95" />
+                    </LinearGradientBrush>
+                </Setter>
+            </Style>
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="Black"/>
+            </Style>
 
             <Style TargetType="BoxView">
                 <Setter Property="Color" Value="{StaticResource Divider}" />

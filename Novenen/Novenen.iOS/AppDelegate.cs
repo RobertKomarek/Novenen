@@ -3,10 +3,15 @@
 //using System.Linq;
 
 using Foundation;
+using Novenen.iOS;
 using ObjCRuntime;
 using UIKit;
 using UserNotifications;
+using Xamarin.Forms;
+using Xamarin.Forms.Platform.iOS;
+using Platform = Xamarin.Forms.Platform.iOS.Platform;
 
+[assembly: ExportRenderer(typeof(TabbedPage), typeof(SwipeTabbedRenderer))]
 namespace Novenen.iOS
 {
     // The UIApplicationDelegate for the application. This class is responsible for launching the 
@@ -60,12 +65,45 @@ namespace Novenen.iOS
             //Change Textcolor of TabbedPageBar
             UITabBar.Appearance.TintColor = UIColor.LightGray;
             UITabBar.Appearance.SelectedImageTintColor = UIColor.White;
+            //if (UIDevice.CurrentDevice.CheckSystemVersion(15, 0))
+            //{
+
+            //    var appearance = new UITabBarAppearance();
+            //    //appearance.ConfigureWithOpaqueBackground();
+            //    //appearance.BackgroundColor = UIColor.Blue;
+
+            //    UITabBar.Appearance.StandardAppearance = appearance;
+            //    UITabBar.Appearance.ScrollEdgeAppearance = UITabBar.Appearance.StandardAppearance;
+            //}
 
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
 
         }
-
     }
+
+    //CUSTOM RENDERER TO TO SWIPE BETWEEN CONTENTPAGES
+    class SwipeTabbedRenderer : TabbedRenderer
+    {
+        public override void ViewWillAppear(bool animated)
+        {
+            base.ViewWillAppear(animated);
+
+            NativeView.AddGestureRecognizer(new UISwipeGestureRecognizer(() => SelectNextTab(1)) { Direction = UISwipeGestureRecognizerDirection.Left, ShouldRecognizeSimultaneously = ShouldRecognizeSimultaneously });
+            NativeView.AddGestureRecognizer(new UISwipeGestureRecognizer(() => SelectNextTab(-1)) { Direction = UISwipeGestureRecognizerDirection.Right, ShouldRecognizeSimultaneously = ShouldRecognizeSimultaneously });
+        }
+
+        void SelectNextTab(int direction)
+        {
+            int nextIndex = TabbedPage.GetIndex(Tabbed.CurrentPage) + direction;
+            if (nextIndex < 0 || nextIndex >= Tabbed.Children.Count) return;
+            var nextPage = Tabbed.Children[nextIndex];
+            UIView.Transition(Platform.GetRenderer(Tabbed.CurrentPage).NativeView, Platform.GetRenderer(nextPage).NativeView, 0.15, UIViewAnimationOptions.TransitionCrossDissolve, null);
+            Tabbed.CurrentPage = nextPage;
+        }
+
+        static bool ShouldRecognizeSimultaneously(UIGestureRecognizer gestureRecognizer, UIGestureRecognizer otherGestureRecognizer) => gestureRecognizer != otherGestureRecognizer;
+    }
+
 }

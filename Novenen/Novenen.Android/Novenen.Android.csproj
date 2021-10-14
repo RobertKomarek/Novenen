@@ -122,10 +122,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
     </AndroidResource>
-    <AndroidResource Include="Resources\drawable\paper_background.jpg">
-      <SubType></SubType>
-      <Generator></Generator>
-    </AndroidResource>
     <AndroidResource Include="Resources\drawable\mutter_immerwaehrende_hilfe.jpg">
       <SubType></SubType>
       <Generator></Generator>
