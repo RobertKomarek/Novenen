@@ -1,9 +1,3 @@
-/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/_PartialAppManifest.items
-/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/_BundleResourceWithLogicalName.items
-/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/ibtool/_BundleResourceWithLogicalName.items
-/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/coremlc/_PartialAppManifest.items
-/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/coremlc/_BundleResourceWithLogicalName.items
-/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/optimized/
 /Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/Novenen.iOS.csproj.AssemblyReference.cache
 /Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/Novenen.iOS.csproj.CoreCompileInputs.cache
 /Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/bin/iPhoneSimulator/Debug/Novenen.iOS.exe
@@ -83,3 +77,9 @@
 /Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/Novenen.iOS.csproj.CopyComplete
 /Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/Novenen.iOS.exe
 /Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/Novenen.iOS.pdb
+/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.4/actool/_PartialAppManifest.items
+/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.4/actool/_BundleResourceWithLogicalName.items
+/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.4/ibtool/_BundleResourceWithLogicalName.items
+/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.4/coremlc/_PartialAppManifest.items
+/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.4/coremlc/_BundleResourceWithLogicalName.items
+/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 12 pro max-14.4/optimized/
