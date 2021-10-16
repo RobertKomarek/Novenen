@@ -8,7 +8,8 @@
             x:Class="Novenen.Views.LourdesNovenePage"
             Title="Lourdes-Novene"
             BackgroundColor="DarkGoldenrod"
-            BarBackgroundColor="#BF9223">
+            BarBackgroundColor="#BF9223"
+            Visual="Material">
 
     <TabbedPage.BindingContext>
         <vm:LourdesNoveneViewModel/>

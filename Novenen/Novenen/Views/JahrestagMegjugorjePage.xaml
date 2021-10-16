@@ -3,13 +3,16 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:local="clr-namespace:Novenen.Views"
             xmlns:pancakeView="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
-            xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
             xmlns:vm="clr-namespace:Novenen.ViewModels"
             xmlns:magic="http://magic.com/schemas/gradients"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
             x:Class="Novenen.Views.JahrestagMedjugorjePage"
             x:Name="TabbedPageJahrestagMedjugorje"
             Visual="Material"
-            BarBackgroundColor="{OnPlatform iOS=White, Android=DarkGoldenRod}"
+            BackgroundColor="DarkGoldenrod"
+            BarBackgroundColor="#BF9223"
+            android:TabbedPage.BarItemColor="#95FFFFFF"
+            android:TabbedPage.BarSelectedItemColor="White"
             Title="Jahrestag der Erscheinungen in Medjugorje">
 
     <TabbedPage.BindingContext>
@@ -17,9 +20,9 @@
     </TabbedPage.BindingContext>
 
 
-     <ContentPage Title="info" Background="#eeeeee" >
+     <ContentPage Title="INFO">
          <Grid>
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.9" >
+            <magic:GradientView VerticalOptions="FillAndExpand">
                 <magic:GradientView.GradientSource>
                     <magic:CssGradientSource>
                         <x:String>
@@ -46,24 +49,13 @@
      </ContentPage>
     
     <!--#region TAG 1 -->
-    <ContentPage Title="1">
+    <ContentPage Title="TAG1">
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+            <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout VerticalOptions="StartAndExpand">
                 <ScrollView>
                     <StackLayout>
-                        <pancakeView:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                        <pancakeView:PancakeView Style="{StaticResource Key=PancakeViewHeaderNovenen}">
                                 <Label Text="Tag 1 - WIR BETEN FÜR DIE SEHER" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                        HeightRequest="55" Margin="5"/>
                         </pancakeView:PancakeView>
@@ -101,11 +93,6 @@
                     <Button Text="Hier Anschlussgebete" Command="{Binding GoToGebetePageCommand}"
                         VerticalOptions="Center" HorizontalOptions="Center"/>
                 </StackLayout>
-                <!--<Label HorizontalTextAlignment="Center"
-                    Text="Im Anschluss folgende Gebete verrichten: 1.Zur Königin des Friedens | 2.Zum Hl. Geist | 3.Glorreicher Rosenkranz | 4. Lauretanische Litanei"
-                        TextColor="Black"/>-->
-                <!--<pancakeView:PancakeView CornerRadius="20,20,0,0" BackgroundColor="White" Padding="5">
-                </pancakeView:PancakeView>-->
             </StackLayout>
         </Grid>
     </ContentPage>
@@ -113,22 +100,11 @@
     <!--#region TAG 2 -->
     <ContentPage Title="2">
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+           <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand">
                 <ScrollView>
                     <StackLayout>                           
-                        <pancakeView:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                        <pancakeView:PancakeView Style="{StaticResource Key=PancakeViewHeaderNovenen}">
                                 <Label Text="Tag 2 - WIR BETEN FÜR DIE PRIESTER, DIE IM HEILIGTUM IM DIENST SIND" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                        HeightRequest="80" Margin="5"/>
                         </pancakeView:PancakeView>
@@ -165,22 +141,11 @@
     <!--#region TAG 3 -->
     <ContentPage Title="3">
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+           <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand">
                 <ScrollView>
                     <StackLayout>                           
-                        <pancakeView:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                        <pancakeView:PancakeView Style="{StaticResource Key=PancakeViewHeaderNovenen}">
                                 <Label Text="Tag 3 - WIR BETEN FÜR ALLE PFARREIMITGLIEDER" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                        HeightRequest="55" Margin="5"/>
                         </pancakeView:PancakeView>
@@ -216,22 +181,11 @@
     <!--#region TAG 4 -->
     <ContentPage Title="4">
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+           <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand">
                 <ScrollView>
                     <StackLayout>                           
-                        <pancakeView:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                        <pancakeView:PancakeView Style="{StaticResource Key=PancakeViewHeaderNovenen}">
                                 <Label Text="Tag 4 - WIR BETEN FÜR ALLE VERANTWORTLICHEN IN DER KIRCHE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                        HeightRequest="75" Margin="5"/>
                         </pancakeView:PancakeView>
@@ -267,22 +221,11 @@
     <!--#region TAG 5 -->
     <ContentPage Title="5">
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+           <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand">
                 <ScrollView>
                     <StackLayout>                           
-                        <pancakeView:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                        <pancakeView:PancakeView Style="{StaticResource Key=PancakeViewHeaderNovenen}">
                                 <Label Text="Tag 5 - WIR BETEN FÜR ALLE PILGER, DIE MEDJUGORJE BESUCHT HABEN" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                        HeightRequest="75" Margin="5"/>
                         </pancakeView:PancakeView>
@@ -318,22 +261,11 @@
     <!--#region TAG 6 -->
     <ContentPage Title="6">
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+           <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand">
                 <ScrollView>
                     <StackLayout>                           
-                        <pancakeView:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                        <pancakeView:PancakeView Style="{StaticResource Key=PancakeViewHeaderNovenen}">
                                 <Label Text="Tag 6 - WIR BETEN FÜR ALLE PILGER, DIE NACH MEDJUGORJE KOMMEN WERDEN" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                        HeightRequest="85" Margin="5"/>
                         </pancakeView:PancakeView>
@@ -369,22 +301,11 @@
     <!--#region TAG 7 -->
     <ContentPage Title="7">
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+           <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand">
                 <ScrollView>
                     <StackLayout>                           
-                        <pancakeView:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                        <pancakeView:PancakeView Style="{StaticResource Key=PancakeViewHeaderNovenen}">
                                 <Label Text="Tag 7 - WIR BETEN FÜR ALLE MEDJUGORJE GEBETSGRUPPEN UND ZENTREN AUF DER GANZEN WELT" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                        HeightRequest="100" Margin="5"/>
                         </pancakeView:PancakeView>
@@ -420,22 +341,11 @@
     <!--#region TAG 8 -->
     <ContentPage Title="8">
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+           <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand">
                 <ScrollView>
                     <StackLayout>                           
-                        <pancakeView:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                        <pancakeView:PancakeView Style="{StaticResource Key=PancakeViewHeaderNovenen}">
                                 <Label Text="Tag 8 - WIR BETEN FÜR DIE VERWIRKLICHUNG ALLER FRÜCHTE UND BOTSCHAFTEN VON MEDJUGORJE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                        HeightRequest="105" Margin="5"/>
                         </pancakeView:PancakeView>
@@ -471,22 +381,11 @@
     <!--#region TAG 9 -->
     <ContentPage Title="9">
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+           <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout Orientation="Vertical" VerticalOptions="StartAndExpand">
                 <ScrollView>
                     <StackLayout>                           
-                        <pancakeView:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                        <pancakeView:PancakeView Style="{StaticResource Key=PancakeViewHeaderNovenen}">
                                 <Label Text="Tag 9 - WIR BETEN FÜR DIE ANLIEGEN DER KÖNIGIN DES FRIEDENS" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                        HeightRequest="85" Margin="5"/>
                         </pancakeView:PancakeView>
@@ -508,20 +407,6 @@
                                 </DataTemplate>
                             </ListView.ItemTemplate>
                         </ListView>
-                        <!--<Label HorizontalTextAlignment="Center" Text="© Medjugorje Deutschland e.V." FontAttributes="Bold" FontSize="Large" />
-                        <Label HorizontalTextAlignment="Center" Text="(auf nachfolgende Adresse tippen):" FontSize="Medium"/>
-                        <Label Margin="0,0,0,15" HorizontalTextAlignment="Center">
-                            <Label.FormattedText>
-                                <FormattedString>
-                                    <Span Text="https://www.medjugorje.de" TextDecorations="Underline" TextColor="Blue" FontSize="Medium" />
-                                </FormattedString>
-                            </Label.FormattedText>
-                            <Label.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding GoToMedjugorjeCommand}"/>
-                            </Label.GestureRecognizers>
-                        </Label>-->
-                    <!--<Button BackgroundColor="Transparent" BorderColor="Transparent" Text="https://www.medjugorje.de" TextColor="Blue" FontSize="Medium"
-                            Command="{Binding GoToMedjugorjeCommand}" Margin="0,0,0,15"/>-->
                     </StackLayout>
                 </ScrollView>
                  <StackLayout Margin="0,10,0,20" HorizontalOptions="Center">
@@ -532,6 +417,4 @@
         </Grid>
     </ContentPage>
     <!--#endregion-->
-
-
 </TabbedPage>

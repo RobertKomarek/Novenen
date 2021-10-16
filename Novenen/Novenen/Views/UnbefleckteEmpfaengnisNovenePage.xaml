@@ -3,12 +3,15 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:local="clr-namespace:Novenen.Views"
             xmlns:pcv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
-            xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
             xmlns:vm="clr-namespace:Novenen.ViewModels"
             xmlns:magic="http://magic.com/schemas/gradients"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
             x:Class="Novenen.Views.UnbefleckteEmpfaengnisNovenePage"
             x:Name="TabbedPageUnbefleckteEmpfaengnis" 
-            BarBackgroundColor="{OnPlatform iOS=White, Android=DarkGoldenRod}"
+            BackgroundColor="DarkGoldenrod"
+            BarBackgroundColor="#BF9223"
+            android:TabbedPage.BarItemColor="#95FFFFFF"
+            android:TabbedPage.BarSelectedItemColor="White"
             Visual="Material">
 
     <TabbedPage.Title >Gnadennovene zur Unbefleckten Empfängnis</TabbedPage.Title >
@@ -17,9 +20,9 @@
         <vm:UnbefleckteEmpfaengnisViewModel/>
     </TabbedPage.BindingContext>
 
-    <ContentPage Title="info" Background="#eeeeee" >
+    <ContentPage Title="INFO"  >
         <Grid>
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.9" >
+            <magic:GradientView VerticalOptions="FillAndExpand" >
                 <magic:GradientView.GradientSource>
                     <magic:CssGradientSource>
                         <x:String>
@@ -47,37 +50,17 @@
         </Grid>
     </ContentPage>
      <!--#region TAG 1 -->
-    <ContentPage Title="1">
+    <ContentPage Title="TAG1">
         <Grid>
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8" />-->
+            <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout>
                 <ScrollView>
                     <StackLayout>
                         <StackLayout>
-                            <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                            <pcv:PancakeView Style="{StaticResource Key=PancakeViewHeaderNovenen}">
                                 <Label Text="TAG 1 DER NOVENE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                         HeightRequest="55" Margin="5"/>
                             </pcv:PancakeView>
-                            <!--<pcv:PancakeView Sides="64" HorizontalOptions="End" Margin="0,-35,20,20"
-                                    Border="{pcv:BorderMarkup Color=#555555, Thickness=1}">
-                                <ImageButton Source="bookmark_pic.png" BackgroundColor="Transparent" HeightRequest="55"
-                                    Aspect="AspectFit" VerticalOptions="Center"
-                                    xct:TouchEffect.PressedRotation="15"
-                                    xct:TouchEffect.NativeAnimation="True"
-                                    xct:TouchEffect.PressedBackgroundColor="Black"
-                                    xct:TouchEffect.Command="{Binding GoToLesezeichenPageCommand}"/>
-                            </pcv:PancakeView>-->
                             <Button Style="{x:StaticResource ButtonRound}"
                                 Command="{Binding GoToLesezeichenPageCommand}"
                                 Margin="0,-35,20,20"/>
@@ -109,25 +92,14 @@
     <!--#endregion-->
 
     <!--#region TAG 2 -->
-    <ContentPage Title="2" Background="#eeeeee" >
+    <ContentPage Title="2"  >
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8" />-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+            <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout>
                 <ScrollView>
                     <StackLayout>
                         <StackLayout>
-                            <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                            <pcv:PancakeView Style="{StaticResource Key=PancakeViewHeaderNovenen}">
                                 <Label Text="TAG 2 DER NOVENE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                         HeightRequest="55" Margin="5"/>
                             </pcv:PancakeView>
@@ -161,25 +133,14 @@
     <!--#endregion-->
 
     <!--#region TAG 3 -->
-    <ContentPage Title="3" Background="#eeeeee">
+    <ContentPage Title="3" >
        <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8" />-->
-           <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+           <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout>
                 <ScrollView>
                     <StackLayout>
                         <StackLayout>
-                            <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                            <pcv:PancakeView Style="{StaticResource Key=PancakeViewHeaderNovenen}">
                                 <Label Text="TAG 3 DER NOVENE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                         HeightRequest="55" Margin="5"/>
                             </pcv:PancakeView>
@@ -213,25 +174,14 @@
     <!--#endregion-->
 
     <!--#region TAG 4 -->
-    <ContentPage Title="4" Background="#eeeeee">
+    <ContentPage Title="4" >
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8" />-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+           <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout>
                 <ScrollView>
                     <StackLayout>
                         <StackLayout>
-                            <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                            <pcv:PancakeView Style="{StaticResource Key=PancakeViewHeaderNovenen}">
                                 <Label Text="TAG 4 DER NOVENE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                         HeightRequest="55" Margin="5"/>
                             </pcv:PancakeView>
@@ -267,23 +217,12 @@
     <!--#region TAG 5 -->
     <ContentPage x:Name="conPage5" Title="5" >
        <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8" />-->
-           <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+            <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout>
                 <ScrollView>
                     <StackLayout>
                         <StackLayout>
-                            <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                            <pcv:PancakeView Style="{StaticResource Key=PancakeViewHeaderNovenen}">
                                 <Label Text="TAG 5 DER NOVENE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                         HeightRequest="55" Margin="5"/>
                             </pcv:PancakeView>
@@ -317,25 +256,14 @@
     <!--#endregion-->
 
     <!--#region TAG 6 -->
-    <ContentPage Title="6" Background="#eeeeee">
+    <ContentPage Title="6" >
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8" />-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+            <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout>
                 <ScrollView>
                     <StackLayout>
                         <StackLayout>
-                            <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                            <pcv:PancakeView Style="{StaticResource Key=PancakeViewHeaderNovenen}">
                                 <Label Text="TAG 6 DER NOVENE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                         HeightRequest="55" Margin="5"/>
                             </pcv:PancakeView>
@@ -369,25 +297,14 @@
     <!--#endregion-->
 
     <!--#region TAG 7 -->
-    <ContentPage Title="7" Background="#eeeeee">
+    <ContentPage Title="7" >
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8" />-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+           <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout>
                 <ScrollView>
                     <StackLayout>
                         <StackLayout>
-                            <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                            <pcv:PancakeView Style="{StaticResource Key=PancakeViewHeaderNovenen}">
                                 <Label Text="TAG 7 DER NOVENE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                         HeightRequest="55" Margin="5"/>
                             </pcv:PancakeView>
@@ -421,25 +338,14 @@
     <!--#endregion-->
 
     <!--#region TAG 8 -->
-    <ContentPage Title="8" Background="#eeeeee">
+    <ContentPage Title="8" >
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8" />-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+            <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout>
                 <ScrollView>
                     <StackLayout>
                         <StackLayout>
-                            <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                            <pcv:PancakeView Style="{StaticResource Key=PancakeViewHeaderNovenen}">
                                 <Label Text="TAG 8 DER NOVENE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                         HeightRequest="55" Margin="5"/>
                             </pcv:PancakeView>
@@ -473,25 +379,14 @@
     <!--#endregion-->
 
     <!--#region TAG 9 -->
-    <ContentPage Title="9" Background="#eeeeee">
+    <ContentPage Title="9" >
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8" />-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+            <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout>
                 <ScrollView>
                     <StackLayout>
                         <StackLayout>
-                            <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                            <pcv:PancakeView Style="{StaticResource Key=PancakeViewHeaderNovenen}">
                                 <Label Text="TAG 9 DER NOVENE" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                         HeightRequest="55" Margin="5"/>
                             </pcv:PancakeView>

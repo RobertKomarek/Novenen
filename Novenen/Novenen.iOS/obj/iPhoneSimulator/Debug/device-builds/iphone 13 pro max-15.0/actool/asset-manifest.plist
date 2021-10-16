@@ -32,82 +32,6 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./faustina.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./faustina.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./faustina.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./faustina.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./faustina.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./faustina.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./faustina.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./faustina.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>The image set "faustina" has 8 unassigned children.</string>
-			<key>type</key>
-			<string>Ambiguous Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
-				<string>./Rosenkranz_Anleitung.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./Rosenkranz_Anleitung.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./Rosenkranz_Anleitung.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./Rosenkranz_Anleitung.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./Rosenkranz_Anleitung.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./Rosenkranz_Anleitung.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./Rosenkranz_Anleitung.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./Rosenkranz_Anleitung.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>The image set "Rosenkranz_Anleitung" has 8 unassigned children.</string>
-			<key>type</key>
-			<string>Ambiguous Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
-				<string>./imperial_bible2.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./imperial_bible2.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./imperial_bible2.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./imperial_bible2.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./imperial_bible2.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./imperial_bible2.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./imperial_bible2.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./imperial_bible2.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>The image set "imperial_bible2" has 8 unassigned children.</string>
-			<key>type</key>
-			<string>Ambiguous Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
-				<string>./maria_apostel.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./maria_apostel.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./maria_apostel.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./maria_apostel.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./maria_apostel.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./maria_apostel.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./maria_apostel.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./maria_apostel.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>The image set "maria_apostel" has 8 unassigned children.</string>
-			<key>type</key>
-			<string>Ambiguous Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
 				<string>./mutter_immerwaehrende_hilfe.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
 				<string>./mutter_immerwaehrende_hilfe.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
 				<string>./mutter_immerwaehrende_hilfe.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
@@ -121,6 +45,25 @@
 			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The image set "mutter_immerwaehrende_hilfe" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./fatima.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./fatima.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./fatima.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./fatima.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./fatima.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./fatima.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./fatima.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./fatima.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "fatima" has 8 unassigned children.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>
@@ -165,6 +108,25 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
+				<string>./hlgeist2.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./hlgeist2.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./hlgeist2.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./hlgeist2.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./hlgeist2.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./hlgeist2.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./hlgeist2.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./hlgeist2.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "hlgeist2" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
 				<string>./mutter_immerw_icon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
 				<string>./mutter_immerw_icon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
 				<string>./mutter_immerw_icon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
@@ -197,44 +159,6 @@
 			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The image set "dove_50" has 8 unassigned children.</string>
-			<key>type</key>
-			<string>Ambiguous Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
-				<string>./hlgeist2.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./hlgeist2.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./hlgeist2.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./hlgeist2.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./hlgeist2.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./hlgeist2.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./hlgeist2.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./hlgeist2.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>The image set "hlgeist2" has 8 unassigned children.</string>
-			<key>type</key>
-			<string>Ambiguous Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
-				<string>./fatima.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./fatima.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./fatima.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./fatima.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./fatima.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./fatima.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./fatima.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./fatima.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>The image set "fatima" has 8 unassigned children.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>
@@ -338,6 +262,25 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
+				<string>./faustina.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./faustina.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./faustina.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./faustina.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./faustina.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./faustina.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./faustina.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./faustina.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "faustina" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
 				<string>./jesus_barmherzigkeit.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
 				<string>./jesus_barmherzigkeit.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
 				<string>./jesus_barmherzigkeit.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
@@ -351,6 +294,25 @@
 			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The image set "jesus_barmherzigkeit" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./Rosenkranz_Anleitung.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Rosenkranz_Anleitung.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./Rosenkranz_Anleitung.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Rosenkranz_Anleitung.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./Rosenkranz_Anleitung.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Rosenkranz_Anleitung.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./Rosenkranz_Anleitung.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Rosenkranz_Anleitung.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "Rosenkranz_Anleitung" has 8 unassigned children.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>
@@ -376,120 +338,6 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./josef.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./josef.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./josef.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./josef.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./josef.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./josef.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./josef.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./josef.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>The image set "josef" has 8 unassigned children.</string>
-			<key>type</key>
-			<string>Ambiguous Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
-				<string>./mutter_immerw_icon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./mutter_immerw_icon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./mutter_immerw_icon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./mutter_immerw_icon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./mutter_immerw_icon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./mutter_immerw_icon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./mutter_immerw_icon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./mutter_immerw_icon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>The image set "mutter_immerw_icon" has 8 unassigned children.</string>
-			<key>type</key>
-			<string>Ambiguous Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
-				<string>./medjugorie.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./medjugorie.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./medjugorie.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./medjugorie.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./medjugorie.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./medjugorie.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./medjugorie.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./medjugorie.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>The image set "medjugorie" has 8 unassigned children.</string>
-			<key>type</key>
-			<string>Ambiguous Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
-				<string>./maria_aboutpage.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./maria_aboutpage.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./maria_aboutpage.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./maria_aboutpage.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./maria_aboutpage.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./maria_aboutpage.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./maria_aboutpage.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./maria_aboutpage.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>The image set "maria_aboutpage" has 8 unassigned children.</string>
-			<key>type</key>
-			<string>Ambiguous Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
-				<string>./dove_50.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./dove_50.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./dove_50.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./dove_50.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./dove_50.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./dove_50.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./dove_50.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./dove_50.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>The image set "dove_50" has 8 unassigned children.</string>
-			<key>type</key>
-			<string>Ambiguous Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
-				<string>./maria_apostel.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./maria_apostel.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./maria_apostel.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./maria_apostel.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./maria_apostel.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./maria_apostel.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./maria_apostel.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./maria_apostel.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>The image set "maria_apostel" has 8 unassigned children.</string>
-			<key>type</key>
-			<string>Ambiguous Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
 				<string>./imperial_bible2.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
 				<string>./imperial_bible2.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
 				<string>./imperial_bible2.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
@@ -509,19 +357,19 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./imperial_bible.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./imperial_bible.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./imperial_bible.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./imperial_bible.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./imperial_bible.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./imperial_bible.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./imperial_bible.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./imperial_bible.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+				<string>./maria_apostel.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./maria_apostel.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./maria_apostel.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./maria_apostel.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./maria_apostel.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./maria_apostel.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./maria_apostel.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./maria_apostel.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
 			</array>
 			<key>catalog</key>
 			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
-			<string>The image set "imperial_bible" has 8 unassigned children.</string>
+			<string>The image set "maria_apostel" has 8 unassigned children.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>
@@ -548,25 +396,6 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./jesus_barmherzigkeit.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./jesus_barmherzigkeit.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./jesus_barmherzigkeit.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./jesus_barmherzigkeit.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./jesus_barmherzigkeit.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./jesus_barmherzigkeit.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./jesus_barmherzigkeit.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./jesus_barmherzigkeit.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
-			</array>
-			<key>catalog</key>
-			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
-			<key>message</key>
-			<string>The image set "jesus_barmherzigkeit" has 8 unassigned children.</string>
-			<key>type</key>
-			<string>Ambiguous Content</string>
-		</dict>
-		<dict>
-			<key>affected-items</key>
-			<array>
 				<string>./hlgeist2.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
 				<string>./hlgeist2.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
 				<string>./hlgeist2.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
@@ -580,6 +409,63 @@
 			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The image set "hlgeist2" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./maria_aboutpage.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./maria_aboutpage.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./maria_aboutpage.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./maria_aboutpage.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./maria_aboutpage.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./maria_aboutpage.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./maria_aboutpage.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./maria_aboutpage.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "maria_aboutpage" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./medjugorie.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./medjugorie.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./medjugorie.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./medjugorie.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./medjugorie.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./medjugorie.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./medjugorie.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./medjugorie.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "medjugorie" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./maria_apostel.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./maria_apostel.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./maria_apostel.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./maria_apostel.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./maria_apostel.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./maria_apostel.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./maria_apostel.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./maria_apostel.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "maria_apostel" has 8 unassigned children.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>
@@ -606,6 +492,25 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
+				<string>./fatima.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./fatima.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./fatima.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./fatima.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./fatima.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./fatima.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./fatima.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./fatima.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "fatima" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
 				<string>./lourdes.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
 				<string>./lourdes.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
 				<string>./lourdes.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
@@ -625,19 +530,19 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./Rosenkranz_Anleitung.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./Rosenkranz_Anleitung.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./Rosenkranz_Anleitung.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./Rosenkranz_Anleitung.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./Rosenkranz_Anleitung.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./Rosenkranz_Anleitung.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./Rosenkranz_Anleitung.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./Rosenkranz_Anleitung.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+				<string>./jesus_barmherzigkeit.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./jesus_barmherzigkeit.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./jesus_barmherzigkeit.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./jesus_barmherzigkeit.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./jesus_barmherzigkeit.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./jesus_barmherzigkeit.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./jesus_barmherzigkeit.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./jesus_barmherzigkeit.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
 			</array>
 			<key>catalog</key>
 			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
-			<string>The image set "Rosenkranz_Anleitung" has 8 unassigned children.</string>
+			<string>The image set "jesus_barmherzigkeit" has 8 unassigned children.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>
@@ -663,19 +568,76 @@
 		<dict>
 			<key>affected-items</key>
 			<array>
-				<string>./fatima.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./fatima.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./fatima.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./fatima.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./fatima.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./fatima.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
-				<string>./fatima.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
-				<string>./fatima.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+				<string>./imperial_bible2.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./imperial_bible2.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./imperial_bible2.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./imperial_bible2.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./imperial_bible2.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./imperial_bible2.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./imperial_bible2.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./imperial_bible2.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
 			</array>
 			<key>catalog</key>
 			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
-			<string>The image set "fatima" has 8 unassigned children.</string>
+			<string>The image set "imperial_bible2" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./josef.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./josef.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./josef.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./josef.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./josef.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./josef.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./josef.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./josef.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "josef" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./Rosenkranz_Anleitung.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Rosenkranz_Anleitung.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./Rosenkranz_Anleitung.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Rosenkranz_Anleitung.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./Rosenkranz_Anleitung.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Rosenkranz_Anleitung.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./Rosenkranz_Anleitung.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./Rosenkranz_Anleitung.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "Rosenkranz_Anleitung" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./mutter_immerw_icon.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./mutter_immerw_icon.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./mutter_immerw_icon.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./mutter_immerw_icon.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./mutter_immerw_icon.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./mutter_immerw_icon.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./mutter_immerw_icon.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./mutter_immerw_icon.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "mutter_immerw_icon" has 8 unassigned children.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>
@@ -714,6 +676,44 @@
 			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
 			<key>message</key>
 			<string>The image set "faustina" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./dove_50.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./dove_50.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./dove_50.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./dove_50.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./dove_50.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./dove_50.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./dove_50.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./dove_50.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "dove_50" has 8 unassigned children.</string>
+			<key>type</key>
+			<string>Ambiguous Content</string>
+		</dict>
+		<dict>
+			<key>affected-items</key>
+			<array>
+				<string>./imperial_bible.imageset/[watch][][&lt;=145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./imperial_bible.imageset/[watch][][&lt;=145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./imperial_bible.imageset/[watch][][&gt;145][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./imperial_bible.imageset/[watch][][&gt;145][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./imperial_bible.imageset/[watch][][][2x][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./imperial_bible.imageset/[watch][][][2x][][][][][][][light][][][][2d][(null)]</string>
+				<string>./imperial_bible.imageset/[watch][][][][][][][][][][dark][][][][2d][(null)]</string>
+				<string>./imperial_bible.imageset/[watch][][][][][][][][][][light][][][][2d][(null)]</string>
+			</array>
+			<key>catalog</key>
+			<string>/Users/marinakomarek/Projects/Novenen/Novenen/Novenen.iOS/obj/iPhoneSimulator/Debug/device-builds/iphone 13 pro max-15.0/actool/cloned-assets/Assets.xcassets</string>
+			<key>message</key>
+			<string>The image set "imperial_bible" has 8 unassigned children.</string>
 			<key>type</key>
 			<string>Ambiguous Content</string>
 		</dict>
