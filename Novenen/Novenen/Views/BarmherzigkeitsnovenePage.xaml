@@ -4,22 +4,24 @@
             xmlns:local="clr-namespace:Novenen.Views"
             xmlns:vm="clr-namespace:Novenen.ViewModels"
             xmlns:pcv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
-            xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
             xmlns:magic="http://magic.com/schemas/gradients"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
             x:Class="Novenen.Views.BarmherzigkeitsnovenePage"
             x:Name="TabbedPageGoettBarm"
             Title="Novene zur göttlichen Barmherzigkeit"
-            BarBackgroundColor="{OnPlatform iOS=White, Android=DarkGoldenRod}"
+            android:TabbedPage.BarItemColor="#95FFFFFF"
+            android:TabbedPage.BarSelectedItemColor="White"
+            BackgroundColor="DarkGoldenrod"
+            BarBackgroundColor="#BF9223"
             Visual="Material" >
 
     <TabbedPage.BindingContext>
         <vm:BarmherzigkeitsnoveneViewModel/>
     </TabbedPage.BindingContext>
 
-
-    <ContentPage Title="info" Background="#eeeeee" >
+    <ContentPage Title="INFO">
         <Grid>
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.9" >
+            <magic:GradientView VerticalOptions="FillAndExpand">
                 <magic:GradientView.GradientSource>
                     <magic:CssGradientSource>
                         <x:String>
@@ -34,7 +36,7 @@
                 <StackLayout>
                     <Label Text="Novene zur göttlichen Barmherzigkeit:" FontSize="Large" FontFamily="OldStandardBold"
                            HorizontalTextAlignment="Center" Margin="15"/>
-                    <Label Text="Karfreitag bis zum Vortrag des Festes der göttlichen Barmherzigkeit (erster Sonntag nach Ostern)" FontSize="Large" FontFamily="OldStandardBold" HorizontalTextAlignment="Center" />
+                    <Label Text="Karfreitag bis zum Vortag des Festes der göttlichen Barmherzigkeit (erster Sonntag nach Ostern)" FontSize="Large" FontFamily="OldStandardBold" HorizontalTextAlignment="Center" />
                     <pcv:PancakeView Sides="128" Margin="20"
                         Border="{pcv:BorderMarkup Color=White, Thickness=10}"
                         Shadow="{pcv:ShadowMarkup BlurRadius=10, Offset='10,10'}">
@@ -46,24 +48,13 @@
      </ContentPage>
 
     <!--#region TAG 1 -->
-    <ContentPage Title="1">
+    <ContentPage Title="TAG1">
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+           <magic:GradientView Style="{StaticResource  Key=NovenenBackgroundGradient}"/>
             <StackLayout>
                 <ScrollView>
                     <StackLayout>
-                        <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                        <pcv:PancakeView Style="{StaticResource PancakeViewHeaderNovenen}">
                             <Label Text="Tag 1 - Wir beten für die ganze Menschheit" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                     HeightRequest="55" Margin="5"/>
                         </pcv:PancakeView>
@@ -106,22 +97,11 @@
     <!--#region TAG 2 -->
     <ContentPage Title="2">
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+            <magic:GradientView Style="{StaticResource  Key=NovenenBackgroundGradient}"/>
             <StackLayout>
                 <ScrollView>
                     <StackLayout>
-                        <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                        <pcv:PancakeView Style="{StaticResource PancakeViewHeaderNovenen}">
                             <Label Text="Tag 2 - Wir beten für alle Priester und gottgeweihten Seelen" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                     HeightRequest="55" Margin="5"/>
                         </pcv:PancakeView>
@@ -156,22 +136,11 @@
     <!--#region TAG 3 -->
     <ContentPage Title="3">
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+           <magic:GradientView Style="{StaticResource  Key=NovenenBackgroundGradient}"/>
             <StackLayout>
                 <ScrollView>
                     <StackLayout>
-                        <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                        <pcv:PancakeView Style="{StaticResource PancakeViewHeaderNovenen}">
                             <Label Text="Tag 3 - Wir beten für alle treuen und frommen Seelen" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                     HeightRequest="55" Margin="5"/>
                         </pcv:PancakeView>
@@ -206,22 +175,11 @@
     <!--#region TAG 4 -->
     <ContentPage Title="4">
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+           <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout>
                 <ScrollView>
                     <StackLayout>
-                        <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                        <pcv:PancakeView Style="{StaticResource PancakeViewHeaderNovenen}">
                             <Label Text="Tag 4 - Wir beten für die Heiden und diejenigen, welche Mich noch nicht kennen" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                     HeightRequest="85" Margin="5"/>
                         </pcv:PancakeView>
@@ -256,22 +214,11 @@
     <!--#region TAG 5 -->
     <ContentPage Title="5">
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+           <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout>
                 <ScrollView>
                     <StackLayout>
-                        <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                        <pcv:PancakeView Style="{StaticResource PancakeViewHeaderNovenen}">
                             <Label Text="Tag 5 - Wir beten für die Seelen der Ketzer und Abtrünnigen" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                     HeightRequest="55" Margin="5"/>
                         </pcv:PancakeView>
@@ -306,22 +253,11 @@
     <!--#region TAG 6 -->
     <ContentPage Title="6">
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+            <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout>
                 <ScrollView>
                     <StackLayout>
-                        <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                        <pcv:PancakeView Style="{StaticResource PancakeViewHeaderNovenen}">
                             <Label Text="Tag 6 - Wir beten für die sanftmütigen und demütigen Seelen, sowie die der kleinen Kinder" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                     HeightRequest="85" Margin="5"/>
                         </pcv:PancakeView>
@@ -356,22 +292,11 @@
     <!--#region TAG 7 -->
     <ContentPage Title="7" >
        <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
-           <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+           <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout>
                 <ScrollView>
                     <StackLayout>
-                        <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                        <pcv:PancakeView Style="{StaticResource PancakeViewHeaderNovenen}">
                             <Label Text="Tag 7 - Wir beten für diejenigen Seelen, welche Meine Barmherzigkeit ganz besonders verehren und verherrlichen"
                                    FontAttributes="Bold" FontSize="Large" TextColor="Black" HeightRequest="105" Margin="5"/>
                         </pcv:PancakeView>
@@ -406,22 +331,11 @@
     <!--#region TAG 8 -->
      <ContentPage Title="8">
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+           <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout>
                 <ScrollView>
                     <StackLayout>
-                        <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                        <pcv:PancakeView Style="{StaticResource PancakeViewHeaderNovenen}">
                             <Label Text="Tag 8 - Wir beten für die Seelen im Fegefeuer" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                     HeightRequest="55" Margin="5"/>
                         </pcv:PancakeView>
@@ -456,22 +370,11 @@
     <!--#region TAG 9 -->
      <ContentPage Title="9">
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+            <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
             <StackLayout>
                 <ScrollView>
                     <StackLayout>
-                        <pcv:PancakeView CornerRadius="0,0,15,15" BackgroundColor="DarkGoldenrod">
+                        <pcv:PancakeView Style="{StaticResource PancakeViewHeaderNovenen}">
                             <Label Text="Tag 9 - Wir beten für die lauen Seelen" FontAttributes="Bold" FontSize="Large" TextColor="Black"
                                     HeightRequest="55" Margin="5"/>
                         </pcv:PancakeView>

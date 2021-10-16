@@ -2,7 +2,8 @@
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:fontawesome="clr-namespace:FontAwesome"
-             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             xmlns:gradient="http://magic.com/schemas/gradients"
+             xmlns:pancake="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
              x:Class="Novenen.App">
     <!--
         Define global resources and styles here, that apply to all pages in your app.
@@ -21,6 +22,20 @@
             <Color x:Key="Divider">#BDBDBD</Color>
             <Color x:Key="Label_Backgroundcolor">#E7E6E6</Color>
             <!--#endregion-->
+
+            <!--HINTERGRUND-GRADIENT FÜR DIE EINZELNEN TAGE DER NOVENE-->
+            <Style x:Key="NovenenBackgroundGradient" TargetType="gradient:GradientView">
+                <Setter Property="GradientSource"
+                        Value="{OnPlatform iOS='radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))',
+                        Android='radial-gradient(circle at center center, transparent,rgb(255,255,255)),linear-gradient(309deg, rgba(90, 90, 90,0.05) 0%, rgba(90, 90, 90,0.05) 50%,rgba(206, 206, 206,0.05) 50%, rgba(206, 206, 206,0.05) 100%),linear-gradient(39deg, rgba(13, 13, 13,0.05) 0%, rgba(13, 13, 13,0.05) 50%,rgba(189, 189, 189,0.05) 50%, rgba(189, 189, 189,0.05) 100%),linear-gradient(144deg, rgba(249, 249, 249,0.05) 0%, rgba(249, 249, 249,0.05) 50%,rgba(111, 111, 111,0.05) 50%, rgba(111, 111, 111,0.05) 100%),linear-gradient(166deg, rgba(231, 231, 231,0.05) 0%, rgba(231, 231, 231,0.05) 50%,rgba(220, 220, 220,0.05) 50%, rgba(220, 220, 220,0.05) 100%),linear-gradient(212deg, rgba(80, 80, 80,0.05) 0%, rgba(80, 80, 80,0.05) 50%,rgba(243, 243, 243,0.05) 50%, rgba(243, 243, 243,0.05) 100%),radial-gradient(circle at center center, hsl(107,19%,100%),hsl(107,19%,100%))' }"
+                />
+                <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+            </Style>
+
+            <Style x:Key="PancakeViewHeaderNovenen" TargetType="pancake:PancakeView">
+                <Setter Property="BackgroundColor" Value="{OnPlatform iOS='#9C9C9C', Android=DarkGoldenrod}"/>
+                <Setter Property="CornerRadius" Value="0,0,15,15"/>
+            </Style>
 
             <Style TargetType="ContentPage">
                  <Setter Property="Background">

@@ -50,7 +50,8 @@ namespace Novenen.Droid
             //CHANGE COLOR OF STATUS BAR
             if (Android.OS.Build.VERSION.SdkInt >= BuildVersionCodes.Lollipop)
             {
-                this.SetStatusBarColor(Android.Graphics.Color.Goldenrod);
+                this.SetStatusBarColor(Color.FromHex("#323232").ToAndroid());
+                //this.SetStatusBarColor(Android.Graphics.Color.Black);
             }
         }
 
