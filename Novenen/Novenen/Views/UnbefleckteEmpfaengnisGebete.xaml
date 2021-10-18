@@ -3,9 +3,13 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:fontawesome="clr-namespace:FontAwesome"
             xmlns:vm="clr-namespace:Novenen.ViewModels" xmlns:magic="http://magic.com/schemas/gradients"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
             x:Class="Novenen.Views.UnbefleckteEmpfaengnisGebete"
             Title="zurück zur Novene"
-            BarBackgroundColor="{OnPlatform iOS=White, Android=DarkGoldenRod}">
+            BackgroundColor="DarkGoldenrod"
+            BarBackgroundColor="#BF9223"
+            android:TabbedPage.BarItemColor="#95FFFFFF"
+            android:TabbedPage.BarSelectedItemColor="White">
 
     <TabbedPage.BindingContext>
         <vm:UnbefleckteEmpfaengnisGebeteViewModel/>
@@ -14,24 +18,14 @@
     <ContentPage Title="2. DANK">
         <ScrollView>
             <Grid>
-                <!--<Image Source="paper_background.jpg" Aspect="AspectFill" />-->
-                 <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                    <magic:GradientView.GradientSource>
-                        <magic:CssGradientSource>
-                            <x:String>
-                                <![CDATA[
-                                radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129)) ]]>
-                            </x:String>
-                        </magic:CssGradientSource>
-                    </magic:GradientView.GradientSource>
-                </magic:GradientView>
+                <magic:GradientView Style="{StaticResource AnschlussgebeteBackgroundGradient}"/>
                 <ListView ItemsSource="{Binding Dank}"
                             SelectionMode="None"
                             HasUnevenRows="True"
                             CachingStrategy="RecycleElement"
                             BackgroundColor="Transparent">
                     <ListView.Header>
-                        <Label Text="Dank an die heiligste Dreifaltigkeit" TextColor="Black" Margin="0,20,0,20"
+                        <Label Text="Dank an die heiligste Dreifaltigkeit" TextColor="Black" Padding="20"
                             HorizontalTextAlignment="Center" FontFamily="OS-B" FontSize="28" FontAttributes="Bold" />
                     </ListView.Header>
                     <ListView.ItemTemplate>
@@ -50,25 +44,15 @@
     <ContentPage Title="3. LITANEI">
          <ScrollView>
              <Grid>
-                <!--<Image Source="paper_background.jpg" Aspect="AspectFill" />-->
-                  <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                    <magic:GradientView.GradientSource>
-                        <magic:CssGradientSource>
-                            <x:String>
-                                <![CDATA[
-                                radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129)) ]]>
-                            </x:String>
-                        </magic:CssGradientSource>
-                    </magic:GradientView.GradientSource>
-                </magic:GradientView>
+               <magic:GradientView Style="{StaticResource AnschlussgebeteBackgroundGradient}"/>
                 <ListView ItemsSource="{Binding Litanei}"
                           HasUnevenRows="True"
                           CachingStrategy="RecycleElement"
                           SelectionMode="None"
                           BackgroundColor="Transparent">
                     <ListView.Header>
-                        <Label Text="Litanei zu Ehren der unbefleckten Empfängnis" TextColor="Black" Margin="0,20,0,20"
-                            HorizontalTextAlignment="Center" FontFamily="OS-B" FontSize="28" FontAttributes="Bold" />
+                        <Label Text="Litanei zu Ehren der unbefleckten Empfängnis" TextColor="Black" 
+                            HorizontalTextAlignment="Center" FontFamily="OS-B" FontSize="28" FontAttributes="Bold" Padding="20"  />
                     </ListView.Header>
                     <ListView.ItemTemplate>
                         <DataTemplate>

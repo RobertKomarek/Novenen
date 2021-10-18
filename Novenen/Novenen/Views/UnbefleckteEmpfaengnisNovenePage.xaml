@@ -12,9 +12,8 @@
             BarBackgroundColor="#BF9223"
             android:TabbedPage.BarItemColor="#95FFFFFF"
             android:TabbedPage.BarSelectedItemColor="White"
-            Visual="Material">
-
-    <TabbedPage.Title >Gnadennovene zur Unbefleckten Empfängnis</TabbedPage.Title >
+            Visual="Material"
+            Title="Zur Unbefleckten Empfängnis">
 
     <TabbedPage.BindingContext>
         <vm:UnbefleckteEmpfaengnisViewModel/>

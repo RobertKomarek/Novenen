@@ -3,9 +3,13 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:pcv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
             xmlns:magic="http://magic.com/schemas/gradients"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
             x:Class="Novenen.Views.JahrestagMedjugorjeGebete"
             Visual="Material"
-            BarBackgroundColor="{OnPlatform iOS=White, Android=DarkGoldenRod}"
+            android:TabbedPage.BarItemColor="#95FFFFFF"
+            android:TabbedPage.BarSelectedItemColor="White"
+            BackgroundColor="DarkGoldenrod"
+            BarBackgroundColor="#BF9223"
             Title="zurück zu Novene der Jahreserscheinung">
 
     <!--<TabbedPage.Resources>
@@ -22,17 +26,7 @@
     <!--#region GEBET ZUR KÖNIGIN DES FRIEDENS -->
     <ContentPage Title="1. zur Königin" >
         <Grid>
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+            <magic:GradientView Style="{StaticResource AnschlussgebeteBackgroundGradient}"/>
             <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
             <ScrollView Padding="10" >
                 <ListView x:Name="MyListGebetZurKoenigingDesFrieden"
@@ -43,7 +37,7 @@
                     BackgroundColor="Transparent">
                     <ListView.Header>
                         <Label Text="Königin des Friedens" FontFamily="OS-B" HorizontalTextAlignment="Center" 
-                        TextColor="Black" FontSize="32"/>
+                        TextColor="Black" FontSize="32" Padding="20"/>
                     </ListView.Header>
                     <ListView.ItemTemplate>
                         <DataTemplate>
@@ -61,18 +55,7 @@
     <!--#region GEBET ZUM HEILIGEN GEIST -->
     <ContentPage Title="2. Hl. Geist" >
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+           <magic:GradientView Style="{StaticResource AnschlussgebeteBackgroundGradient}"/>
             <ScrollView Padding="10" >
                 <ListView x:Name="MyListHeiligerGeist"
                     HasUnevenRows="True"
@@ -82,7 +65,7 @@
                     BackgroundColor="Transparent">
                     <ListView.Header>
                         <Label Text="Komm Schöpfer Geist" FontFamily="OS-B" HorizontalTextAlignment="Center" 
-                        TextColor="Black" FontSize="32"/>
+                        TextColor="Black" FontSize="32" Padding="20"/>
                     </ListView.Header>
                     <ListView.ItemTemplate>
                         <DataTemplate>
@@ -100,18 +83,7 @@
     <!--#region GLORREICHER ROSENKRANZ -->
     <ContentPage Title="3. Rosenkranz" >
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+            <magic:GradientView Style="{StaticResource AnschlussgebeteBackgroundGradient}"/>
             <ScrollView Padding="10" >
                 <ListView x:Name="MyListGlorreichenGehemnisse"
                     HasUnevenRows="True"
@@ -121,7 +93,7 @@
                     BackgroundColor="Transparent">
                     <ListView.Header>
                         <Label Text="Glorreicher Rosenkranz" FontFamily="OS-B" HorizontalTextAlignment="Center" 
-                        TextColor="Black" FontSize="32"/>
+                        TextColor="Black" FontSize="32" Padding="20"/>
                     </ListView.Header>
                     <ListView.ItemTemplate>
                         <DataTemplate>
@@ -139,18 +111,7 @@
     <!--#region LAURETANISCHE LITANEI -->
      <ContentPage Title="4. Litanei" >
         <Grid>
-            <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"/>-->
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.5" >
-                <magic:GradientView.GradientSource>
-                    <magic:CssGradientSource>
-                        <x:String>
-                            <![CDATA[
-                            radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129))
-                             ]]>
-                        </x:String>
-                    </magic:CssGradientSource>
-                </magic:GradientView.GradientSource>
-            </magic:GradientView>
+           <magic:GradientView Style="{StaticResource AnschlussgebeteBackgroundGradient}"/>
             <ScrollView Padding="10" >
                 <ListView x:Name="MyListLauretanischeLitanei"
                     HasUnevenRows="True"
@@ -160,7 +121,7 @@
                     BackgroundColor="Transparent">
                     <ListView.Header>
                         <Label Text="Lauretanische Litanei" FontFamily="OS-B" HorizontalTextAlignment="Center" 
-                        TextColor="Black" FontSize="32"/>
+                        TextColor="Black" FontSize="32" Padding="20"/>
                     </ListView.Header>
                     <ListView.ItemTemplate>
                         <DataTemplate>
