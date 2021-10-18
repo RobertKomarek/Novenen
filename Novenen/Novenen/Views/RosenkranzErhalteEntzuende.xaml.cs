@@ -99,9 +99,6 @@ namespace Novenen.Views
                     "5. Jesus, der alles vollenden wird"
             });
 
-            
-
-
             ListviewGeheimnisse.ItemsSource = RosenkranzGeheimnisse;
 
             #region ANLEITUNG

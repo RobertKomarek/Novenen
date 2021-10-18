@@ -3,24 +3,18 @@
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             x:Class="Novenen.Views.RosenkranzErhalteEntzuende" 
             xmlns:pcv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
-            xmlns:magic="http://magic.com/schemas/gradients"
+            xmlns:gradient1="clr-namespace:MagicGradients;assembly=MagicGradients"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
             BackgroundColor="DarkGoldenrod"
             BarBackgroundColor="#BF9223"
+            android:TabbedPage.BarItemColor="#95FFFFFF"
+            android:TabbedPage.BarSelectedItemColor="White"
             Title="Zurück zur Novene">
     
     <ContentPage Title="Geheimnisse">
         <ScrollView>
             <Grid RowDefinitions="*,*,*,*">
-                <magic:GradientView VerticalOptions="FillAndExpand" Grid.RowSpan="4">
-                    <magic:GradientView.GradientSource>
-                        <magic:CssGradientSource>
-                            <x:String>
-                                <![CDATA[
-                                radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129)) ]]>
-                            </x:String>
-                        </magic:CssGradientSource>
-                    </magic:GradientView.GradientSource>
-                </magic:GradientView>
+                <gradient1:GradientView Grid.RowSpan="4" Style="{StaticResource AnschlussgebeteBackgroundGradient}" />
                 <ListView  x:Name="ListviewGeheimnisse" Grid.RowSpan="4"
                            HasUnevenRows="True"
                            CachingStrategy="RecycleElement"
@@ -43,43 +37,33 @@
     </ContentPage>
 
     <ContentPage Title="Anleitung">
-        <ScrollView>
             <Grid RowDefinitions="*,*,*,*">
-                <!--<Image Source="paper_background.jpg" Aspect="AspectFill" Opacity="0.8"  />-->
-                 <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.9" Grid.RowSpan="4" >
-                    <magic:GradientView.GradientSource>
-                        <magic:CssGradientSource>
-                            <x:String>
-                                <![CDATA[
-                                radial-gradient(circle at center center, rgb(252, 252, 252),rgb(129, 129, 129)) ]]>
-                            </x:String>
-                        </magic:CssGradientSource>
-                    </magic:GradientView.GradientSource>
-                </magic:GradientView>
-                <StackLayout Grid.RowSpan="4">
-                    <pcv:PancakeView CornerRadius="0,0,20,20" Shadow="{pcv:ShadowMarkup BlurRadius=10, Offset='10,10'}">
-                        <Image Source="Rosenkranz_Anleitung.jpg">
-                            <Image.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
-                            </Image.GestureRecognizers>
-                        </Image>
-                    </pcv:PancakeView>
-                    <ListView x:Name="ListViewAnleitung"
-                                HasUnevenRows="true"
-                                CachingStrategy="RecycleElement"
-                                SelectionMode="None"
-                                BackgroundColor="Transparent">
-                        <ListView.ItemTemplate>
-                            <DataTemplate>
-                                <ViewCell>
-                                    <Label HorizontalTextAlignment="Center" Text="{Binding Text}" FontSize="Large" TextColor="Black"/>
-                                </ViewCell>
-                            </DataTemplate>
-                        </ListView.ItemTemplate>
-                    </ListView>
-                </StackLayout>
+                <gradient1:GradientView Grid.RowSpan="4" Style="{StaticResource Key=AnschlussgebeteBackgroundGradient}"/>
+                <ScrollView Grid.RowSpan="4">
+                    <StackLayout Grid.RowSpan="4">
+                        <pcv:PancakeView CornerRadius="0,0,20,20" Shadow="{pcv:ShadowMarkup BlurRadius=10, Offset='10,10'}">
+                            <Image Source="Rosenkranz_Anleitung.jpg">
+                                <Image.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+                                </Image.GestureRecognizers>
+                            </Image>
+                        </pcv:PancakeView>
+                        <ListView x:Name="ListViewAnleitung"
+                                    HasUnevenRows="true"
+                                    CachingStrategy="RecycleElement"
+                                    SelectionMode="None"
+                                    BackgroundColor="Transparent">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Label HorizontalTextAlignment="Center" Text="{Binding Text}" FontSize="Large" TextColor="Black"/>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </StackLayout>
+                </ScrollView>
             </Grid>
-        </ScrollView>
     </ContentPage>
 
 </TabbedPage>

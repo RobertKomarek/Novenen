@@ -9,7 +9,7 @@
             x:Class="Novenen.Views.HeiligerGeistNovenePage"
             x:Name="TabbedPageHlGeist"
             Visual="Default"
-            Title="Novene zum Heiligen Geist"
+            Title="Heiliger Geist"
             android:TabbedPage.BarItemColor="#95FFFFFF"
             android:TabbedPage.BarSelectedItemColor="White"
             BackgroundColor="DarkGoldenrod"

@@ -1,15 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:pcv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
              x:Class="Novenen.Views.BarmherzigkeitsrosenkranzPage"
-             xmlns:fontawesome="clr-namespace:FontAwesome"
              xmlns:magic="http://magic.com/schemas/gradients"
+             BackgroundColor="DarkGoldenrod"
              Title="Zurück zur Novene">
 
     <ScrollView>
         <Grid>
-            <magic:GradientView VerticalOptions="FillAndExpand" Opacity="0.7" >
+            <magic:GradientView VerticalOptions="FillAndExpand" >
                 <magic:GradientView.GradientSource>
                     <magic:CssGradientSource>
                         <x:String>

@@ -5,8 +5,11 @@
             xmlns:pcv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
             xmlns:vm="clr-namespace:Novenen.ViewModels"
             xmlns:magic="http://magic.com/schemas/gradients"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
             x:Class="Novenen.Views.LourdesNovenePage"
             Title="Lourdes-Novene"
+            android:TabbedPage.BarItemColor="#95FFFFFF"
+            android:TabbedPage.BarSelectedItemColor="White"
             BackgroundColor="DarkGoldenrod"
             BarBackgroundColor="#BF9223"
             Visual="Material">

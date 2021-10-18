@@ -14,7 +14,8 @@
             android:TabbedPage.BarSelectedItemColor="White"
             x:DataType="vm:FatimaNoveneViewModel"
             BackgroundColor="DarkGoldenrod"
-            BarBackgroundColor="#BF9223">
+            BarBackgroundColor="#BF9223"
+            Title="Fatima Novene">
 
     <TabbedPage.BindingContext>
         <vm:FatimaNoveneViewModel/>

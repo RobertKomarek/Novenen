@@ -8,12 +8,12 @@
             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
             x:Class="Novenen.Views.BarmherzigkeitsnovenePage"
             x:Name="TabbedPageGoettBarm"
-            Title="Novene zur göttlichen Barmherzigkeit"
+            Title="Göttliche Barmherzigkeit"
             android:TabbedPage.BarItemColor="#95FFFFFF"
             android:TabbedPage.BarSelectedItemColor="White"
             BackgroundColor="DarkGoldenrod"
             BarBackgroundColor="#BF9223"
-            Visual="Material" >
+            Visual="Material">
 
     <TabbedPage.BindingContext>
         <vm:BarmherzigkeitsnoveneViewModel/>
