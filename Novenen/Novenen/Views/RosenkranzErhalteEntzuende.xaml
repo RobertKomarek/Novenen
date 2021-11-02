@@ -41,7 +41,13 @@
                 <gradient1:GradientView Grid.RowSpan="4" Style="{StaticResource Key=AnschlussgebeteBackgroundGradient}"/>
                 <ScrollView Grid.RowSpan="4">
                     <StackLayout Grid.RowSpan="4">
-                        <pcv:PancakeView CornerRadius="0,0,20,20" Shadow="{pcv:ShadowMarkup BlurRadius=10, Offset='10,10'}">
+                        <pcv:PancakeView CornerRadius="0,0,20,20" BackgroundColor="#E1DABB"
+                                         BackgroundGradientStartPoint="0,0" BackgroundGradientEndPoint="1,1">
+                            <pcv:PancakeView.BackgroundGradientStops>
+                                <pcv:GradientStop Color="#E1DABB" Offset="0"/>
+                                <pcv:GradientStop Color="#EAEBDC" Offset="0.5"/>
+                                <pcv:GradientStop Color="#E1DABB" Offset="1"/>
+                            </pcv:PancakeView.BackgroundGradientStops>
                             <Image Source="Rosenkranz_Anleitung.jpg">
                                 <Image.GestureRecognizers>
                                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />

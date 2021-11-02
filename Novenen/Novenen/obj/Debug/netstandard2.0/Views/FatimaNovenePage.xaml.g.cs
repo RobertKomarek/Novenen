@@ -14,15 +14,15 @@ namespace Novenen.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/FatimaNovenePage.xaml")]
-    public partial class FatimaNovenePage : global::Xamarin.Forms.TabbedPage {
+    public partial class FatimaNovenePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.TabbedPage TabbedPageFatimaNovenePage;
+        private global::Xamarin.Forms.ContentPage TabbedPageFatimaNovenePage;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(FatimaNovenePage));
-            TabbedPageFatimaNovenePage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.TabbedPage>(this, "TabbedPageFatimaNovenePage");
+            TabbedPageFatimaNovenePage = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ContentPage>(this, "TabbedPageFatimaNovenePage");
         }
     }
 }

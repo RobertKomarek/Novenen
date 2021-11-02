@@ -62,7 +62,7 @@
             },
             "Syncfusion.Xamarin.Cards": {
               "target": "Package",
-              "version": "[19.3.0.45, )"
+              "version": "[19.3.0.47, )"
             },
             "TouchView": {
               "target": "Package",
@@ -86,7 +86,7 @@
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2125, )"
+              "version": "[5.0.0.2196, )"
             },
             "Xamarin.Forms.BehaviorsPack": {
               "target": "Package",
@@ -98,7 +98,7 @@
             },
             "Xamarin.Forms.Visual.Material": {
               "target": "Package",
-              "version": "[5.0.0.2125, )"
+              "version": "[5.0.0.2196, )"
             }
           },
           "imports": [

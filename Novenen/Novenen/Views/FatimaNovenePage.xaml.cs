@@ -18,13 +18,13 @@ using Novenen.ViewModels;
 namespace Novenen.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class FatimaNovenePage : TabbedPage
+    public partial class FatimaNovenePage : ContentPage
     {
         public FatimaNovenePage()
         {
             InitializeComponent();
         }
-       
+
 
         private async void Button_Clicked_Koenigin(object sender, EventArgs e)
         {

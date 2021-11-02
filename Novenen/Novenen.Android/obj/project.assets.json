@@ -126,7 +126,7 @@
           "lib/MonoAndroid/SkiaSharp.Views.Forms.dll": {}
         }
       },
-      "Syncfusion.Licensing/19.3.0.45": {
+      "Syncfusion.Licensing/19.3.0.47": {
         "type": "package",
         "compile": {
           "lib/MonoAndroid10.0/Syncfusion.Licensing.dll": {}
@@ -135,10 +135,10 @@
           "lib/MonoAndroid10.0/Syncfusion.Licensing.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Cards/19.3.0.45": {
+      "Syncfusion.Xamarin.Cards/19.3.0.47": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Xamarin.Core": "19.3.0.45",
+          "Syncfusion.Xamarin.Core": "19.3.0.47",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -150,10 +150,10 @@
           "lib/MonoAndroid10.0/Syncfusion.Cards.XForms.dll": {}
         }
       },
-      "Syncfusion.Xamarin.Core/19.3.0.45": {
+      "Syncfusion.Xamarin.Core/19.3.0.47": {
         "type": "package",
         "dependencies": {
-          "Syncfusion.Licensing": "19.3.0.45",
+          "Syncfusion.Licensing": "19.3.0.47",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -1725,7 +1725,7 @@
           "lib/monoandroid10.0/Xamarin.Essentials.dll": {}
         }
       },
-      "Xamarin.Forms/5.0.0.2125": {
+      "Xamarin.Forms/5.0.0.2196": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Browser": "[1.3.0.6, 1.4.0)",
@@ -1786,7 +1786,7 @@
           "lib/monoandroid10.0/Xamarin.Forms.PancakeView.dll": {}
         }
       },
-      "Xamarin.Forms.Visual.Material/5.0.0.2125": {
+      "Xamarin.Forms.Visual.Material/5.0.0.2196": {
         "type": "package",
         "dependencies": {
           "Xamarin.AndroidX.Lifecycle.LiveData": "[2.3.1.1, 2.4.0)",
@@ -1863,16 +1863,16 @@
           "Microsoft.AppCenter.Analytics": "4.4.0",
           "Microsoft.AppCenter.Crashes": "4.4.0",
           "Newtonsoft.Json": "13.0.1",
-          "Syncfusion.Xamarin.Cards": "19.3.0.45",
+          "Syncfusion.Xamarin.Cards": "19.3.0.47",
           "TouchView": "4.1.100",
           "Xam.Plugins.Notifier": "3.0.1",
           "Xamanimation": "1.3.0",
           "Xamarin.CommunityToolkit": "1.2.0",
           "Xamarin.Essentials": "1.7.0",
-          "Xamarin.Forms": "5.0.0.2125",
+          "Xamarin.Forms": "5.0.0.2196",
           "Xamarin.Forms.BehaviorsPack": "3.0.0",
           "Xamarin.Forms.PancakeView": "2.3.0.759",
-          "Xamarin.Forms.Visual.Material": "5.0.0.2125"
+          "Xamarin.Forms.Visual.Material": "5.0.0.2196"
         },
         "compile": {
           "bin/placeholder/Novenen.dll": {}
@@ -2124,10 +2124,10 @@
         "skiasharp.views.forms.nuspec"
       ]
     },
-    "Syncfusion.Licensing/19.3.0.45": {
-      "sha512": "1xmsNi9yyUeB71H/hFix5kewNJ+VQp7kRZtV9vlLb6cMpHv5AfTWm3Mm7G+D1pY5KyNlNm8LJbgSjPgSARVD0A==",
+    "Syncfusion.Licensing/19.3.0.47": {
+      "sha512": "RRnpiuwIA61ahOydFwgtf9CkYZCUWJLdOxHQvmnEODGE/0sGxx1Q7DIc8VUi5P2D2Izom5XIc2tX2hLCb5bSaw==",
       "type": "package",
-      "path": "syncfusion.licensing/19.3.0.45",
+      "path": "syncfusion.licensing/19.3.0.47",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2151,15 +2151,15 @@
         "lib/netstandard2.0/Syncfusion.Licensing.dll",
         "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
         "lib/uap10.0/Syncfusion.Licensing.dll",
-        "syncfusion.licensing.19.3.0.45.nupkg.sha512",
+        "syncfusion.licensing.19.3.0.47.nupkg.sha512",
         "syncfusion.licensing.nuspec",
         "syncfusion_logo.png"
       ]
     },
-    "Syncfusion.Xamarin.Cards/19.3.0.45": {
-      "sha512": "VdoAfN8IwQRH89u4xV/NGkxqOf9HF8KyQ3wski8elr2pOf5q9/iojlcS40xFJlopN7lcBpxWdJ0MtvTK+0aYdg==",
+    "Syncfusion.Xamarin.Cards/19.3.0.47": {
+      "sha512": "ZwLXvvInXkWgU49YnWy4ajgps2IgfoOeYHGQ4PsQB9frTc8SQNGVre/Et+eA4znyOIK8AE0sHYCD6kGSw5j7Wg==",
       "type": "package",
-      "path": "syncfusion.xamarin.cards/19.3.0.45",
+      "path": "syncfusion.xamarin.cards/19.3.0.47",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2182,15 +2182,15 @@
         "lib/uap10.0/Syncfusion.Cards.XForms.UWP.xml",
         "lib/uap10.0/Syncfusion.Cards.XForms.dll",
         "lib/uap10.0/Syncfusion.Cards.XForms.xml",
-        "syncfusion.xamarin.cards.19.3.0.45.nupkg.sha512",
+        "syncfusion.xamarin.cards.19.3.0.47.nupkg.sha512",
         "syncfusion.xamarin.cards.nuspec",
         "syncfusion_logo.png"
       ]
     },
-    "Syncfusion.Xamarin.Core/19.3.0.45": {
-      "sha512": "aVcZE6vy0KnmIu855ywaFECaTaG7tvhzZbRJADx6OXgs0fB3i7b/rvmngOVhjMwX1h5vX0+9S5PTY6ErUohDCw==",
+    "Syncfusion.Xamarin.Core/19.3.0.47": {
+      "sha512": "wXPaHHvZdU/BQH7ZTXsLeDdjvrt0OwBDvH7dVH9+bUqYBsij2ttTRUoUMMM4+r53xcCNLKQh6k4RwIJsTLTKAg==",
       "type": "package",
-      "path": "syncfusion.xamarin.core/19.3.0.45",
+      "path": "syncfusion.xamarin.core/19.3.0.47",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2220,7 +2220,7 @@
         "lib/uap10.0/Syncfusion.Core.XForms.UWP/TILRenderer/ToggleIcons/ToggleVisibleIcon.xaml",
         "lib/uap10.0/Syncfusion.Core.XForms.dll",
         "lib/uap10.0/Syncfusion.Core.XForms.xml",
-        "syncfusion.xamarin.core.19.3.0.45.nupkg.sha512",
+        "syncfusion.xamarin.core.19.3.0.47.nupkg.sha512",
         "syncfusion.xamarin.core.nuspec",
         "syncfusion_logo.png"
       ]
@@ -3824,10 +3824,10 @@
         "xamarin.essentials.nuspec"
       ]
     },
-    "Xamarin.Forms/5.0.0.2125": {
-      "sha512": "oP4eEx8SkEId/azXqzBpl9MA5kjn8izMoQImV3c/M4Q8NLSERWWNJkymrSylaIIO4l0zQIofYjwQoHmtaQ0dFQ==",
+    "Xamarin.Forms/5.0.0.2196": {
+      "sha512": "zSXDiZukojtEBmZKUUG1yYBwlB9tI8JLPkc6n+Sm1PAX01QyzErWE9AaFJgP7usyoGHn92l4HnQF7A+/MPI6VA==",
       "type": "package",
-      "path": "xamarin.forms/5.0.0.2125",
+      "path": "xamarin.forms/5.0.0.2196",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4036,7 +4036,7 @@
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.pdb",
         "lib/uap10.0.16299/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.5.0.0.2125.nupkg.sha512",
+        "xamarin.forms.5.0.0.2196.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -4088,10 +4088,10 @@
         "xamarin.forms.pancakeview.nuspec"
       ]
     },
-    "Xamarin.Forms.Visual.Material/5.0.0.2125": {
-      "sha512": "nzIPmrFVqWF6b1+pddQrb8fgjq4Qd++C3CiEdoYOdz1Km77A/srwNypTx5DzsDYXdyOXVqRWGxdyf6Jg3ytIlg==",
+    "Xamarin.Forms.Visual.Material/5.0.0.2196": {
+      "sha512": "uQALTcRZyCsjkN7s4xLyxj95mOoL2abio5UmnNdME8uKUZ3jHivf3q6JfcM73KxieyDwdci+l97NRfIe4kn43A==",
       "type": "package",
-      "path": "xamarin.forms.visual.material/5.0.0.2125",
+      "path": "xamarin.forms.visual.material/5.0.0.2196",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4106,7 +4106,7 @@
         "lib/netstandard1.0/_._",
         "lib/tizen40/Xamarin.Forms.Material.dll",
         "lib/tizen40/Xamarin.Forms.Material.pdb",
-        "xamarin.forms.visual.material.5.0.0.2125.nupkg.sha512",
+        "xamarin.forms.visual.material.5.0.0.2196.nupkg.sha512",
         "xamarin.forms.visual.material.nuspec"
       ]
     },
@@ -4163,15 +4163,15 @@
       "Microsoft.AppCenter.Analytics >= 4.4.0",
       "Microsoft.AppCenter.Crashes >= 4.4.0",
       "Novenen >= 1.0.0",
-      "Syncfusion.Xamarin.Cards >= 19.3.0.45",
+      "Syncfusion.Xamarin.Cards >= 19.3.0.47",
       "TouchView >= 4.1.100",
       "Xamanimation >= 1.3.0",
       "Xamarin.CommunityToolkit >= 1.2.0",
       "Xamarin.Essentials >= 1.7.0",
-      "Xamarin.Forms >= 5.0.0.2125",
+      "Xamarin.Forms >= 5.0.0.2196",
       "Xamarin.Forms.BehaviorsPack >= 3.0.0",
       "Xamarin.Forms.PancakeView >= 2.3.0.759",
-      "Xamarin.Forms.Visual.Material >= 5.0.0.2125"
+      "Xamarin.Forms.Visual.Material >= 5.0.0.2196"
     ]
   },
   "packageFolders": {
@@ -4223,7 +4223,7 @@
           },
           "Syncfusion.Xamarin.Cards": {
             "target": "Package",
-            "version": "[19.3.0.45, )"
+            "version": "[19.3.0.47, )"
           },
           "TouchView": {
             "target": "Package",
@@ -4243,7 +4243,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[5.0.0.2125, )"
+            "version": "[5.0.0.2196, )"
           },
           "Xamarin.Forms.BehaviorsPack": {
             "target": "Package",
@@ -4255,7 +4255,7 @@
           },
           "Xamarin.Forms.Visual.Material": {
             "target": "Package",
-            "version": "[5.0.0.2125, )"
+            "version": "[5.0.0.2196, )"
           }
         }
       }
@@ -4266,7 +4266,7 @@
       "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Detected package version outside of dependency constraint: Xamarin.CommunityToolkit 1.2.0 requires Xamarin.Forms (>= 5.0.0.1874 && <= 5.0.0.2012) but version Xamarin.Forms 5.0.0.2125 was resolved.",
+      "message": "Detected package version outside of dependency constraint: Xamarin.CommunityToolkit 1.2.0 requires Xamarin.Forms (>= 5.0.0.1874 && <= 5.0.0.2012) but version Xamarin.Forms 5.0.0.2196 was resolved.",
       "libraryId": "Xamarin.Forms",
       "targetGraphs": [
         "MonoAndroid,Version=v10.0"
