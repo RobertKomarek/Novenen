@@ -1,19 +1,18 @@
 ﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{148CCE8E-4161-4DBA-8B24-06D6256EEF0E}|Default">
   <MonoDevelop.Ide.ItemProperties.Novenen.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2AEE8864-9904-4247-831D-B7243B9AD936" />
-  <MonoDevelop.Ide.ItemProperties.Novenen.Android PreferredExecutionTarget="Android.zlqsaq7hjfqgi7gy" />
+  <MonoDevelop.Ide.ItemProperties.Novenen.Android PreferredExecutionTarget="Android.pixel_2_oreo_8_0_-_api_26" />
   <MonoDevelop.Ide.Workbench>
     <Files>
       <File FileName="Novenen/Novenen/ViewModels/FatimaNoveneViewModel.cs" Line="15" Column="63" />
-      <File FileName="Novenen/Novenen/Views/FatimaNovenePage.xaml.cs" Line="51" Column="70" />
+      <File FileName="Novenen/Novenen/Views/FatimaNovenePage.xaml.cs" />
       <File FileName="Novenen/Novenen/AppShell.xaml.cs" />
-      <File FileName="Novenen/Novenen/Views/FatimaNovenePage.xaml" Line="60" Column="39" />
-      <File FileName="Novenen/Novenen/App.xaml" Line="21" Column="58" />
+      <File FileName="Novenen/Novenen/Views/FatimaNovenePage.xaml" Line="395" Column="39" />
+      <File FileName="Novenen/Novenen/App.xaml" />
       <File FileName="Novenen/Novenen/AppShell.xaml" />
-      <File FileName="Novenen/Novenen/Views/RosenkranzErhalteEntzuende.xaml.cs" Line="15" Column="66" />
-      <File FileName="Novenen/Novenen/Views/BarmherzigkeitsrosenkranzPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="Novenen/Novenen/Views/BarmherzigkeitsnovenePage.xaml.cs" Line="21" Column="65" />
-      <File FileName="Novenen/Novenen/Views/HeiligerGeistNovenePage.xaml" Line="178" Column="12" NotebookId="1" />
-      <File FileName="Novenen/Novenen/Views/HeiligerGeistNovenePage.xaml.cs" Line="21" Column="63" NotebookId="1" />
+      <File FileName="Novenen/Novenen/Views/RosenkranzErhalteEntzuende.xaml.cs" />
+      <File FileName="Novenen/Novenen/Views/BarmherzigkeitsrosenkranzPage.xaml.cs" />
+      <File FileName="Novenen/Novenen/Views/BarmherzigkeitsnovenePage.xaml.cs" />
+      <File FileName="Novenen/Novenen/Views/LourdesNovenePage.xaml" Line="22" Column="33" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,7 +25,9 @@
                 <Node name="BarmherzigkeitsnovenePage.xaml" expanded="True" />
                 <Node name="BarmherzigkeitsrosenkranzPage.xaml" expanded="True" />
                 <Node name="FatimaNovenePage.xaml" expanded="True" />
-                <Node name="HeiligerGeistNovenePage.xaml" expanded="True" selected="True" />
+                <Node name="HeiligerGeistNovenePage.xaml" expanded="True" />
+                <Node name="HeiligerJosefNovenePage.xaml" expanded="True" />
+                <Node name="LourdesNovenePage.xaml" selected="True" />
                 <Node name="RosenkranzErhalteEntzuende.xaml" expanded="True" />
               </Node>
               <Node name="App.xaml" expanded="True" />

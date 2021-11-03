@@ -18,7 +18,7 @@ using Novenen.ViewModels;
 namespace Novenen.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class HeiligerJosefNovenePage : TabbedPage
+    public partial class HeiligerJosefNovenePage : ContentPage
     {
         public HeiligerJosefNovenePage()
         {

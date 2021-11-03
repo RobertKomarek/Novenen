@@ -50,7 +50,6 @@
                     </ScrollView>
                 </Grid>
             </xct:TabViewItem>
-           
 
             <xct:TabViewItem Text="1"
                 TextColor="#95FFFFFF"

@@ -14,15 +14,15 @@ namespace Novenen.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/HeiligerJosefNovenePage.xaml")]
-    public partial class HeiligerJosefNovenePage : global::Xamarin.Forms.TabbedPage {
+    public partial class HeiligerJosefNovenePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.TabbedPage TabbedPageHeiligerJosef;
+        private global::Xamarin.Forms.ContentPage TabbedPageHeiligerJosef;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(HeiligerJosefNovenePage));
-            TabbedPageHeiligerJosef = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.TabbedPage>(this, "TabbedPageHeiligerJosef");
+            TabbedPageHeiligerJosef = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ContentPage>(this, "TabbedPageHeiligerJosef");
         }
     }
 }
