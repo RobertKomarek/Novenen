@@ -18,7 +18,7 @@ using Novenen.ViewModels;
 namespace Novenen.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class BarmherzigkeitsnovenePage : TabbedPage
+    public partial class BarmherzigkeitsnovenePage : ContentPage
     {
         
 

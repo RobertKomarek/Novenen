@@ -6,17 +6,12 @@
             xmlns:vm="clr-namespace:Novenen.ViewModels"
             xmlns:model="clr-namespace:Novenen.Models"
             xmlns:magic="http://magic.com/schemas/gradients"
-            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
-            xmlns:fontawesome="clr-namespace:FontAwesome"
             x:Class="Novenen.Views.FatimaNovenePage"
             x:Name="TabbedPageFatimaNovenePage"
             Visual="Material"
             x:DataType="vm:FatimaNoveneViewModel"
             BackgroundColor="DarkGoldenrod"
             Title="Fatima Novene">
-            <!--android:TabbedPage.BarItemColor="#95FFFFFF"
-            android:TabbedPage.BarSelectedItemColor="White"-->
-            <!--BarBackgroundColor="#BF9223"-->
 
     <ContentPage.BindingContext>
         <vm:FatimaNoveneViewModel/>
@@ -27,15 +22,15 @@
     <Grid>
         <magic:GradientView Style="{StaticResource Key=NovenenBackgroundGradient}"/>
 
-        <xct:TabView TabStripPlacement="Bottom"
+        <xct:TabView TabStripPlacement="{OnPlatform iOS=Bottom, Android=Top}"
                  TabIndicatorColor="White"
                  TabStripBackgroundColor="#A57809">
 
-             <xct:TabViewItem Text="Info"
+             <xct:TabViewItem Text="info"
+                              FontAttributes="Bold"
                               TextColor="#95FFFFFF"
                               TextColorSelected="White"
                               FontSize="15"
-                              FontAttributes="Bold"
                               FontSizeSelected="17">
                  <Grid>
                     <magic:GradientView VerticalOptions="FillAndExpand"

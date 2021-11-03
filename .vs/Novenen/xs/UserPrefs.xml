@@ -1,13 +1,19 @@
-﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{2516ADA5-C020-4898-AFDC-3D55B9BD6429}|Default">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{148CCE8E-4161-4DBA-8B24-06D6256EEF0E}|Default">
   <MonoDevelop.Ide.ItemProperties.Novenen.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2AEE8864-9904-4247-831D-B7243B9AD936" />
+  <MonoDevelop.Ide.ItemProperties.Novenen.Android PreferredExecutionTarget="Android.zlqsaq7hjfqgi7gy" />
   <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Novenen/Novenen/ViewModels/FatimaNoveneViewModel.cs" Line="1" Column="1" />
-      <File FileName="Novenen/Novenen/Views/FatimaNovenePage.xaml.cs" Line="27" Column="1" />
+      <File FileName="Novenen/Novenen/ViewModels/FatimaNoveneViewModel.cs" Line="15" Column="63" />
+      <File FileName="Novenen/Novenen/Views/FatimaNovenePage.xaml.cs" Line="51" Column="70" />
       <File FileName="Novenen/Novenen/AppShell.xaml.cs" />
-      <File FileName="Novenen/Novenen/Views/FatimaNovenePage.xaml" />
-      <File FileName="Novenen/Novenen/App.xaml" />
+      <File FileName="Novenen/Novenen/Views/FatimaNovenePage.xaml" Line="60" Column="39" />
+      <File FileName="Novenen/Novenen/App.xaml" Line="21" Column="58" />
       <File FileName="Novenen/Novenen/AppShell.xaml" />
+      <File FileName="Novenen/Novenen/Views/RosenkranzErhalteEntzuende.xaml.cs" Line="15" Column="66" />
+      <File FileName="Novenen/Novenen/Views/BarmherzigkeitsrosenkranzPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Novenen/Novenen/Views/BarmherzigkeitsnovenePage.xaml.cs" Line="21" Column="65" />
+      <File FileName="Novenen/Novenen/Views/HeiligerGeistNovenePage.xaml" Line="178" Column="12" NotebookId="1" />
+      <File FileName="Novenen/Novenen/Views/HeiligerGeistNovenePage.xaml.cs" Line="21" Column="63" NotebookId="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,10 +21,13 @@
           <Node name="Novenen" expanded="True">
             <Node name="Novenen" expanded="True">
               <Node name="FontAwesome" expanded="True" />
-              <Node name="Models" expanded="True" />
               <Node name="Resources" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="FatimaNovenePage.xaml" expanded="True" selected="True" />
+                <Node name="BarmherzigkeitsnovenePage.xaml" expanded="True" />
+                <Node name="BarmherzigkeitsrosenkranzPage.xaml" expanded="True" />
+                <Node name="FatimaNovenePage.xaml" expanded="True" />
+                <Node name="HeiligerGeistNovenePage.xaml" expanded="True" selected="True" />
+                <Node name="RosenkranzErhalteEntzuende.xaml" expanded="True" />
               </Node>
               <Node name="App.xaml" expanded="True" />
               <Node name="AppShell.xaml" expanded="True" />
@@ -39,7 +48,7 @@
   <DisabledProjects>
     <String>Novenen.Android/Novenen.Android.csproj</String>
   </DisabledProjects>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

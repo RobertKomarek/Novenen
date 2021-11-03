@@ -1,48 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             x:Class="Novenen.Views.RosenkranzErhalteEntzuende" 
             xmlns:pcv="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
-            xmlns:gradient1="clr-namespace:MagicGradients;assembly=MagicGradients"
-            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            xmlns:gradient1="clr-namespace:MagicGradients;assembly=MagicGradients" xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
             BackgroundColor="DarkGoldenrod"
-            BarBackgroundColor="#BF9223"
-            android:TabbedPage.BarItemColor="#95FFFFFF"
-            android:TabbedPage.BarSelectedItemColor="White"
             Title="Zurück zur Novene">
-    
-    <ContentPage Title="Geheimnisse">
-        <ScrollView>
-            <Grid RowDefinitions="*,*,*,*">
-                <gradient1:GradientView Grid.RowSpan="4" Style="{StaticResource AnschlussgebeteBackgroundGradient}" />
-                <ListView  x:Name="ListviewGeheimnisse" Grid.RowSpan="4"
-                           HasUnevenRows="True"
-                           CachingStrategy="RecycleElement"
-                           SelectionMode="None"
-                           BackgroundColor="Transparent">
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <ViewCell>
-                                <StackLayout Margin="5" Spacing="5">
-                                    <Label Text="{Binding Name}" FontSize="28" FontAttributes="Bold" FontFamily="OS-B" TextColor="Black" 
-                                           HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
-                                    <Label Text="{Binding Text}" FontSize="Large" HorizontalTextAlignment="Center" />
-                                </StackLayout>
-                            </ViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
-            </Grid>
-        </ScrollView>
-    </ContentPage>
 
-    <ContentPage Title="Anleitung">
-            <Grid RowDefinitions="*,*,*,*">
+     <xct:TabView TabStripPlacement="{OnPlatform iOS=Bottom, Android=Top}"
+                 TabIndicatorColor="White"
+                 TabStripBackgroundColor="#A57809">
+
+         <xct:TabViewItem Text="Geheimnisse"
+                              FontAttributes="Bold"
+                              TextColor="#95FFFFFF"
+                              TextColorSelected="White"
+                              FontSize="15"
+                              FontSizeSelected="17">
+            <ScrollView>
+                <Grid RowDefinitions="*,*,*,*">
+                    <gradient1:GradientView Grid.RowSpan="4" Style="{StaticResource AnschlussgebeteBackgroundGradient}" />
+                    <ListView  x:Name="ListviewGeheimnisse" Grid.RowSpan="4"
+                               HasUnevenRows="True"
+                               CachingStrategy="RecycleElement"
+                               SelectionMode="None"
+                               BackgroundColor="Transparent">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Margin="5" Spacing="5">
+                                        <Label Text="{Binding Name}" FontSize="28" FontAttributes="Bold" FontFamily="OS-B" TextColor="Black" 
+                                               HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                                        <Label Text="{Binding Text}" FontSize="Large" HorizontalTextAlignment="Center" />
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </Grid>
+            </ScrollView>
+         </xct:TabViewItem>
+
+          <xct:TabViewItem Text="Anleitung"
+                              FontAttributes="Bold"
+                              TextColor="#95FFFFFF"
+                              TextColorSelected="White"
+                              FontSize="15"
+                              FontSizeSelected="17">
+             <Grid RowDefinitions="*,*,*,*">
                 <gradient1:GradientView Grid.RowSpan="4" Style="{StaticResource Key=AnschlussgebeteBackgroundGradient}"/>
                 <ScrollView Grid.RowSpan="4">
                     <StackLayout Grid.RowSpan="4">
                         <pcv:PancakeView CornerRadius="0,0,20,20" BackgroundColor="#E1DABB"
-                                         BackgroundGradientStartPoint="0,0" BackgroundGradientEndPoint="1,1">
+                                            BackgroundGradientStartPoint="0,0" BackgroundGradientEndPoint="1,1">
                             <pcv:PancakeView.BackgroundGradientStops>
                                 <pcv:GradientStop Color="#E1DABB" Offset="0"/>
                                 <pcv:GradientStop Color="#EAEBDC" Offset="0.5"/>
@@ -69,7 +79,8 @@
                         </ListView>
                     </StackLayout>
                 </ScrollView>
-            </Grid>
-    </ContentPage>
+                </Grid>
+          </xct:TabViewItem>
+     </xct:TabView>
 
-</TabbedPage>
+</ContentPage>

@@ -18,7 +18,7 @@ using Novenen.ViewModels;
 namespace Novenen.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class HeiligerGeistNovenePage : TabbedPage
+    public partial class HeiligerGeistNovenePage : ContentPage
     {
         //ObservableCollection<Novene> Tag1;
         //ObservableCollection<Novene> Tag2;

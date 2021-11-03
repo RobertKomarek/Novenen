@@ -14,7 +14,7 @@ namespace Novenen.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/RosenkranzErhalteEntzuende.xaml")]
-    public partial class RosenkranzErhalteEntzuende : global::Xamarin.Forms.TabbedPage {
+    public partial class RosenkranzErhalteEntzuende : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private global::Xamarin.Forms.ListView ListviewGeheimnisse;

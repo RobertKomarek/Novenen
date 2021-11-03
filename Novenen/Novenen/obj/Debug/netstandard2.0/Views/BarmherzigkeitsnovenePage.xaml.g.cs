@@ -14,15 +14,15 @@ namespace Novenen.Views {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("Views/BarmherzigkeitsnovenePage.xaml")]
-    public partial class BarmherzigkeitsnovenePage : global::Xamarin.Forms.TabbedPage {
+    public partial class BarmherzigkeitsnovenePage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
-        private global::Xamarin.Forms.TabbedPage TabbedPageGoettBarm;
+        private global::Xamarin.Forms.ContentPage TabbedPageGoettBarm;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(BarmherzigkeitsnovenePage));
-            TabbedPageGoettBarm = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.TabbedPage>(this, "TabbedPageGoettBarm");
+            TabbedPageGoettBarm = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ContentPage>(this, "TabbedPageGoettBarm");
         }
     }
 }

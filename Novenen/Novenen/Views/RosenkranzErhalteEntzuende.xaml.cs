@@ -12,7 +12,7 @@ using Novenen.Models;
 namespace Novenen.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class RosenkranzErhalteEntzuende : TabbedPage
+    public partial class RosenkranzErhalteEntzuende : ContentPage
     {
         public ObservableCollection<Rosenkranz> RosenkranzAnleitung { get; set; }
         public ObservableCollection<Rosenkranz> RosenkranzGeheimnisse { get; set; }
